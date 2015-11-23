@@ -1,0 +1,150 @@
+15:21:01 **** Build of configuration Debug for project ssocr ****
+make all 
+Building file: ../BMPHeader.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BMPHeader.d" -MT"BMPHeader.o" -o "BMPHeader.o" "../BMPHeader.c"
+Finished building: ../BMPHeader.c
+ 
+Building file: ../DigitRec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DigitRec.d" -MT"DigitRec.o" -o "DigitRec.o" "../DigitRec.c"
+In file included from ../DigitRec.c:18:0:
+../Filter.h:55:6: error: conflicting types for ‘gamma’
+ void gamma(unsigned char ucImgArr[][MAX_HEIGHT],Rect stRectR,unsigned char ucCoeff,float fExponent);
+      ^
+In file included from ../DigitRec.c:20:0:
+../FilterConst.h:23:1: warning: missing braces around initializer [-Wmissing-braces]
+ static unsigned char ucDigitSegPattern[][7] = { 1, 1, 1, 1, 1, 1, 0, // 0 
+ ^
+../FilterConst.h:23:1: warning: (near initialization for ‘ucDigitSegPattern[0]’) [-Wmissing-braces]
+../FilterConst.h:40:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskSobelH [][3] = {  1, 2, 1,
+ ^
+../FilterConst.h:40:1: warning: (near initialization for ‘fMaskSobelH[0]’) [-Wmissing-braces]
+../FilterConst.h:45:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskSobelV[][3] = { 1, 0, -1,
+ ^
+../FilterConst.h:45:1: warning: (near initialization for ‘fMaskSobelV[0]’) [-Wmissing-braces]
+../FilterConst.h:50:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskPrewittH[][3] = { -1, -1, -1,
+ ^
+../FilterConst.h:50:1: warning: (near initialization for ‘fMaskPrewittH[0]’) [-Wmissing-braces]
+../FilterConst.h:55:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskPrewittV[][3] = {-1, 0, 1,
+ ^
+../FilterConst.h:55:1: warning: (near initialization for ‘fMaskPrewittV[0]’) [-Wmissing-braces]
+../FilterConst.h:64:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskHPF[][3] = { -1, -1, -1,
+ ^
+../FilterConst.h:64:1: warning: (near initialization for ‘fMaskHPF[0]’) [-Wmissing-braces]
+../FilterConst.h:68:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskHPF2[][3] = { 0 -1, 0,
+ ^
+../FilterConst.h:68:1: warning: (near initialization for ‘fMaskHPF2[0]’) [-Wmissing-braces]
+../FilterConst.h:72:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskMean[][3] = { 1, 1, 1,
+ ^
+../FilterConst.h:72:1: warning: (near initialization for ‘fMaskMean[0]’) [-Wmissing-braces]
+../FilterConst.h:76:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskUnit[][3] = { 0, 0, 0,
+ ^
+../FilterConst.h:76:1: warning: (near initialization for ‘fMaskUnit[0]’) [-Wmissing-braces]
+../FilterConst.h:80:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskMorphH[][3] = { 1, 1, 1,  
+ ^
+../FilterConst.h:80:1: warning: (near initialization for ‘fMaskMorphH[0]’) [-Wmissing-braces]
+../FilterConst.h:90:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskMorphH2[][3] = { 1, 1, 1,  
+ ^
+../FilterConst.h:90:1: warning: (near initialization for ‘fMaskMorphH2[0]’) [-Wmissing-braces]
+../FilterConst.h:94:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskMorphV[][3] = { 1, 1, 0,
+ ^
+../FilterConst.h:94:1: warning: (near initialization for ‘fMaskMorphV[0]’) [-Wmissing-braces]
+../FilterConst.h:98:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskMorphV1[][3] = { 1, 1, 1,
+ ^
+../FilterConst.h:98:1: warning: (near initialization for ‘fMaskMorphV1[0]’) [-Wmissing-braces]
+../FilterConst.h:103:1: warning: missing braces around initializer [-Wmissing-braces]
+ static float fMaskMorphV2[][3] = { 1, 0, 0,
+ ^
+../FilterConst.h:103:1: warning: (near initialization for ‘fMaskMorphV2[0]’) [-Wmissing-braces]
+../DigitRec.c: In function ‘findDigitRects’:
+../DigitRec.c:610:2: warning: statement with no effect [-Wunused-value]
+  stRectFirstDigit.P2.x;
+  ^
+../DigitRec.c: In function ‘findAvgSegmentThickness’:
+../DigitRec.c:845:6: warning: variable ‘iSegLenArr’ set but not used [-Wunused-but-set-variable]
+  int iSegLenArr[MAX_HEIGHT];
+      ^
+../DigitRec.c: In function ‘setCameraOrientation’:
+../DigitRec.c:1234:15: warning: unused variable ‘uiTemp’ [-Wunused-variable]
+  unsigned int uiTemp;
+               ^
+In file included from ../DigitRec.c:20:0:
+../DigitRec.c: At top level:
+../FilterConst.h:40:14: warning: ‘fMaskSobelH’ defined but not used [-Wunused-variable]
+ static float fMaskSobelH [][3] = {  1, 2, 1,
+              ^
+../FilterConst.h:45:14: warning: ‘fMaskSobelV’ defined but not used [-Wunused-variable]
+ static float fMaskSobelV[][3] = { 1, 0, -1,
+              ^
+../FilterConst.h:50:14: warning: ‘fMaskPrewittH’ defined but not used [-Wunused-variable]
+ static float fMaskPrewittH[][3] = { -1, -1, -1,
+              ^
+../FilterConst.h:55:14: warning: ‘fMaskPrewittV’ defined but not used [-Wunused-variable]
+ static float fMaskPrewittV[][3] = {-1, 0, 1,
+              ^
+../FilterConst.h:64:14: warning: ‘fMaskHPF’ defined but not used [-Wunused-variable]
+ static float fMaskHPF[][3] = { -1, -1, -1,
+              ^
+../FilterConst.h:68:14: warning: ‘fMaskHPF2’ defined but not used [-Wunused-variable]
+ static float fMaskHPF2[][3] = { 0 -1, 0,
+              ^
+../FilterConst.h:72:14: warning: ‘fMaskMean’ defined but not used [-Wunused-variable]
+ static float fMaskMean[][3] = { 1, 1, 1,
+              ^
+../FilterConst.h:76:14: warning: ‘fMaskUnit’ defined but not used [-Wunused-variable]
+ static float fMaskUnit[][3] = { 0, 0, 0,
+              ^
+../FilterConst.h:80:14: warning: ‘fMaskMorphH’ defined but not used [-Wunused-variable]
+ static float fMaskMorphH[][3] = { 1, 1, 1,  
+              ^
+../FilterConst.h:90:14: warning: ‘fMaskMorphH2’ defined but not used [-Wunused-variable]
+ static float fMaskMorphH2[][3] = { 1, 1, 1,  
+              ^
+../FilterConst.h:94:14: warning: ‘fMaskMorphV’ defined but not used [-Wunused-variable]
+ static float fMaskMorphV[][3] = { 1, 1, 0,
+              ^
+../FilterConst.h:98:14: warning: ‘fMaskMorphV1’ defined but not used [-Wunused-variable]
+ static float fMaskMorphV1[][3] = { 1, 1, 1,
+              ^
+../FilterConst.h:103:14: warning: ‘fMaskMorphV2’ defined but not used [-Wunused-variable]
+ static float fMaskMorphV2[][3] = { 1, 0, 0,
+              ^
+make: *** [DigitRec.o] Error 1
+15:34:31 **** Incremental Build of configuration Debug for project ssocr ****
+make all 
+Building file: ../SSOCR.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SSOCR.d" -MT"SSOCR.o" -o "SSOCR.o" "../SSOCR.c"
+../SSOCR.c: In function ‘main’:
+../SSOCR.c:195:4: warning: too many arguments for format [-Wformat-extra-args]
+    printf("X \t",ucDigitsArr[iInd]);
+    ^
+../SSOCR.c:66:6: warning: unused variable ‘index’ [-Wunused-variable]
+  int index;
+      ^
+../SSOCR.c:65:8: warning: unused variable ‘cvalue’ [-Wunused-variable]
+  char *cvalue = NULL;
+        ^
+../SSOCR.c:55:21: warning: variable ‘usNumberData’ set but not used [-Wunused-but-set-variable]
+  unsigned short int usNumberData;
+                     ^
+Finished building: ../SSOCR.c
+ 
+Building target: ssocr
+Invoking: GCC C Linker
+gcc  -o "ssocr"  ./BMPHeader.o ./DigitRec.o ./Filter.o ./IconStatus.o ./SSOCR.o ./Version.o   -lm
+Finished building target: ssocr
+ 

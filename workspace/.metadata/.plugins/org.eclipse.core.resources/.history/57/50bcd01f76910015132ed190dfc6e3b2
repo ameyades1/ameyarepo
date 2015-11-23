@@ -1,0 +1,246 @@
+/**********************************************************************************
+ FILE : 		SSOCR.c
+ 
+ DESCRIPTION: 	Main file of the SSOCR
+ 				 
+ AUTHOR: 		Ameya Deswandikar
+ 
+ REVSION HISTORY: 
+
+ REV	DATE		BY						REMARKS
+
+ 1		30/06/10	Ameya Deswandikar		Original
+ 1.4	07/10/2010	Ameya Deswandikar		New thresholding method, no Hoffset
+ 1.5	08/10/2010	Ameya Deswandikar		Support for 90 deg rotated images 
+ 1.6	27/12/2010	Ameya Deswandikar		Execution Time Measurement feature added 
+ **********************************************************************************/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+
+#include "Config.h"
+#include "BMPHeader.h"
+#include "DigitRec.h"
+#include "Filter.h"
+#include "Version.h"
+
+//#define TIMING_ANALYSIS_ON
+
+#ifdef TIMING_ANALYSIS_ON
+	#include <windows.h>
+#endif
+
+
+#define VERSION_INFO_ON
+#define DEBUG_OFF
+#define DEBUG_IMG_PATH	"C:\\Tanvi\\SSOCR_Testing_App\\Input_files\\debug.bmp"
+
+
+extern unsigned char ucTestImgArr[][MAX_HEIGHT];	// Main Image Buffer
+extern unsigned char ucTempImgArr[][MAX_HEIGHT];	// Temporary Image Buffer
+
+extern unsigned char ucNoOfDigits;		// Number of digits detected
+extern unsigned char ucDigitsArr[];		// Array of the detected digits
+
+extern unsigned int uiImgHeight;	// Image Height
+extern unsigned int uiImgWidth;		// Image Width	
+
+extern unsigned int uiHPadding;		// Image Horizontal Padding
+extern unsigned int uiVPadding;		// Image Vertical Padding
+
+
+int main(int argc, char* argv[])
+{
+	unsigned short int usNumberData;
+	int iInd;
+	float fAngle = 0;	// Image Orientation
+
+	Rect stRectR;		// The Image Rectangle
+	BMPMagic stMagic;	// BMP magic number "BM"
+	
+	Image stImgTestImg;		// Input Image
+	Image stImgTxtOutput;	// Output Text File
+
+	char *cvalue = NULL;
+	int index;
+	int iOpt;
+
+	#ifdef TIMING_ANALYSIS_ON
+		unsigned long ulDuration;	// Total time of execution 
+		unsigned long ulStart;		// Start Tick Count: 1 Tick = 1 Millisecond
+		unsigned long ulFinish;		// End Tick Count
+	#endif
+
+
+	#ifdef DEBUG_ON
+		Image stImgDebug;
+	#endif
+
+	memset(&stImgTestImg, 0, sizeof(stImgTestImg));
+	memset(&stImgTxtOutput, 0, sizeof(stImgTxtOutput));
+
+	if(argc == 1)
+	{
+		DisplayVersionInfo();
+		return 0;
+	}
+
+	opterr = 0;
+
+	while ((iOpt = getopt (argc, argv, "i:o:r:h")) != -1)
+	switch (iOpt)
+	{
+		case 'i':
+			stImgTestImg.fptr = fopen(optarg,"rb");
+		break;
+
+		case 'o':
+			stImgTxtOutput.fptr = fopen(optarg,"wb");
+			if(stImgTxtOutput.fptr == NULL)
+			{
+				printf("Cannot open output text file...\n");
+				if(stImgTestImg.fptr)
+					fclose(stImgTestImg.fptr);
+				return 0;
+			}
+		break;
+
+		case 'r':
+			sscanf(optarg,"%f",&fAngle);
+		break;
+
+		case 'h':
+			DisplayVersionInfo();
+		break;
+
+		case '?':
+			if(optopt == 'i' || optopt == 'o' || optopt == 'r')
+			{
+				printf("Option -%c requires an argument...\n", optopt);
+
+				if(stImgTestImg.fptr) fclose (stImgTestImg.fptr);
+				if(stImgTxtOutput.fptr) fclose (stImgTxtOutput.fptr);
+			}
+			else
+			{
+				printf("Invalid arguments...\n");
+			}
+			return 0;
+		break;
+	}
+	
+/*--------------- THE INPUT IMAGE AND ITS ATTRIBUTES -----------------*/	
+	if(stImgTestImg.fptr == NULL)
+	{
+		printf("Cannot read input image...\n");
+		return 0;
+	}
+	fread(&stMagic,sizeof(BMPMagic),1,stImgTestImg.fptr);
+	fread(&stImgTestImg.header,sizeof(BMPHeader),1,stImgTestImg.fptr);
+	fillArray2(&stImgTestImg,ucTestImgArr);
+/*--------------------------------------------------------------------*/	
+
+#ifdef DEBUG_ON
+/*------------ THE DEBUG OUTPUT IMAGE -----------------*/
+	stImgDebug.fname = DEBUG_IMG_PATH;
+	stImgDebug.fptr = fopen(stImgDebug.fname,"wb");
+	stMagic.type[0] = 'B';
+	stMagic.type[1] = 'M';
+	stImgDebug.header = stImgTestImg.header;
+/*-----------------------------------------------------*/
+#endif
+
+
+
+/*------- DEFINE THE RECTANGLE OF COMPLETE IMAGE ---------*/	
+	stRectR.P1.x = 0;
+	stRectR.P1.y = 0;	
+	stRectR.P2.x = stImgTestImg.header.width - 1;
+	stRectR.P2.y = stImgTestImg.header.height - 1;
+	calcHeightWidth(&stRectR);
+/*------------------------------------------------------*/
+
+
+
+/*------ PAD THE IMAGE BY MOVING IT TO THE CENTRE -------*/	
+	uiImgHeight = stImgTestImg.header.height;
+	uiImgWidth = stImgTestImg.header.width;
+	
+	uiHPadding = (MAX_WIDTH - uiImgWidth) / 2;
+	uiVPadding = (MAX_HEIGHT - uiImgHeight) / 2;
+
+	addPaddingImg(ucTestImgArr,uiHPadding,uiVPadding);
+	addOffsetRect(&stRectR,uiHPadding,uiVPadding);
+/*-----------------------------------------------------*/
+
+#ifdef TIMING_ANALYSIS_ON
+	ulStart = GetTickCount();		// Get the start tick count
+#endif 
+
+/*-------------------- ROTATE THE IMAGE -----------------------------*/	
+	if(fAngle != 0)
+	{	
+		rotateImg(ucTestImgArr,MAX_WIDTH,MAX_HEIGHT,-fAngle * PI / 180);
+		rotateRect(&stRectR,-fAngle);
+	}
+	uiImgWidth = stRectR.width;
+	uiImgHeight = stRectR.height;
+/*-------------------------------------------------------------------*/
+
+/*-------------------- IDENTIFY THE DIGITS -------------------------*/	
+	usNumberData = processPanel(ucTestImgArr,stRectR);
+/*------------------------------------------------------------------*/	
+
+	#ifdef TIMING_ANALYSIS_ON
+		ulFinish = GetTickCount();		// Get the end tick count
+		ulDuration = ulFinish - ulStart;	// Calculate the number of ticks
+	#endif 
+
+/*-------------------- DISPLAY THE DIGITS -------------------------*/	
+	printf("\n\nThe digits are...\n\n");
+	for(iInd = ucNoOfDigits - 1; iInd >= 0; iInd--)
+	{
+		if(ucDigitsArr[iInd] == 10)
+		{
+			if(stImgTxtOutput.fptr)
+				fputc('X',stImgTxtOutput.fptr);
+		}
+		else
+		{
+			printf("%d \t",ucDigitsArr[iInd]);
+			if(stImgTxtOutput.fptr)
+				fputc(0x30 | ucDigitsArr[iInd],stImgTxtOutput.fptr);
+
+		}
+	}
+	
+	printf("\n");
+/*------------------------------------------------------------------*/	
+
+	removePaddingImg(ucTestImgArr,uiImgWidth,uiImgHeight);
+
+	#ifdef DEBUG_ON
+		rewind(stImgTestImg.fptr);
+		rewind(stImgDebug.fptr);
+		InitBMPHeader(&stImgDebug.header,uiImgWidth,uiImgHeight);
+		fwrite(&stMagic,sizeof(stMagic),1,stImgDebug.fptr);
+		fwrite(&stImgDebug.header,sizeof(BMPHeader),1,stImgDebug.fptr);
+		saveArrToBMP(ucTestImgArr,&stImgDebug);
+	#endif
+
+	fclose(stImgTestImg.fptr);
+	fclose(stImgTxtOutput.fptr);
+
+	#ifdef TIMING_ANALYSIS_ON
+		printf("\nExecution Time is %lu milliseconds \n",ulDuration);
+	#endif
+
+	#ifdef DEBUG_ON
+		fclose(stImgDebug.fptr);
+		getchar();
+	#endif
+
+	return 0;
+}
+

@@ -1,0 +1,40 @@
+/*****************************************************************************
+ FILE : 		Version.c
+ 
+ DESCRIPTION: 	Contains Version Information of the SSOCR
+ 				 
+ AUTHOR: 		Ameya Deswandikar
+ 
+ REVSION HISTORY: 
+ REV	DATE		BY						REMARKS
+ 1		01/09/10	Ameya Deswandikar		Original
+  
+ *****************************************************************************/
+#include <stdio.h>
+#include "Version.h"
+
+unsigned char* ucMsg1 = "-------------------------------------------------------";
+unsigned char* ucMsg2 = "Seven Segment Optical Character Recognition Application";
+unsigned char* ucMsg3 = "Version: 1.5";
+unsigned char* ucMsg4 = "Creation Date: 14 / 10 / 2010";
+unsigned char* ucMsg5 = "Usage Information: ";
+
+void DisplayVersionInfo()
+{
+	printf("\n%s",ucMsg1);
+	printf("\n%s",ucMsg2);
+	printf("\n%s",ucMsg3);
+
+	printf("\n\n%s\n",ucMsg5);
+	printf("\nExample: ");
+	printf("\nssocr -i <input image> \n");
+
+	printf("\nMandatory Arguments: ");
+	printf("\n-i : Input BMP Image (8 bit grayscale format)");
+
+	printf("\nOptional Arguments: ");
+	printf("\n-o : Output text file");
+	printf("\n-r : Angle of rotation \n\t(clockwise positive, in mulitiples of 90 only)");
+	printf("\n%s\n",ucMsg1);
+	
+}

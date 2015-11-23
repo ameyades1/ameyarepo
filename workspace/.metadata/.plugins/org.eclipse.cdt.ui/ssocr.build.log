@@ -1,0 +1,28 @@
+15:34:31 **** Incremental Build of configuration Debug for project ssocr ****
+make all 
+Building file: ../SSOCR.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SSOCR.d" -MT"SSOCR.o" -o "SSOCR.o" "../SSOCR.c"
+../SSOCR.c: In function ‘main’:
+../SSOCR.c:195:4: warning: too many arguments for format [-Wformat-extra-args]
+    printf("X \t",ucDigitsArr[iInd]);
+    ^
+../SSOCR.c:66:6: warning: unused variable ‘index’ [-Wunused-variable]
+  int index;
+      ^
+../SSOCR.c:65:8: warning: unused variable ‘cvalue’ [-Wunused-variable]
+  char *cvalue = NULL;
+        ^
+../SSOCR.c:55:21: warning: variable ‘usNumberData’ set but not used [-Wunused-but-set-variable]
+  unsigned short int usNumberData;
+                     ^
+Finished building: ../SSOCR.c
+ 
+Building target: ssocr
+Invoking: GCC C Linker
+gcc  -o "ssocr"  ./BMPHeader.o ./DigitRec.o ./Filter.o ./IconStatus.o ./SSOCR.o ./Version.o   -lm
+Finished building target: ssocr
+ 
+
+15:34:32 Build Finished (took 428ms)
+
