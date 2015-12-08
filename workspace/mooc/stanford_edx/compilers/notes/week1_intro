@@ -1,0 +1,7 @@
+Outline of a compiler
+
+1) Lexical Analysis  -- Syntactic
+2) Parsing           -- Syntactic
+3) Semantic Analysis -- Types, Scopes 
+4) Optimization
+5) Code Generation   -- Translation
