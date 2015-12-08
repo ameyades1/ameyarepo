@@ -5,3 +5,11 @@ Outline of a compiler
 3) Semantic Analysis -- Types, Scopes 
 4) Optimization
 5) Code Generation   -- Translation
+
+Modern Compiler: 
+------------------------------------
+| L | P |   S   |      O      | CG |  
+------------------------------------
+Small Lexical Analyzer, Parser and Code Generator,
+Moderate Syntactic analyzer, very large Optimizer
+
