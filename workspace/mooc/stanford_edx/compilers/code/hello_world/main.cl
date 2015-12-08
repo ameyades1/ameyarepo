@@ -1,12 +1,11 @@
 class Main {
 
   i : IO <- new IO;
-  main() :Int 
+  
+  -- Returns object type IO. Compulsory method
+  main() :IO   
   { 
-    { 
-      i.out_string("Hello World!\n"); 
-      1;
-    } 
+    i.out_string("Hello World!\n")
   };
 
 };
