@@ -1,11 +1,10 @@
-class Main {
+class Main inherits IO {
 
-  i : IO <- new IO;
-  
   -- Returns object, root of all classes (like C#). Compulsory method
   main() :Object   
   { 
-    i.out_string("Hello World!\n")
+    self.out_string("Hello World!\n")
+    -- self is like 'this' pointer in C++ : The pointer to current object
   };
 
 };
