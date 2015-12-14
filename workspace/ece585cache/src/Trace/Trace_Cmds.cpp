@@ -152,7 +152,7 @@ BOOL cmd_print_stats(const TRACE_CMD& cmd, CCache* pL1D, CCache* pL1I, CCache* p
         status = FALSE;
     else
     {
-        std::cout << "--------------STATS CENTRAL--------------\n" << std::endl;
+//      std::cout << "--------------STATS CENTRAL--------------\n" << std::endl;
 
 	//	std::cout << "Valid Lines for L1 Data cache:" << std::endl;
     //    pL1D->PrintValidLines();

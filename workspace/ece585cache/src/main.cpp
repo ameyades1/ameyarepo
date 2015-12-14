@@ -90,7 +90,8 @@ int main(int argc, char* argv[])
 	}
     
     // Once we finish reading the trace file, print all stats
-	trace.command = CMD_PRINT_STATS;
+	std::cout << std::endl;
+    trace.command = CMD_PRINT_STATS;
     pftrace->ExecuteCmd(trace,dynamic_cast<CCache*>(pCacheL1Data), 
         dynamic_cast<CCache*>(pCacheL1Inst), dynamic_cast<CCache*>(pCacheL2));
 
