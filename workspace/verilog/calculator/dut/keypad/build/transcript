@@ -1,0 +1,10 @@
+# vsim -do {run -all; quit} -c tb_keypad 
+# Loading sv_std.std
+# Loading work.tb_keypad
+# Loading work.dut_keypad
+# run -all 
+# Row  6, Col  1, Out Key  0, Valid 0
+# Row  1, Col  2, Out Key  6, Valid 1
+# Row  0, Col  0, Out Key  0, Valid 1
+# ** Note: $finish    : ../src/tb_keypad.sv(73)
+#    Time: 520 ps  Iteration: 0  Instance: /tb_keypad
