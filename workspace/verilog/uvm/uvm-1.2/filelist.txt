@@ -1,0 +1,5 @@
+http://www.accellera.org/images/downloads/standards/uvm/UVM_Class_Reference_Manual_1.2.pdf
+http://www.accellera.org/images/downloads/standards/uvm/uvm-1.2.tar.gz
+http://www.accellera.org/images//downloads/standards/uvm/uvm_users_guide_1.2.pdf
+http://www.accellera.org/images/downloads/standards/uvm/VIP_1.0.pdf
+http://www.accellera.org/images/downloads/standards/uvm/ovm_vmm_interop_1_0.tgz
