@@ -1,0 +1,15 @@
+
+SINGLE LINKED LIST
+
+APIS:
+slist_create()
+slist_add_node()
+slist_ins_node()
+slist_del_node()
+slist_del_list()
+
+
+
+
+
+
