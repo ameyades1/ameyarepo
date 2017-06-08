@@ -1,0 +1,65 @@
+--- REVIEW ---
+shared_memory_consistency_model_tutorial.pdf ->review
+survey_cache_coherence_schemes.pdf ->review
+improving_direct_mapped_cache_prefetching.pdf ->review
+implementing_precise_interrupts_pipelined_processors.pdf ->review
+synchronization_without_communication.pdf ->review
+smt_maximizing_onchip_parallelism.pdf ->review
+directory_cache_coherence_dash.pdf ->review
+two_level_adaptive_branch_prediction.pdf ->review
+power4_system_microarchitecture.pdf ->review
+survey_wormhole_routing_direct_networks.pdf ->review
+ddm_cache_only_memory_architecture.pdf ->review
+transactional_memory_architectural_support.pdf ->review
+case_single_chip_multiprocessor.pdf ->review
+instruction_issue_logic_pipelined_processors.pdf ->review
+TOTAL 14
+
+--- READ ---
+runahead_execution.pdf ->read
+lockup_free_instruction_fetch.pdf ->read
+hardware_data_prefetching.pdf ->read
+microarchitecture_superscalar_processors.pdf ->read
+multiscalar_processors.pdf ->read
+memory_dependence_prediction_storesets.pdf ->read
+combining_branch_predictors.pdf ->read
+monsoon_explicit_token_architecture.pdf ->read
+dataflow_machine_architecture.pdf ->read
+synchroniztion_communication_t3e.pdf ->read
+cray1_computer_system.pdf ->read 
+sgi_origin2K_ccnuma.pdf ->read
+cosmic_cube.pdf ->read
+ipc_considered_harmful.pdf ->read
+simplescalar_toolset_2_0.pdf ->read
+trace_cache.pdf ->read
+complexity_effective_superscalar_processor.pdf ->read
+evaluating_associativity_cpu_caches.pdf ->read
+llnl_intro_parallel_computing.pdf ->read
+TOTAL 19
+
+--- SKIM ---
+exceeding_dataflow_limit_value_prediction.pdf ->skim
+dynamic_branch_prediction_perceptrons.pdf ->skim
+power5_system_microarchitecture.pdf ->skim
+improving_cache_lifetimes_reliability_ultra_low_voltage.pdf ->skim
+imagine_media_processing_streams.pdf ->skim
+raw_microprocessor.pdf ->skim
+wavescalar.pdf ->skim
+exploiting_ilp_tlp_dlp_polymorphous_trips.pdf ->skim
+logtm_transactional_memory.pdf ->skim
+reactive_numa_unifying_scoma_ccnuma.pdf ->skim
+survey_parallel_computer_architectures.pdf ->skim
+survey_commercial_parallel_processors.pdf ->skim
+performance_spin_lock_alternatives_shared_memory_multiprocessors.pdf ->skim
+continual_flow_pipelines.pdf ->skim
+hyper_threading_tech_microarchitecture.pdf ->skim
+speculative_lock_elision.pdf ->skim
+TOTAL 16
+
+--- OTHERS ---
+speculative_data_driven_multithreading.pdf 
+predictablity_data_values.pdf
+itanium_processor_microarchitecure.pdf
+tuning_pentium_pro_microarchitecture.pdf
+instruction_fetch_issue_smt.pdf
+rntel_pentium_m_microarchitecture.pdf
