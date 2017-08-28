@@ -1,0 +1,69 @@
+#if 0
+    pCacheL1Data->Read(0xF000FFF0); // Compulsory miss
+    pCacheL1Data->Read(0xE000FFF0); // Compulsory miss
+    pCacheL1Data->Read(0xF000FFF0); // Hit
+	pCacheL1Data->Read(0xD000FFF0); // Compulsory miss
+    pCacheL1Data->Read(0xC000FFF0); // Compulsory miss
+    pCacheL1Data->Read(0xE000FFF0); // Hit
+    pCacheL1Data->Read(0x0000FFF0); // Miss, eviction
+
+    pCacheL1Data->Read(0x1000FFF0); // Miss, eviction
+    pCacheL1Data->Read(0x2000FFF0); // Miss, eviction
+#endif    
+    
+
+    
+
+#if 0 //Test cases for Write 
+	pCacheL1Data->Write(0xF00FFFC0,0xAB); // Compulsory miss
+    pCacheL1Data->Write(0xE00FFFC0,0xAB); // Compulsory miss
+    pCacheL1Data->Write(0xF00FFFC0,0xAB); // Hit
+    pCacheL1Data->Write(0xD00FFFC0,0xAB); // Compulsory miss
+    pCacheL1Data->Write(0xC00FFFC0,0xAB); // Compulsory miss
+    pCacheL1Data->Write(0xE00FFFC0,0xAB); // Hit
+    pCacheL1Data->Write(0x000FFFC0,0xAB); // Miss, eviction
+    
+    pCacheL1Data->Write(0x100FFFC0,0xAB); // Miss, eviction
+    pCacheL1Data->Write(0x200FFFC0,0xAB); // Miss, eviction
+#endif
+
+	
+ //   pCacheL1Data->Write(0x000FFFC0,0xAA); // Compulsory miss way 0
+ //   pCacheL1Data->Write(0x000FFFC3,0xBB); // Hit way 0
+ //   
+ //   pCacheL1Data->Write(0x001FFFC0,0xCC); // Compulsory miss way 1
+
+ //   pCacheL1Data->Write(0x002FFFC4,0xDD); // Compulsory miss way 2
+ //   pCacheL1Data->Write(0x002FFFC4,0xEE); // Hit way 2
+
+ //   pCacheL1Data->Write(0x003FFFC6,0xFF); // Compulsory miss way 3
+
+ //   pCacheL1Data->Write(0x004FFFC6,0xFF); // Miss ,LRU = 0
+ //   pCacheL1Data->Read(0x001FFFC0); // Hit way 1 Data = 0xCC , LRU = 2
+
+ //   pCacheL1Data->Read(0x005FFFC0); // Miss
+ //   pCacheL1Data->Write(0x005FFFC4, 0x12); // Hit way 2
+
+ //   pCacheL1Data->Reset();
+
+ //   pCacheL1Data->Write(0x000FFFC0,0xAA); // Compulsory miss way 0
+ //   pCacheL1Data->Write(0x000FFFC3,0xBB); // Hit way 0
+ //   
+ //   pCacheL1Data->Write(0x001FFFC0,0xCC); // Compulsory miss way 1
+
+ //   pCacheL1Data->Write(0x002FFFC4,0xDD); // Compulsory miss way 2
+ //   pCacheL1Data->Write(0x002FFFC4,0xEE); // Hit way 2
+
+ //   pCacheL1Data->Write(0x003FFFC6,0xFF); // Compulsory miss way 3
+
+ //   pCacheL1Data->Write(0x004FFFC6,0xFF); // Miss ,LRU = 0
+ //   pCacheL1Data->Read(0x001FFFC0); // Hit way 1 Data = 0xCC , LRU = 2
+
+ //   pCacheL1Data->Read(0x005FFFC0); // Miss
+ //   pCacheL1Data->Write(0x005FFFC4, 0x12); // Hit way 2
+
+	//printf("\n Two Invalidates called: \n");
+	//pCacheL1Data->Invalidate(0x005FFFC0);
+	//pCacheL1Data->Invalidate(0x001FFFC0);
+	//pCacheL1Data->Read(0x005FFFC0);
+	//pCacheL1Data->Read(0x001FFFC0);

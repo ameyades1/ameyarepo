@@ -1,0 +1,27 @@
+File read successfully...
+Processing File...
+--------------STATS CENTRAL--------------
+
+Valid Lines for L1 Data cache:
+SET NO: 16383    WAY NO: 0       POS: 2
+SET NO: 16383    WAY NO: 1       POS: 3
+SET NO: 16383    WAY NO: 2       POS: 1
+SET NO: 16383    WAY NO: 3       POS: 0
+------------------------------------------
+==========================================
+Valid Lines for L1 Instruction cache:
+
+NO VALID LINES IN THIS CACHE
+
+==========================================
+Number of L1 Data Cache Reads   = 0
+Number of L1 Data Cache Writes  = 13
+Number of L1 Data Cache Hits    = 4
+Number of L1 Data Cache Misses  = 9
+L1 Data Cache Hit Ratio         = 0.307692
+
+Number of L1 Instruction Cache Reads    = 0
+Number of L1 Instruction Cache Writes   = 0
+Number of L1 Instruction Cache Hits     = 0
+Number of L1 Instruction Cache Misses   = 0
+L1 Instruction Cache Hit Ratio          = 0

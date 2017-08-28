@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/58/trunk/releases/v1.0
+END
+cache_project.exe
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/58/trunk/releases/v1.0/cache_project.exe
+END
+1_writes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/trunk/releases/v1.0/1_writes.txt
+END
+3_reads_writes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/58/trunk/releases/v1.0/3_reads_writes.txt
+END
+2_reads.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/58/trunk/releases/v1.0/2_reads.txt
+END
+4_errors.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/trunk/releases/v1.0/4_errors.txt
+END

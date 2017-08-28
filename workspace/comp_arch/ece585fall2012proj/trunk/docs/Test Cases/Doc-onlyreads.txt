@@ -1,0 +1,19 @@
+0 F000FFF0 Compulsory Miss. Way=0
+0 E000FFF0 Compulsory Miss. Way=1
+0 F000FFF0 HIT. Way=0
+0 D000FFF0 Compulsory Miss. Way=2
+0 C000FFF0 Compulsory Miss. Way=3
+0 B000FFF0 Miss, Evict LRU Way=1 (E000FFF0)
+0 A000FFF0 Miss, Evict LRU Way=0 (F000FFF0)
+0 9000FFF0 Miss, Evict LRU Way=2 (D000FFF0)
+0 8000FFF0 Miss, Evict LRU Way=3 (C000FFF0)
+
+2 F000FFF0 Compulsory Miss. Way=0
+2 E000FFF0 Compulsory Miss. Way=1
+2 F000FFF0 Hit. Way=0
+2 D000FFF0 Miss, Evict LRU Way=1 (E000FFF0)
+2 C000FFF0 Miss, Evict LRU Way=0 (F000FFF0)
+2 B000FFF0 Miss, Evict LRU Way=1 (D000FFF0)
+2 A000FFF0 Miss, Evict LRU Way=0 (C000FFF0)
+2 9000FFF0 Miss, Evict LRU Way=1 (B000FFF0)
+2 8000FFF0 Miss, Evict LRU Way=0 (A000FFF0)

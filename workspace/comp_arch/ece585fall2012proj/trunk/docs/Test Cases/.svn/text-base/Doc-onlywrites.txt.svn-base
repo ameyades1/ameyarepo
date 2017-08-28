@@ -1,0 +1,10 @@
+1 FFF0		Compulsory Miss, Way=0
+1 E000FFF1	Compulsory Miss, Way=1
+3 FFF8		Invalidate (Way=0)
+1 FFF7		Conpulsory Miss due to previous invalidate, Way=0
+1 D000FFF0	Compulsory Miss, Way=2
+1 C000FFF0	Compulsory Miss, Way=3
+1 B000FFF7	Miss, Evict Way=1
+1 A000FFF5	Miss, Evict Way=0
+1 9000FFF3	Miss, Evict Way=2
+1 8000FFF2	Miss, Evict Way=3

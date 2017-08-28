@@ -1,0 +1,47 @@
+File read successfully...
+Processing File...
+--------------STATS CENTRAL--------------
+
+Valid Lines for L1 Data cache:
+SET NO: 15       WAY NO: 0       POS: 1
+SET NO: 15       WAY NO: 1       POS: 0
+------------------------------------------
+==========================================
+Valid Lines for L1 Instruction cache:
+
+NO VALID LINES IN THIS CACHE
+
+==========================================
+Number of L1 Data Cache Reads   = 2
+Number of L1 Data Cache Writes  = 2
+Number of L1 Data Cache Hits    = 1
+Number of L1 Data Cache Misses  = 3
+L1 Data Cache Hit Ratio         = 0.25
+
+Number of L1 Instruction Cache Reads    = 0
+Number of L1 Instruction Cache Writes   = 0
+Number of L1 Instruction Cache Hits     = 0
+Number of L1 Instruction Cache Misses   = 0
+L1 Instruction Cache Hit Ratio          = 0
+--------------STATS CENTRAL--------------
+
+Valid Lines for L1 Data cache:
+SET NO: 15       WAY NO: 0       POS: 0
+------------------------------------------
+==========================================
+Valid Lines for L1 Instruction cache:
+
+NO VALID LINES IN THIS CACHE
+
+==========================================
+Number of L1 Data Cache Reads   = 1
+Number of L1 Data Cache Writes  = 0
+Number of L1 Data Cache Hits    = 0
+Number of L1 Data Cache Misses  = 1
+L1 Data Cache Hit Ratio         = 0
+
+Number of L1 Instruction Cache Reads    = 0
+Number of L1 Instruction Cache Writes   = 0
+Number of L1 Instruction Cache Hits     = 0
+Number of L1 Instruction Cache Misses   = 0
+L1 Instruction Cache Hit Ratio          = 0

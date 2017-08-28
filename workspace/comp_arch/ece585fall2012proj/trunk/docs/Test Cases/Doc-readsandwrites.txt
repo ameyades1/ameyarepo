@@ -1,0 +1,8 @@
+7 4003C0 	BAD COMMAND. Ignore and continue
+1 4003C0 	Compulsory Miss
+0 F003C2 	Compulsory Miss
+1 FF00F003C2	Hit. MSB bits of Address truncated
+3 F003C2	Invalidate F003C2
+0 F003C2	Miss
+9		Print
+8		Reset
