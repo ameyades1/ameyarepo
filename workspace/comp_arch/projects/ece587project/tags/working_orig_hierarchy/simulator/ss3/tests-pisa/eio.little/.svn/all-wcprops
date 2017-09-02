@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/eio.little
+END
+anagram.eio
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/eio.little/anagram.eio
+END
+test-math.eio
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/eio.little/test-math.eio
+END
+test-llong.eio
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/eio.little/test-llong.eio
+END
+test-fmath.eio
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/eio.little/test-fmath.eio
+END
+test-printf.eio
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/eio.little/test-printf.eio
+END
+test-lswlr.eio
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/eio.little/test-lswlr.eio
+END

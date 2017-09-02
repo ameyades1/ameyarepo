@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha
+END
+alpha.def
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/alpha.def
+END
+symbol.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/symbol.c
+END
+alpha.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/alpha.c
+END
+loader.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/loader.c
+END
+ecoff.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/ecoff.h
+END
+alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/alpha.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/config.h
+END
+syscall.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-alpha/syscall.c
+END

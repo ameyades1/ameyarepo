@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa
+END
+configlit.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/configlit.h
+END
+symbol.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/symbol.c
+END
+loader.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/loader.c
+END
+ecoff.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/ecoff.h
+END
+pisa.def
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/pisa.def
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/config.h
+END
+syscall.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/syscall.c
+END
+pisa.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/pisa.c
+END
+configbig.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/configbig.h
+END
+pisa.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/ss3/target-pisa/pisa.h
+END

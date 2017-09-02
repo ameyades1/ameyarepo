@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/simulator/tests
+END
+test-fmath
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/simulator/tests/test-fmath
+END
+power_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/simulator/tests/power_test.c
+END
+parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/simulator/tests/parallel.c
+END
+fibonacci
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/tests/fibonacci
+END
+shellsort
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/tests/shellsort
+END
+josephus.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/simulator/tests/josephus.c
+END
+dep_2loop
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/tests/dep_2loop
+END
+quicksort
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/tests/quicksort
+END
+bubblesort.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/simulator/tests/bubblesort.c
+END
+ind_2loop
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/tests/ind_2loop
+END
+euclid.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/simulator/tests/euclid.c
+END
+test-math.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/simulator/tests/test-math.c
+END
+ruler
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/simulator/tests/ruler
+END
+power_test
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/simulator/tests/power_test
+END
+reverse.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/tests/reverse.c
+END
+parallel
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/simulator/tests/parallel
+END
+sieve.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/simulator/tests/sieve.c
+END
+test-fmath.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/simulator/tests/test-fmath.c
+END
+fibonacci.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/simulator/tests/fibonacci.c
+END
+shellsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/simulator/tests/shellsort.c
+END
+josephus
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/simulator/tests/josephus
+END
+bubblesort
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/simulator/tests/bubblesort
+END
+dep_2loop.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/simulator/tests/dep_2loop.c
+END
+euclid
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/simulator/tests/euclid
+END
+quicksort.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/simulator/tests/quicksort.c
+END
+ind_2loop.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/simulator/tests/ind_2loop.c
+END
+test-math
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/tests/test-math
+END
+ruler.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/simulator/tests/ruler.c
+END
+sieve
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/simulator/tests/sieve
+END
+reverse
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/simulator/tests/reverse
+END

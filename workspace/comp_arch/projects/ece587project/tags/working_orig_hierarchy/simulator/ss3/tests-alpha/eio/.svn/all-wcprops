@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/eio
+END
+anagram.eio
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/eio/anagram.eio
+END
+test-math.eio
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/eio/test-math.eio
+END
+test-llong.eio
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/eio/test-llong.eio
+END
+test-fmath.eio
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/eio/test-fmath.eio
+END
+test-printf.eio
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/eio/test-printf.eio
+END
+test-lswlr.eio
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/eio/test-lswlr.eio
+END

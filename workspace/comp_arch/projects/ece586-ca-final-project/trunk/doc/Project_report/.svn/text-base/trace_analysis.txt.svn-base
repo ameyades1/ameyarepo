@@ -1,0 +1,320 @@
+DIST-FP-1
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 2328964.000000 Avg_Offset: 300732.160718
+ Indirect: Count: 192.000000 Avg_Offset: 665894262.287958
+ Call: Count: 143764.000000 Avg_Offset: 925417.422640
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    99228 / 29499988 =   3.364
+1000*wrong_tpredicts/total insts: 1000 *   550074 / 29499988 =  18.647
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+*********************************************************
+DIST-FP-2
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 1804494.000000 Avg_Offset: 2688.352058
+ Indirect: Count: 291.000000 Avg_Offset: 859421415.489655
+ Call: Count: 452.000000 Avg_Offset: 512140744.337029
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    39357 / 29499869 =   1.334
+1000*wrong_tpredicts/total insts: 1000 *   380524 / 29499869 =  12.899
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+*********************************************************
+DIST-FP-3
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 1561371.000000 Avg_Offset: 7014.084404
+ Indirect: Count: 442.000000 Avg_Offset: 866019878.052154
+ Call: Count: 6043.000000 Avg_Offset: 58388993.216485
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    15211 / 29499978 =   0.516
+1000*wrong_tpredicts/total insts: 1000 *   211522 / 29499978 =   7.170
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+*********************************************************
+DIST-FP-4
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 905629.000000 Avg_Offset: 3023.701253
+ Indirect: Count: 296.000000 Avg_Offset: 929336205.884746
+ Call: Count: 7854.000000 Avg_Offset: 32175988.445308
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *     7778 / 29499976 =   0.264
+1000*wrong_tpredicts/total insts: 1000 *   129184 / 29499976 =   4.379
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+*********************************************************
+DIST-FP-5
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 2471883.000000 Avg_Offset: 9249.115154
+ Indirect: Count: 88.000000 Avg_Offset: 870366036.011494
+ Call: Count: 125387.000000 Avg_Offset: 546961.479862
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    66229 / 29499969 =   2.245
+1000*wrong_tpredicts/total insts: 1000 *   946566 / 29499969 =  32.087
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+*********************************************************
+DIST-INT-1
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 4533888.000000 Avg_Offset: 13419.604652
+ Indirect: Count: 200.000000 Avg_Offset: 954913882.075377
+ Call: Count: 227559.000000 Avg_Offset: 801217.922965
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   251842 / 29499987 =   8.537
+1000*wrong_tpredicts/total insts: 1000 *  1682889 / 29499987 =  57.047
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+*********************************************************
+DIST-INT-2
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 3186103.000000 Avg_Offset: 16632.844269
+ Indirect: Count: 30790.000000 Avg_Offset: 4371975.529865
+ Call: Count: 227339.000000 Avg_Offset: 543941.122113
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   349325 / 29499985 =  11.842
+1000*wrong_tpredicts/total insts: 1000 *  1442517 / 29499985 =  48.899
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+*********************************************************
+DIST-INT-3
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 4079589.000000 Avg_Offset: 35550.016811
+ Indirect: Count: 506.000000 Avg_Offset: 897481077.429703
+ Call: Count: 28370.000000 Avg_Offset: 14585577.446932
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   372251 / 29499978 =  12.619
+1000*wrong_tpredicts/total insts: 1000 *  1571074 / 29499978 =  53.257
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+*********************************************************
+DIST-INT-4
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 2150114.000000 Avg_Offset: 47075.586889
+ Indirect: Count: 44672.000000 Avg_Offset: 1415981.509861
+ Call: Count: 141359.000000 Avg_Offset: 422607.811790
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    85504 / 29499960 =   2.898
+1000*wrong_tpredicts/total insts: 1000 *   697303 / 29499960 =  23.637
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+*********************************************************
+DIST-INT-5
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 3776636.000000 Avg_Offset: 11781.127411
+ Indirect: Count: 7694.000000 Avg_Offset: 13580289.903809
+ Call: Count: 17201.000000 Avg_Offset: 5690961.244884
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    14277 / 29499990 =   0.484
+1000*wrong_tpredicts/total insts: 1000 *   130278 / 29499990 =   4.416
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+*********************************************************
+DIST-MM-1
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 2495327.000000 Avg_Offset: 272.970107
+ Indirect: Count: 37108.000000 Avg_Offset: 34450.676638
+ Call: Count: 144563.000000 Avg_Offset: 18292.517370
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   261316 / 29499979 =   8.858
+1000*wrong_tpredicts/total insts: 1000 *  1073496 / 29499979 =  36.390
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+*********************************************************
+DIST-MM-2
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 3921941.000000 Avg_Offset: 622.620589
+ Indirect: Count: 86646.000000 Avg_Offset: 41761115.324462
+ Call: Count: 109400.000000 Avg_Offset: 25610938.630746
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   319077 / 29499970 =  10.816
+1000*wrong_tpredicts/total insts: 1000 *  2605507 / 29499970 =  88.322
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+*********************************************************
+DIST-MM-3
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 3297524.000000 Avg_Offset: 3357.313316
+ Indirect: Count: 201758.000000 Avg_Offset: 79356035.760147
+ Call: Count: 825754.000000 Avg_Offset: 18949448.735552
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    47127 / 29499970 =   1.598
+1000*wrong_tpredicts/total insts: 1000 *  2617456 / 29499970 =  88.727
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+*********************************************************
+DIST-MM-4
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 4919970.000000 Avg_Offset: 340.144200
+ Indirect: Count: 14430.000000 Avg_Offset: 259552368.082265
+ Call: Count: 78120.000000 Avg_Offset: 48199394.546538
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    63158 / 29499993 =   2.141
+1000*wrong_tpredicts/total insts: 1000 *  4256240 / 29499993 = 144.279
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+*********************************************************
+DIST-MM-5
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 2709224.000000 Avg_Offset: 492.115767
+ Indirect: Count: 175377.000000 Avg_Offset: 256175500.522580
+ Call: Count: 304648.000000 Avg_Offset: 136477068.254202
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   188726 / 29499791 =   6.398
+1000*wrong_tpredicts/total insts: 1000 *  1693268 / 29499791 =  57.399
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+*********************************************************
+DIST-SERV-1
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 4199517.000000 Avg_Offset: 43127.439325
+ Indirect: Count: 281427.000000 Avg_Offset: 450343017.580039
+ Call: Count: 692707.000000 Avg_Offset: 176608298.819535
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   288880 / 29499316 =   9.793
+1000*wrong_tpredicts/total insts: 1000 *  2199686 / 29499316 =  74.567
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+*********************************************************
+DIST-SERV-2
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 4081553.000000 Avg_Offset: 48899.907358
+ Indirect: Count: 273500.000000 Avg_Offset: 448728367.607037
+ Call: Count: 669964.000000 Avg_Offset: 176599064.018608
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   300025 / 29499198 =  10.171
+1000*wrong_tpredicts/total insts: 1000 *  2151220 / 29499198 =  72.925
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+*********************************************************
+DIST-SERV-3
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 4455929.000000 Avg_Offset: 805.765502
+ Indirect: Count: 138619.000000 Avg_Offset: 122804959.239543
+ Call: Count: 445956.000000 Avg_Offset: 280767283.802292
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   239807 / 29499817 =   8.129
+1000*wrong_tpredicts/total insts: 1000 *  2338916 / 29499817 =  79.286
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+*********************************************************
+DIST-SERV-4
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 4980655.000000 Avg_Offset: 41019.251700
+ Indirect: Count: 299498.000000 Avg_Offset: 1044005694.799908
+ Call: Count: 651172.000000 Avg_Offset: 474715553.038888
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   322657 / 29498081 =  10.938
+1000*wrong_tpredicts/total insts: 1000 *  2737365 / 29498081 =  92.798
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+*********************************************************
+DIST-SERV-5
+Loading... 
+
+-----Branch Stats-----
+
+ Direct: Count: 5059408.000000 Avg_Offset: 80899.871310
+ Indirect: Count: 313025.000000 Avg_Offset: 1029560709.723242
+ Call: Count: 667105.000000 Avg_Offset: 477648046.957951
+----------------------
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   340666 / 29497759 =  11.549
+1000*wrong_tpredicts/total insts: 1000 *  2784934 / 29497759 =  94.412
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+*********************************************************

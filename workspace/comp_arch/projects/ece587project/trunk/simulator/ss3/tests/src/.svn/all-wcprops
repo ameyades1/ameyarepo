@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src
+END
+test-math.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/test-math.c
+END
+anagram.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/anagram.c
+END
+test-llong.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/test-llong.c
+END
+test-fmath.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/test-fmath.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/Makefile
+END
+test-printf.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/test-printf.c
+END
+test-as.s
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/test-as.s
+END
+test-lswlr.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/test-lswlr.c
+END
+test-as.OUT
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/simulator/ss3/tests/src/test-as.OUT
+END

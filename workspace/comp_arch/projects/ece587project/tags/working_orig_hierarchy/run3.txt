@@ -1,0 +1,11 @@
+echo Instruction Cache Simulations
+echo Data Cache Size Simulations
+echo Running 15th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/manas/simulator/ss3/sim-outorder -args " -cache:dl1 dl1:16:32:4:l -fastfwd 100000000 -max:inst 20000000" >& results/outorder1.txt
+echo Running 16th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/manas/simulator/ss3/sim-outorder -args " -cache:dl1 dl1:16:32:4:l -cache:dl1v dl1v:1:32:16:l -fastfwd 100000000 -max:inst 20000000" >& results/outorder2.txt
+echo Running 17th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/manas/simulator/ss3/sim-outorder -args " -cache:dl1 dl1:16:32:4:l -cache:dl1v dl1v:1:32:16:l -fastfwd 100000000 -max:inst 20000000" >& results/outorder3.txt
+echo Running 18th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/manas/simulator/ss3/sim-outorder -args " -cache:dl1 dl1:16:32:4:l -cache:dl1v dl1v:1:32:16:l -fastfwd 100000000 -max:inst 20000000" >& results/outorder4.txt
+

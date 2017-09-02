@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa
+END
+pisa.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/pisa.h
+END
+configlit.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/configlit.h
+END
+symbol.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/symbol.c
+END
+loader.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/loader.c
+END
+ecoff.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/ecoff.h
+END
+pisa.def
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/pisa.def
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/config.h
+END
+syscall.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/syscall.c
+END
+pisa.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/pisa.c
+END
+configbig.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/target-pisa/configbig.h
+END

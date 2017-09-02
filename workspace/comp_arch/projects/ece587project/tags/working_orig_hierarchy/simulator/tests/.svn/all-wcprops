@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests
+END
+test-math.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/test-math.c
+END
+ruler
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/ruler
+END
+power_test
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/power_test
+END
+reverse.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/reverse.c
+END
+parallel
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/parallel
+END
+sieve.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/sieve.c
+END
+test-fmath.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/test-fmath.c
+END
+fibonacci.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/fibonacci.c
+END
+shellsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/shellsort.c
+END
+josephus
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/josephus
+END
+bubblesort
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/bubblesort
+END
+dep_2loop.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/dep_2loop.c
+END
+euclid
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/euclid
+END
+quicksort.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/quicksort.c
+END
+ind_2loop.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/ind_2loop.c
+END
+test-math
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/test-math
+END
+ruler.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/ruler.c
+END
+sieve
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/sieve
+END
+reverse
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/reverse
+END
+test-fmath
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/test-fmath
+END
+power_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/power_test.c
+END
+parallel.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/parallel.c
+END
+fibonacci
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/fibonacci
+END
+shellsort
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/shellsort
+END
+josephus.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/josephus.c
+END
+dep_2loop
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/dep_2loop
+END
+quicksort
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/quicksort
+END
+bubblesort.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/bubblesort.c
+END
+ind_2loop
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/ind_2loop
+END
+euclid.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/tests/euclid.c
+END

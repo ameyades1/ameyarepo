@@ -1,0 +1,32 @@
+static unsigned int			/* latency of block access */
+dl1_access_fn(enum mem_cmd cmd,		/* access cmd, Read or Write */
+              md_addr_t baddr,		/* block address to access */
+              int bsize,		/* size of block to access */
+              struct cache_blk_t *blk,	/* ptr to block in upper level */
+              tick_t now){		/* time of access */
+    md_addr_t *repl_addr = (md_addr_t *)malloc(sizeof(md_addr_t)); // Here we need to add last replaced block/address to the cache structure
+    if (victim_cache){
+        if (cache_dl1->last_blk_addr != 0){
+            if (cache_probe(victim_cache, baddr) != 0){ // Hit in VC
+                cache_dl1->misses--;
+                cache_dl1->hits++;
+                cache_dl1->vc_hits++;
+                cache_flush_addr(victim_cache, baddr, now); // Swap this "hit" with the replacement
+                cache_access(victim_cache, 0, cache_dl1->last_blk_addr, NULL, bsize, now, NULL, NULL); // Add replaced block to victim cache and return
+                return 0;
+            } else {
+                cache_dl1->vc_misses++;
+                cache_access(victim_cache, 0, cache_dl1->last_blk_addr, NULL, bsize, now, NULL, NULL); // Add replaced block to victim cache and continue
+            }
+        }
+    }
+    if (cache_dl2){ // L1 Missed so check for data in L2
+        int j = 0;
+        j = cache_access(cache_dl2, cmd, baddr, NULL, bsize, /* now */now, /* pudata */NULL, /* replace addr */repl_addr);
+        //if (j != 1) printf("CAT: %d", j);
+        return j;
+    } else {
+        /* access main memory, which is always done in the main simulator loop */
+        return /* access latency */100;
+    }
+}

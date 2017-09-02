@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/simulator/bench/big
+END
+perl.ss
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/simulator/bench/big/perl.ss
+END
+li.ss
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/bench/big/li.ss
+END
+go.ss
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/simulator/bench/big/go.ss
+END
+cc1.ss
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/simulator/bench/big/cc1.ss
+END
+vortex.ss
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/simulator/bench/big/vortex.ss
+END
+mcf_alpha.ss
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/bench/big/mcf_alpha.ss
+END
+compress.ss
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/simulator/bench/big/compress.ss
+END
+vpr_alpha.ss
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/bench/big/vpr_alpha.ss
+END
+crafty_alpha.ss
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/simulator/bench/big/crafty_alpha.ss
+END
+gzip_alpha.ss
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/simulator/bench/big/gzip_alpha.ss
+END
+ijpeg.ss
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/simulator/bench/big/ijpeg.ss
+END
+m88ksim.ss
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/simulator/bench/big/m88ksim.ss
+END
+gcc_alpha.ss
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/bench/big/gcc_alpha.ss
+END

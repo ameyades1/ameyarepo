@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/16/trunk/simulator/ss3/config
+END
+regress.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/ss3/config/regress.cfg
+END
+relax.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/simulator/ss3/config/relax.cfg
+END
+default.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/16/trunk/simulator/ss3/config/default.cfg
+END

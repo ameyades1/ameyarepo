@@ -1,0 +1,562 @@
+
+-----1-----
+--Local History: 0
+--Global Path History: 0
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 1----
+--Local Pred Counter: 0--Local History: 200
+--Global Pred Counter: 0--Choice Pred Counter: 0--Global Path History: 800
+
+-----2-----
+--Local History: 200
+--Global Path History: 800
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 2----
+--Local Pred Counter: 1--Local History: 100
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 400
+
+-----3-----
+--Local History: 100
+--Global Path History: 400
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 3----
+--Local Pred Counter: 1--Local History: 80
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 200
+
+-----4-----
+--Local History: 80
+--Global Path History: 200
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 4----
+--Local Pred Counter: 1--Local History: 40
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 100
+
+-----5-----
+--Local History: 40
+--Global Path History: 100
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 5----
+--Local Pred Counter: 1--Local History: 20
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 80
+
+-----6-----
+--Local History: 20
+--Global Path History: 80
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 6----
+--Local Pred Counter: 1--Local History: 10
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 40
+
+-----7-----
+--Local History: 10
+--Global Path History: 40
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 7----
+--Local Pred Counter: 1--Local History: 8
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 20
+
+-----8-----
+--Local History: 8
+--Global Path History: 20
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 8----
+--Local Pred Counter: 1--Local History: 4
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 10
+
+-----9-----
+--Local History: 4
+--Global Path History: 10
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 9----
+--Local Pred Counter: 1--Local History: 2
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 8
+
+-----10-----
+--Local History: 2
+--Global Path History: 8
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 10----
+--Local Pred Counter: 1--Local History: 1
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 4
+
+-----11-----
+--Local History: 1
+--Global Path History: 4
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 11----
+--Local Pred Counter: 0--Local History: 200
+--Global Pred Counter: 0--Choice Pred Counter: 0--Global Path History: 802
+
+-----12-----
+--Local History: 200
+--Global Path History: 802
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 12----
+--Local Pred Counter: 2--Local History: 100
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 401
+
+-----13-----
+--Local History: 100
+--Global Path History: 401
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 13----
+--Local Pred Counter: 2--Local History: 80
+--Global Pred Counter: 1--Choice Pred Counter: 0--Global Path History: 200
+
+-----14-----
+--Local History: 80
+--Global Path History: 200
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 14----
+--Local Pred Counter: 2--Local History: 40
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 100
+
+-----15-----
+--Local History: 40
+--Global Path History: 100
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 15----
+--Local Pred Counter: 2--Local History: 20
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 80
+
+-----16-----
+--Local History: 20
+--Global Path History: 80
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 16----
+--Local Pred Counter: 2--Local History: 10
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 40
+
+-----17-----
+--Local History: 10
+--Global Path History: 40
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 17----
+--Local Pred Counter: 2--Local History: 8
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 20
+
+-----18-----
+--Local History: 8
+--Global Path History: 20
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 18----
+--Local Pred Counter: 2--Local History: 4
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 10
+
+-----19-----
+--Local History: 4
+--Global Path History: 10
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 19----
+--Local Pred Counter: 2--Local History: 2
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 8
+
+-----20-----
+--Local History: 2
+--Global Path History: 8
+--Local Pred Counter: 1--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 20----
+--Local Pred Counter: 2--Local History: 1
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 4
+
+-----21-----
+--Local History: 1
+--Global Path History: 4
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 21----
+--Local Pred Counter: 0--Local History: 200
+--Global Pred Counter: 0--Choice Pred Counter: 0--Global Path History: 802
+
+-----22-----
+--Local History: 200
+--Global Path History: 802
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 22----
+--Local Pred Counter: 3--Local History: 100
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 401
+
+-----23-----
+--Local History: 100
+--Global Path History: 401
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 1
+----Update 23----
+--Local Pred Counter: 3--Local History: 80
+--Global Pred Counter: 2--Choice Pred Counter: 0--Global Path History: 200
+
+-----24-----
+--Local History: 80
+--Global Path History: 200
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 24----
+--Local Pred Counter: 3--Local History: 40
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 100
+
+-----25-----
+--Local History: 40
+--Global Path History: 100
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 25----
+--Local Pred Counter: 3--Local History: 20
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 80
+
+-----26-----
+--Local History: 20
+--Global Path History: 80
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 26----
+--Local Pred Counter: 3--Local History: 10
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 40
+
+-----27-----
+--Local History: 10
+--Global Path History: 40
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 27----
+--Local Pred Counter: 3--Local History: 8
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 20
+
+-----28-----
+--Local History: 8
+--Global Path History: 20
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 28----
+--Local Pred Counter: 3--Local History: 4
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 10
+
+-----29-----
+--Local History: 4
+--Global Path History: 10
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 29----
+--Local Pred Counter: 3--Local History: 2
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 8
+
+-----30-----
+--Local History: 2
+--Global Path History: 8
+--Local Pred Counter: 2--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 30----
+--Local Pred Counter: 3--Local History: 1
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 4
+
+-----31-----
+--Local History: 1
+--Global Path History: 4
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 31----
+--Local Pred Counter: 0--Local History: 200
+--Global Pred Counter: 0--Choice Pred Counter: 0--Global Path History: 802
+
+-----32-----
+--Local History: 200
+--Global Path History: 802
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 32----
+--Local Pred Counter: 4--Local History: 100
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 401
+
+-----33-----
+--Local History: 100
+--Global Path History: 401
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 2
+----Update 33----
+--Local Pred Counter: 4--Local History: 80
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 200
+
+-----34-----
+--Local History: 80
+--Global Path History: 200
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 34----
+--Local Pred Counter: 4--Local History: 40
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 100
+
+-----35-----
+--Local History: 40
+--Global Path History: 100
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 35----
+--Local Pred Counter: 4--Local History: 20
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 80
+
+-----36-----
+--Local History: 20
+--Global Path History: 80
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 36----
+--Local Pred Counter: 4--Local History: 10
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 40
+
+-----37-----
+--Local History: 10
+--Global Path History: 40
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 37----
+--Local Pred Counter: 4--Local History: 8
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 20
+
+-----38-----
+--Local History: 8
+--Global Path History: 20
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 38----
+--Local Pred Counter: 4--Local History: 4
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 10
+
+-----39-----
+--Local History: 4
+--Global Path History: 10
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 39----
+--Local Pred Counter: 4--Local History: 2
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 8
+
+-----40-----
+--Local History: 2
+--Global Path History: 8
+--Local Pred Counter: 3--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 40----
+--Local Pred Counter: 4--Local History: 1
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 4
+
+-----41-----
+--Local History: 1
+--Global Path History: 4
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 41----
+--Local Pred Counter: 0--Local History: 200
+--Global Pred Counter: 0--Choice Pred Counter: 0--Global Path History: 802
+
+-----42-----
+--Local History: 200
+--Global Path History: 802
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 42----
+--Local Pred Counter: 5--Local History: 100
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 401
+
+-----43-----
+--Local History: 100
+--Global Path History: 401
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 43----
+--Local Pred Counter: 5--Local History: 80
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 200
+
+-----44-----
+--Local History: 80
+--Global Path History: 200
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 44----
+--Local Pred Counter: 5--Local History: 40
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 100
+
+-----45-----
+--Local History: 40
+--Global Path History: 100
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 45----
+--Local Pred Counter: 5--Local History: 20
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 80
+
+-----46-----
+--Local History: 20
+--Global Path History: 80
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 46----
+--Local Pred Counter: 5--Local History: 10
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 40
+
+-----47-----
+--Local History: 10
+--Global Path History: 40
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 47----
+--Local Pred Counter: 5--Local History: 8
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 20
+
+-----48-----
+--Local History: 8
+--Global Path History: 20
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 48----
+--Local Pred Counter: 5--Local History: 4
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 10
+
+-----49-----
+--Local History: 4
+--Global Path History: 10
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 49----
+--Local Pred Counter: 5--Local History: 2
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 8
+
+-----50-----
+--Local History: 2
+--Global Path History: 8
+--Local Pred Counter: 4--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 50----
+--Local Pred Counter: 5--Local History: 1
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 4
+
+-----51-----
+--Local History: 1
+--Global Path History: 4
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 51----
+--Local Pred Counter: 0--Local History: 200
+--Global Pred Counter: 0--Choice Pred Counter: 0--Global Path History: 802
+
+-----52-----
+--Local History: 200
+--Global Path History: 802
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 52----
+--Local Pred Counter: 6--Local History: 100
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 401
+
+-----53-----
+--Local History: 100
+--Global Path History: 401
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 53----
+--Local Pred Counter: 6--Local History: 80
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 200
+
+-----54-----
+--Local History: 80
+--Global Path History: 200
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 54----
+--Local Pred Counter: 6--Local History: 40
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 100
+
+-----55-----
+--Local History: 40
+--Global Path History: 100
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 55----
+--Local Pred Counter: 6--Local History: 20
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 80
+
+-----56-----
+--Local History: 20
+--Global Path History: 80
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 56----
+--Local Pred Counter: 6--Local History: 10
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 40
+
+-----57-----
+--Local History: 10
+--Global Path History: 40
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 57----
+--Local Pred Counter: 6--Local History: 8
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 20
+
+-----58-----
+--Local History: 8
+--Global Path History: 20
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 58----
+--Local Pred Counter: 6--Local History: 4
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 10
+
+-----59-----
+--Local History: 4
+--Global Path History: 10
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 59----
+--Local Pred Counter: 6--Local History: 2
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 8
+
+-----60-----
+--Local History: 2
+--Global Path History: 8
+--Local Pred Counter: 5--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 60----
+--Local Pred Counter: 6--Local History: 1
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 4
+
+-----61-----
+--Local History: 1
+--Global Path History: 4
+--Local Pred Counter: 0--Choice Pred Counter: 0--Global Pred Counter: 0
+----Update 61----
+--Local Pred Counter: 0--Local History: 200
+--Global Pred Counter: 0--Choice Pred Counter: 0--Global Path History: 802
+
+-----62-----
+--Local History: 200
+--Global Path History: 802
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 62----
+--Local Pred Counter: 7--Local History: 100
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 401
+
+-----63-----
+--Local History: 100
+--Global Path History: 401
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 63----
+--Local Pred Counter: 7--Local History: 80
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 200
+
+-----64-----
+--Local History: 80
+--Global Path History: 200
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 64----
+--Local Pred Counter: 7--Local History: 40
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 100
+
+-----65-----
+--Local History: 40
+--Global Path History: 100
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 65----
+--Local Pred Counter: 7--Local History: 20
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 80
+
+-----66-----
+--Local History: 20
+--Global Path History: 80
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 66----
+--Local Pred Counter: 7--Local History: 10
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 40
+
+-----67-----
+--Local History: 10
+--Global Path History: 40
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 67----
+--Local Pred Counter: 7--Local History: 8
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 20
+
+-----68-----
+--Local History: 8
+--Global Path History: 20
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 68----
+--Local Pred Counter: 7--Local History: 4
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 10
+
+-----69-----
+--Local History: 4
+--Global Path History: 10
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 69----
+--Local Pred Counter: 7--Local History: 2
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 8
+
+-----70-----
+--Local History: 2
+--Global Path History: 8
+--Local Pred Counter: 6--Choice Pred Counter: 0--Global Pred Counter: 3
+----Update 70----
+--Local Pred Counter: 7--Local History: 1
+--Global Pred Counter: 3--Choice Pred Counter: 0--Global Path History: 4
+Output file created...
+

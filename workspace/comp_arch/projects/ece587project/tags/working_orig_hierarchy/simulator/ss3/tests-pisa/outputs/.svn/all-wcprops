@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs
+END
+test-math.progout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-math.progout
+END
+anagram.progout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/anagram.progout
+END
+test-math.simout
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-math.simout
+END
+anagram.simout
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/anagram.simout
+END
+test-llong.progout
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-llong.progout
+END
+test-llong.simout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-llong.simout
+END
+test-fmath.progout
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-fmath.progout
+END
+test-fmath.simout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-fmath.simout
+END
+test-printf.progout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-printf.progout
+END
+test-lswlr.progout
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-lswlr.progout
+END
+test-printf.simout
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-printf.simout
+END
+test-lswlr.simout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/outputs/test-lswlr.simout
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin
+END
+test-printf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/test-printf
+END
+test-lswlr
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/test-lswlr
+END
+test-dirent
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/test-dirent
+END
+test-math
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/test-math
+END
+anagram
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/anagram
+END
+test-llong
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/test-llong
+END
+test-args
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/test-args
+END
+test-fmath
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-alpha/bin/test-fmath
+END

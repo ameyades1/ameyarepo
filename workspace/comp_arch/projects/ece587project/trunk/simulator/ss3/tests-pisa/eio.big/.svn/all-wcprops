@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/simulator/ss3/tests-pisa/eio.big
+END
+anagram.eio
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/simulator/ss3/tests-pisa/eio.big/anagram.eio
+END
+test-math.eio
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/simulator/ss3/tests-pisa/eio.big/test-math.eio
+END
+test-llong.eio
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/simulator/ss3/tests-pisa/eio.big/test-llong.eio
+END
+test-fmath.eio
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/simulator/ss3/tests-pisa/eio.big/test-fmath.eio
+END
+test-printf.eio
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/simulator/ss3/tests-pisa/eio.big/test-printf.eio
+END
+test-lswlr.eio
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/simulator/ss3/tests-pisa/eio.big/test-lswlr.eio
+END

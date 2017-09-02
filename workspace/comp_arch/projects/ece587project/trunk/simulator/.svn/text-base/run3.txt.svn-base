@@ -1,0 +1,16 @@
+echo Instruction Cache Simulations
+echo Data Cache Size Simulations
+echo Running 15th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/avd/ECE587/Simplescalar/simulator/ss3/sim-outorder -args " -fastfwd 10000 -max:inst 200000" >& results/outorder1.txt
+echo Running 16th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/avd/ECE587/Simplescalar/simulator/ss3/sim-outorder -args " -cache:il1 il1:16:32:4:l -cache:il1v il1v:1:32:16:l -fastfwd 10000 -max:inst 200000" >& results/outorder2.txt
+echo Running 17th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/avd/ECE587/Simplescalar/simulator/ss3/sim-outorder -args " -cache:il1 il1:16:32:4:l -cache:il1v il1v:1:32:8:l -fastfwd 10000 -max:inst 200000" >& results/outorder3.txt
+echo Running 18th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/avd/ECE587/Simplescalar/simulator/ss3/sim-outorder -args " -cache:il1 il1:16:32:4:l -cache:il1v il1v:1:32:4:l -fastfwd 10000 -max:inst 200000" >& results/outorder4.txt
+
+echo Running 19th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/avd/ECE587/Simplescalar/simulator/ss3/sim-outorder -args " -cache:il1 il1:256:64:4:l -cache:il1v il1v:8:32:1:l -fastfwd 1000 -max:inst 200000" >& results/outorder5.txt
+
+echo Running 20th simulation
+./Run.pl -db bench.db -dir results/gcc1 -benchmark gcc -sim /u/avd/ECE587/Simplescalar/simulator/ss3/sim-outorder -args " -cache:il1 il1:256:64:4:l -cache:il1v il1v:8:32:2:l -fastfwd 1000 -max:inst 200000" >& results/outorder6.txt

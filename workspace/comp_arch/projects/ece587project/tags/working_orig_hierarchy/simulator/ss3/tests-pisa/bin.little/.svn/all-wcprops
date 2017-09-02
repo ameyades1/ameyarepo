@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little
+END
+test-math
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little/test-math
+END
+anagram
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little/anagram
+END
+test-llong
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little/test-llong
+END
+test-fmath
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little/test-fmath
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little/Makefile
+END
+test-printf
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little/test-printf
+END
+test-lswlr
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/38/tags/working_orig_hierarchy/simulator/ss3/tests-pisa/bin.little/test-lswlr
+END
