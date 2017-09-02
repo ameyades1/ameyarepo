@@ -1,0 +1,28 @@
+/*
+ * ** This enum defines the command types. Make sure that the command 
+ * ** number matches here.
+ * */
+typedef enum _cmd_type_
+{
+    Read from L1 Data Cache
+   	CMD_READ_DATA_L1	= 0,
+    		
+    //Read from L1 Instruction Cache
+    CMD_WRITE_DATA_L1	= 1,
+    		        	
+    // Instruction fectch (Read from L1 Instruction cache
+    CMD_INSTR_FETCH		= 2, 
+    		        	        	
+    // Invalidate 
+    CMD_INVALIDATE		= 3,
+    		        	        	        	
+    // Reset all caches
+    CMD_CLR_RST			= 8,
+    		        	        	        	        	
+   // Print stats for all caches
+   CMD_PRINT_STATS = 9,
+
+   // Keep this last one for the max command count
+   CMD_MAX_COUNT
+
+}CMD_TYPE;
