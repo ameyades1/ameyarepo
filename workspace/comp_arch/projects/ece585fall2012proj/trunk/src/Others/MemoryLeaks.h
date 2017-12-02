@@ -8,7 +8,7 @@
 		#define _DEBUG
 	#endif
 	#include <stdlib.h>
-	#include <crtdbg.h>	
+	#include <crtdbg.h>
 #endif
 
 #ifdef 	__MEM_LEAKS

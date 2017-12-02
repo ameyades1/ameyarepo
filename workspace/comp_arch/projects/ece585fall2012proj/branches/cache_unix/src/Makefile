@@ -1,6 +1,9 @@
-all: clean build 
+all: clean build sim 
+
+debug: clean dbg
 
 leak:
+	@echo "\n----LEAK CHECK----\n"
 	valgrind --leak-check=full ./Debug/cachesim ../../../trunk/docs/cc1.din
 
 sim: 
@@ -25,7 +28,7 @@ build:
 
 CDBG=-g -Wall
 
-debug:
+dbg:
 	@echo "\n---Compiling for Debug---\n"
 	g++ $(CDBG) -c main.cpp -o Debug/main.o 
 	g++ $(CDBG) -c Cache/Cache.cpp -o Debug/cache.o
