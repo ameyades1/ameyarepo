@@ -1,0 +1,65 @@
+--- REVIEW ---
+p044_adve_shared_memory_consistency_model_tutorial.pdf ->review
+p049_stenstrom_survey_cache_coherence_schemes.pdf ->review
+p020_jouppi_improving_direct_mapped_cache_prefetching.pdf ->review
+p018_smith_implementing_precise_interrupts_pipelined_processors.pdf ->review
+p053_crummey_synchronization_without_contention.pdf ->review
+p047_tullsen_smt_maximizing_onchip_parallelism.pdf ->review
+p010_hennessey_directory_cache_coherence_dash.pdf ->review
+p058_patt_two_level_adaptive_branch_prediction.pdf  ->review
+p036_ibm_power4_system_microarchitecture.pdf ->review
+p052_ni_survey_wormhole_routing_direct_networks.pdf ->review
+p009_hagersten_ddm_cache_only_memory_architecture.pdf ->review
+p056_herlihy_transactional_memory_architectural_support.pdf ->review
+p001_olukotun_case_single_chip_multiprocessor.pdf  ->review
+p022_sohi_instruction_issue_logic_pipelined_processors.pdf ->review
+TOTAL 14
+
+--- READ ---
+p042_patt_runahead_execution.pdf ->read
+p028_kroft_lockup_free_instruction_fetch ->read
+p015_chen_hardware_data_prefetching.pdf ->read
+p031_sohi_microarchitecture_superscalar_processors.pdf ->read
+p034_sohi_multiscalar_processors.pdf ->read
+p030_chrysos_memory_dependence_prediction_storesets ->read
+p002_mcfarling_combining_branch_predictors.pdf ->read
+p033_papadopolous_monsoon_explicit_token_architecture.pdf  ->read
+p008_veen_dataflow_machine_architecture.pdf ->read
+p054_scott_synchronization_communication_t3e.pdf ->read
+p007_russel_cray1_computer_system.pdf ->read 
+p043_lenoski_sgi_origin2K_ccnuma.pdf ->read
+p006_seitz_cosmic_cube.pdf ->read
+p025_alaa_ipc_considered_harmful.pdf ->read
+p045_austin_simplescalar_toolset_2_0.pdf ->read
+p055_rotenberg_trace_cache.pdf ->read
+p003_palacharla_complexity_effective_superscalar_processor.pdf ->read
+p012_hill_evaluating_associativity_cpu_caches.pdf ->read
+p027_llnl_intro_parallel_computing.pdf ->read
+TOTAL 19
+
+--- SKIM ---
+p013_lipasti_exceeding_dataflow_limit_value_prediction.pdf ->skim
+p011_jimenez_dynamic_branch_prediction_perceptrons.pdf  ->skim
+p037_ibm_power5_system_microarchitecture.pdf ->skim
+p019_alaa_improving_cache_lifetimes_reliability_ultra_low_voltage.pdf  ->skim
+p017_khailany_imagine_media_processing_streams.pdf ->skim
+p039_agarwal_raw_microprocessor.pdf  ->skim
+p059_swanson_wavescalar.pdf  ->skim
+p014_sankaralingam_exploiting_ilp_tlp_dlp_polymorphous_trips.pdf ->skim
+p029_moore_logtm_transactional_memory.pdf ->skim
+p040_falsafi_reactive_numa_unifying_scoma_ccnuma.pdf ->skim
+p051_duncan_survey_parallel_computer_architectures.pdf ->skim
+p050_gehringer_survey_commercial_parallel_processors.pdf ->skim
+p035_anderson_performance_spin_lock_alternatives_shared_memory_multiprocessors.pdf ->skim
+p005_rajwar_continual_flow_pipelines.pdf ->skim
+p017_khailany_imagine_media_processing_streams.pdf ->skim
+p048_rajwar_speculative_lock_elision.pdf ->skim
+TOTAL 16
+
+--- OTHERS ---
+p046_sohi_speculative_data_driven_multithreading.pdf  
+p038_smith_predictablity_data_values.pdf
+p026_intel_itanium_processor_microarchitecure.pdf
+p057_papworth_tuning_pentium_pro_microarchitecture.pdf
+p021_tullsen_instruction_fetch_issue_smt.pdf
+p024_intel_pentium_m_microarchitecture.pdf
