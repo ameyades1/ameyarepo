@@ -4,10 +4,12 @@ clean:
 	rm -rf *.o *.out
 
 build:
-	g++ main.cpp -std=c++0x -Wall -g
+	g++ *.cpp -std=c++0x -Wall -g
 
 run:
 	./a.out
 
 valgrind: clean build
 	valgrind --leak-check=full ./a.out
+	
+
