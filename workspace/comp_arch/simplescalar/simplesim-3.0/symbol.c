@@ -1,1 +1,0 @@
-target-alpha/symbol.c

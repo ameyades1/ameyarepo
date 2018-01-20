@@ -1,1 +1,0 @@
-target-alpha/alpha.c
