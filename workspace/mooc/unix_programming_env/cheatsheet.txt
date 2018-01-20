@@ -1,0 +1,107 @@
+------------------------------------
+THE UNIX PROGRAMMING ENVIRONMENT
+CHEATSHEET / NOTES
+------------------------------------
+
+1. stty -a
+Terminal settings
+
+2. ctrl-s 
+Freeze terminal state
+
+3. ctrl-q
+Unfreeze terminal state (Try 2 & 3 with htop)
+
+4. ls -lt
+list according to time created 
+// Sample output below
+
+total <blocks of disk space>
+#<your permissions> <links to file> <owner> <creator> <bytes> <date created>
+-----------
+total 8 
+-rw-rw-r-- 1 ameya ameya 249 Sep  9 13:25 cheatsheet.txt 
+-rw-rw-r-- 1 ameya ameya 619 Sep  9 13:24 stty.txt
+lrwxrwxrwx 1 ameya ameya  47 Sep  9 12:31 UnixProgrammingEnvironment.pdf -> ../../misc/books/UNIXProgrammingEnvironment.pdf
+-----------
+
+5. ls -lut 
+List in last used order
+
+6. more
+Display one page worth of file
+
+7. less
+More powerful and faster than more. less doesnt load whole file
+
+8. pr
+Print file as a printable, 66 lines, with page numbers in headers
+Can specify columns
+
+9. wc
+ 41 137 910 cheatsheet.txt
+<newline count> <word count> <byte count> <filename>
+
+10. grep
+Find lines that match regular expression
+grep -v : lines that dont match
+
+11. sort
+Sort lines in numeric (-n), alphanumeric (-g) etc order
+
+12. tail
+Print last 10 lines of a file
+
+13. cmp
+compare any two files, print first difference. Use for identifying two identical files
+
+14. diff 
+Difference between two TEXT files
+
+15. Home directory is not /usr/ameya but /home/ameya
+
+16. rmdir
+Removes *only* empty directories
+
+17. echo
+echo arguments on terminal
+e.g. echo ch* -> chap1 chap2 chap3 cheatsheet.txt
+
+18. [...] Pattern matches any characters inside brackets
+echo ch[123]* -> ch1.txt ch2.txt ch3.txt
+echo ch[1-4]* -> ch1.txt ch2.txt ch3.txt ch4.txt
+
+19. I/O redirection
+ls > filelist
+creates a file filelist and then runs ls on the folder, 
+filelist will include itself too.
+If command is misspelt, filelist is still created, but empty
+
+20.
+semicolon ';' executes multiple programs sequentially
+date; who
+
+21.
+kill 0 
+kills all processes except login shell
+
+22. nohup
+nohangup : Continues a program even after terminal closes
+Output redirected to file nohup.out
+
+23. nice
+nohup nice <program>
+runs a program with lower priority
+
+24. at
+Run a program a later time
+at now +1 minute <ctrl-d>
+at > echo "Hello World" > hello_world.txt
+at > <ctrl-d>
+
+25: od
+octal description
+
+26: hexdump -C
+hex description with ascii
+

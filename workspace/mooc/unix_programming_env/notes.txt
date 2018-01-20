@@ -1,0 +1,46 @@
+-----------------------------
+SHELL
+shell or command interpreter sits between kernel and you.
+
+Advantages: 
+Filename shorthands, I/O redirection, define own commands
+
+e.g:
+#Print all chapters: chap1, chap2 chap3 etc.
+$ > pr chap* 
+
+Filename shorthand is a service provided by shell, not program.
+
+-----------------------------
+
+PIPE
+
+Programs communicate via pipes to avoid temp files
+ls | wc -l #Number of files in a folder
+
+Programs are invoked simultaneously, not sequentially
+Kernel manages synchronization and communication
+Programs are oblivious to it.
+
+who | grep ameya | wc -l #How many times ameya logged in
+
+programs can read / write into a pipe
+
+-----------------------------
+
+SEARCH PATH
+Current Directory -> /bin -> /usr/bin
+can be modified by changing the $PATH variable
+PATH=$PATH:/home/ameya/myprogs
+
+to use PATH outside, export it
+export PATH
+
+-----------------------------
+
+FILES
+Files are NOT terminated in EOF
+They simply end. Interpretation independent way.
+Kernel call read() returns zero when file ends.
+
+

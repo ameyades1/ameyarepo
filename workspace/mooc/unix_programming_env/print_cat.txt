@@ -1,0 +1,66 @@
+
+
+2017-09-09 13:43                     cat.txt                      Page 1
+
+
+------------------------------------
+THE UNIX PROGRAMMING ENVIRONMENT
+CHEATSHEET / NOTES
+------------------------------------
+
+1. stty -a
+Terminal settings
+
+2. ctrl-s 
+Freeze terminal state
+
+3. ctrl-q
+Unfreeze terminal state (Try 2 & 3 with htop)
+
+4. ls -lt
+list according to time created 
+// Sample output below
+
+total 8 #--> Blocks of disk space
+#<your permissions> <links to file> <owner> <creator> <bytes> <date created>
+-rw-rw-r-- 1 ameya ameya 249 Sep  9 13:25 cheatsheet.txt 
+-rw-rw-r-- 1 ameya ameya 619 Sep  9 13:24 stty.txt
+lrwxrwxrwx 1 ameya ameya  47 Sep  9 12:31 UnixProgrammingEnvironment.pdf -> ../../misc/books/UNIXProgrammingEnvironment.pdf
+//
+
+5. ls -lut 
+List in last used order
+
+6. more
+Display one page worth of file
+
+7. less
+More powerful and faster than more
+speed 38400 baud; rows 40; columns 152; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>;
+eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z; rprnt = ^R;
+werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff
+-iuclc -ixany -imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt
+echoctl echoke -flusho -extproc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

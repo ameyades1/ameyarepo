@@ -1,0 +1,2 @@
+Release Notes for Icarus Verilog Release 10.0 This is the first release of the 10 series. For details,
+see the on-line release notes at <http://iverilog.wikia.com/wiki/Release_Notes_Icarus_Verilog_10>.
