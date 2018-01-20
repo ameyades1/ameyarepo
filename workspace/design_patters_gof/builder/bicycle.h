@@ -6,12 +6,13 @@
 #include "vehicle.h"
 class CBicycle : public CVehicle
 {
+	std::string frame_type;
 public:
-	CBicycle(std::string name) :CVehicle(name){}
+	CBicycle(std::string name, std::string ftype) :CVehicle(name){frame_type = ftype;}
 	~CBicycle() {}
 	void InstallChassis()
 	{
-		std::cout << "Installed Carbon Fiber Frame...\n";
+		std::cout << "Installed " << frame_type << " Frame...\n";
 	}
 	void InstallTyres()
 	{

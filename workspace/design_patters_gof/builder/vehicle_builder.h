@@ -7,9 +7,13 @@
 #include "motorcycle.h"
 #include <string>
 
+// Singleton Builder
 class CVehicleBuilder
 {
-	public:
+private:
+	CVehicleBuilder() {}
+
+public:
 	typedef enum _eVehicleType
 	{
 		eCar = 0,
@@ -17,7 +21,7 @@ class CVehicleBuilder
 		eMotorcycle
 	}eVehicleType;
 
-	CVehicleBuilder() {}
+
 	~CVehicleBuilder() {}
 	static 	CVehicle* BuildVehicle(eVehicleType vtype)
 	{
@@ -25,7 +29,7 @@ class CVehicleBuilder
 		switch(vtype)
 		{
 		case eCar:
-				vehicle = new CCar("Maruti Swift");
+				vehicle = new CCar("Maruti Swift", "Diesel");
 				std::cout << "\n\nBuilding " << vehicle->name <<"\n";
 				vehicle->InstallChassis();
 				vehicle->InstallElectronics();
@@ -35,7 +39,7 @@ class CVehicleBuilder
 				break;
 
 		case eBicycle:
-				vehicle = new CBicycle("Shimano");
+				vehicle = new CBicycle("Shimano", "Carbon Fiber");
 				std::cout << "\n\nBuilding " << vehicle->name <<"\n";
 				vehicle->InstallChassis();
 				vehicle->InstallSeats();

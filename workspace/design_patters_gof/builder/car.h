@@ -6,8 +6,11 @@
 #include "vehicle.h"
 class CCar : public CVehicle
 {
+private:
+	std::string engine_type;
 public:
-	CCar(std::string name) :CVehicle(name){}
+
+	CCar(std::string name, std::string eng_type) :CVehicle(name){engine_type = eng_type;}
 	~CCar() {}
 	void InstallChassis()
 	{
@@ -19,7 +22,7 @@ public:
 	}
 	void InstallEngine()
 	{
-		std::cout << "Installed CRDi Diesel 13HP Engine...\n";
+		std::cout << "Installed " << engine_type << " Engine...\n";
 	}
 	void InstallElectronics()
 	{
