@@ -5,6 +5,7 @@ DEPS=slist.h
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CCFLAGS) -g
+
 clean: 
 	rm -rf main main.o slist.o
 

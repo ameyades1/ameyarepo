@@ -23,7 +23,6 @@ void delete_node(node* pNode)
 }
 
 
-
 // Create a head node
 node* slist_create(int data)
 {
@@ -159,7 +158,6 @@ node* slist_del_node(node* pHead, int data)
 }
 
 
-
 // Delete list
 
 node* slist_del_list(node* pNode)
@@ -179,6 +177,45 @@ node* slist_del_list(node* pNode)
 }
 
 
+// Append List 2 to List 1
+node* slist_merge(node* pHead1, node* pHead2)
+{
+	node* pCurr1 = pHead1;
+	if (!pHead1 || !pHead2)
+		return NULL;
+
+	// Traverse to end of list 1 
+	while (pCurr1->pNext)
+		pCurr1 = pCurr1->pNext;
+
+	// Join list1 to list 2
+	pCurr1->pNext = pHead2;
+
+	return pHead1;
+	
+}
+
+// Delete list recursively
+void slist_del_list_rec(node* pHead)
+{
+	if (!pHead)
+		return;
+	
+	slist_del_list_rec(pHead->pNext);
+	
+	if (pHead)
+		delete_node(pHead);		
+}
+
+// Print reverse list
+void slist_print_rev_rec(node* pHead)
+{
+	if (!pHead)
+		return;
+	
+	slist_print_rev_rec(pHead->pNext);
+	printf("%d - ", pHead->data);
+}
 
 
 

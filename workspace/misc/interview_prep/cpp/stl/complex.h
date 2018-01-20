@@ -65,7 +65,7 @@ public:
 	void setName (char* name);
 
  	CComplex& operator+ (const CComplex& complex);
-    CComplex operator+ (const long int& num);
+  CComplex operator+ (const long int& num);
 	
 	CComplex operator* (const CComplex& complex);
 	CComplex operator* (const long int num);
