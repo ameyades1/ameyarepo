@@ -1,0 +1,18 @@
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+find: ‘/etc/polkit-1/rules.d’: Permission denied
+find: ‘/etc/firewalld’: Permission denied
+find: ‘/etc/audit’: Permission denied
+find: ‘/etc/grub.d’: Permission denied
+find: ‘/etc/sssd’: Permission denied
+/etc/default/grub
+find: ‘/etc/cups/ssl’: Permission denied
+find: ‘/etc/sudoers.d’: Permission denied
+find: ‘/etc/openvpn/server’: Permission denied
+find: ‘/etc/openvpn/client’: Permission denied
+find: ‘/etc/lvm/cache’: Permission denied
+find: ‘/etc/lvm/archive’: Permission denied
+find: ‘/etc/lvm/backup’: Permission denied
+find: ‘/etc/audisp’: Permission denied
+find: ‘/etc/dhcp’: Permission denied
+/etc/sysconfig/grub
+find: ‘/etc/libvirt’: Permission denied
