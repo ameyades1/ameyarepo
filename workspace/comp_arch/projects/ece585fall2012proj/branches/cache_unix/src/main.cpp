@@ -29,12 +29,19 @@
 #include "Others/MemoryLeaks.h"
 #include "Trace/Trace.h"
 
+#ifdef WITHGPERFTOOLS
+  #include <gperftools/profiler.h>
+  #define PROFILE_LOG "profile.log"
+#endif
+
 
 void InitCache(CCache* pCache, UINT32 n_sets, UINT32 n_ways, UINT32 n_line_size);
 
 int main(int argc, char* argv[])
 {
-	
+#ifdef WITHGPERFTOOLS
+  ProfilerStart(PROFILE_LOG);
+#endif
 	CTrace* pftrace = new CTrace;
 	// Accept the first command line arg as trace file name
     if(argv[1])
@@ -100,6 +107,9 @@ int main(int argc, char* argv[])
     delete pCacheL1Inst;
     delete pftrace;
 
+#ifdef WITHGPERFTOOLS
+  ProfilerStop();
+#endif
 	_SHOW_MEM_LEAK();
 	return 0;
 }
