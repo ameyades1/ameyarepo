@@ -1,0 +1,6 @@
+g++ -g -Wall   -c -o cbp_inst.o cbp_inst.cc
+g++ -g -Wall   -c -o main.o main.cc
+g++ -g -Wall   -c -o op_state.o op_state.cc
+g++ -g -Wall   -c -o predictor.o predictor.cc
+g++ -g -Wall   -c -o tread.o tread.cc
+g++ -o predictor cbp_inst.o main.o op_state.o predictor.o tread.o
