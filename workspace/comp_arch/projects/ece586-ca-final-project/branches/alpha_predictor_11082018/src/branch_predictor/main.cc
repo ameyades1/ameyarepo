@@ -6,6 +6,11 @@
 #include <cstdlib>
 #include "tread.h"
 
+/*
+ * Optimal Sizes
+ * RAT : 16
+ */
+
 // include and define the predictor
 #include "predictor.h"
 PREDICTOR predictor;

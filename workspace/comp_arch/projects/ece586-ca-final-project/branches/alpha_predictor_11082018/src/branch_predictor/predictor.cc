@@ -6,7 +6,9 @@ extern return_address_stack rat;
 bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 							   uint *predicted_target_address)
 {
+	// Default
 	bool prediction = false;
+	*predicted_target_address = br->instruction_addr;
 
 	/*
 	 * Return address stack
@@ -24,8 +26,8 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 		// Push the next RIP for a subsequent return to use
 		rat.stack.push_front(br->instruction_next_addr);
 
-        // No BTB yet, so pick a safe one
-		(*predicted_target_address) = br->instruction_next_addr;
+        // No BTB yet, cant predict so pick a safe one
+		*predicted_target_address = br->instruction_addr;
 	}
 	else
 	if (br->is_return)
@@ -35,8 +37,8 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 
 		if(rat.stack.empty())
 		{
-			// If we cant predict, pick a safe one
-			*predicted_target_address = br->instruction_next_addr;
+	        // Stack empty so pick a safe one
+			*predicted_target_address = br->instruction_addr;
 		}
 		else
 		{
@@ -46,6 +48,7 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 	}
 
 	return prediction;   // true for taken, false for not taken
+
 }
 
 

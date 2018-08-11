@@ -4,11 +4,10 @@
 # Description: Script for generating a report of the mispredict rates.
 
 $path = "../results/$ARGV[0]";
+system("mkdir -p $path");
 print $path ,"\n";
 
 $rat_size = $ARGV[1];
-
-system("mkdir -p $path");
 
 open FILE, ">>", "$path/trace_analysis.txt";
 @trace_list = (
