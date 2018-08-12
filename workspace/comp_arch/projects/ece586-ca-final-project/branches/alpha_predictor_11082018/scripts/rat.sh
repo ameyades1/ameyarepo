@@ -8,7 +8,7 @@ log_file=../results/rat_results.log
 rm -rf $log_file
 
 # Return Address stack sizes
-rat_sizes=(1 2 4 8 16 32)
+rat_sizes=(1 16)
 
 for i in ${rat_sizes[@]}; do
   echo "RAT = " $i

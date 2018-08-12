@@ -14,7 +14,6 @@
 // include and define the predictor
 #include "predictor.h"
 PREDICTOR predictor;
-return_address_stack rat;
 
 // usage: predictor <trace>
 int
@@ -33,7 +32,7 @@ main(int argc, char* argv[])
 
     uint rat_size;
     sscanf(argv[2], "%d", &rat_size);
-    rat.max_size = rat_size;
+    predictor.rat.max_size = rat_size;
 
     // read the trace, one branch at a time, placing the branch info in br
     while (cbptr.get_branch_record(&br)) {
