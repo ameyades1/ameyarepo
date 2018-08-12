@@ -49,6 +49,7 @@ private:
 
     uint stat_num_calls;
     uint stat_num_returns;
+    uint stat_num_indirects;
 
     cbp::CBP_INST cbp_inst;
     std::FILE* from_cbp_trace_file; 

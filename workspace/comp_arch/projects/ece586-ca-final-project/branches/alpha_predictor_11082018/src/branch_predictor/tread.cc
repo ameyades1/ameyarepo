@@ -61,6 +61,7 @@ cbp_trace_reader_c::cbp_trace_reader_c(char *trace_name){
 
     stat_num_calls            = 0;
     stat_num_returns          = 0;
+    stat_num_indirects        = 0;
 
     memset(&cbp_inst, 0, sizeof(cbp_inst));
     cbp_inst.instruction_next_addr = 0;
@@ -82,6 +83,7 @@ cbp_trace_reader_c::~cbp_trace_reader_c(){
     int   mis_tpreds	 = (stat_num_branches - stat_num_correct_tpredicts);
     float mis_bpred_rate = float(mis_bpreds)/(float(stat_num_insts) / 1000);
     float mis_tpred_rate = float(mis_tpreds)/(float(stat_num_insts) / 1000);
+    float acc_tpred_rate = float(stat_num_correct_tpredicts)/(float(stat_num_branches)) * 100;
     printf("1000*wrong_cc_bpredicts/total insts: 1000 * %8d / %8d = %7.3f\n", mis_bpreds, stat_num_insts, mis_bpred_rate);
     printf("1000*wrong_tpredicts/total insts: 1000 * %8d / %8d = %7.3f\n", mis_tpreds, stat_num_insts, mis_tpred_rate);    
     printf("total branches:                  %8d\n", stat_num_branches);
@@ -89,6 +91,8 @@ cbp_trace_reader_c::~cbp_trace_reader_c(){
     printf("total predicts:                  %8d\n", stat_num_predicts);
     printf("total calls:                     %8d\n", stat_num_calls);
     printf("total returns:                   %8d\n", stat_num_returns);
+    printf("total indirects:                 %8d\n", stat_num_indirects);
+    printf("total accuracy:                   %7.3f %%\n", acc_tpred_rate);
     printf("*********************************************************\n");
     cbp_inst_close(from_cbp_inst_stream);
     pclose(from_cbp_trace_file);
@@ -213,6 +217,10 @@ bool cbp_trace_reader_c::get_branch_record(branch_record_c *branch_record){
 
     if(branch_record->is_return){
         	stat_num_returns++;
+    }
+
+    if(branch_record->is_indirect){
+    	stat_num_indirects++;
     }
     //printf("jp-op t(%1x)lip(%8x)tar(%8x)nlip(%8x)\n", cbp_inst.taken, cbp_inst.instruction_addr, cbp_inst.branch_target, cbp_inst.instruction_next_addr);
     return true;
