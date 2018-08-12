@@ -23,5 +23,6 @@ for i in ${rat_sizes[@]}; do
 	echo -e "RAT Size = $i" | tee -a $log_file
 	grep -i wrong_cc_bpredicts ../results/rat${i}/trace_analysis.txt | awk -v mul=1 '{mul=mul*$9} END {print "Conditional Mispredicts GeoMean = " (mul ^ (1/NR))}' | tee -a $log_file
 	grep -i wrong_tpredicts ../results/rat${i}/trace_analysis.txt | awk -v mul=1 '{mul=mul*$9} END {print "Target Mispredicts GeoMean = " (mul ^ (1/NR))}' | tee -a $log_file
+    grep -i "total accuracy" ../results/rat${i}/trace_analysis.txt | awk -v mul=1 '{mul=mul*$3} END {print "Total Accuracy GeoMean = " (mul ^ (1/NR))}' | tee -a $log_file  
 	echo -e "\n" | tee -a $log_file
 done
