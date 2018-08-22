@@ -1,0 +1,12 @@
+RAT Size = 1
+Conditional Mispredicts GeoMean = 41.5283
+Target Mispredicts GeoMean = 55.8328
+Total Accuracy GeoMean = 39.6051
+
+
+RAT Size = 16
+Conditional Mispredicts GeoMean = 41.5283
+Target Mispredicts GeoMean = 53.2961
+Total Accuracy GeoMean = 41.181
+
+
