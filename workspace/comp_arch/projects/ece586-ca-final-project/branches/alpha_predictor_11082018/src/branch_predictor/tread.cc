@@ -95,7 +95,7 @@ cbp_trace_reader_c::~cbp_trace_reader_c(){
     printf("total returns:                   %8d\n", stat_num_returns);
     printf("total indirects:                 %8d\n", stat_num_indirects);
     printf("total accuracy:                   %7.3f %%\n", acc_tpred_rate);
-    printf("*********************************************************\n");
+    printf("*********************************************************\n\n");
     cbp_inst_close(from_cbp_inst_stream);
     pclose(from_cbp_trace_file);
     delete osptr;
