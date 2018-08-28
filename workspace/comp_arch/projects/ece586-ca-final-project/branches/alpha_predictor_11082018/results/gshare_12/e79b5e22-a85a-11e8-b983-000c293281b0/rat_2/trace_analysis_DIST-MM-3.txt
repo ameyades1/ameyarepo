@@ -1,0 +1,19 @@
+DIST-MM-3
+---CONFIG---
+RAT Size: 2
+BTB Size: 4096
+---CONFIG---
+RAT Size: 2
+BTB Size: 4096
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *  1457329 / 29499970 =  49.401
+1000*wrong_tpredicts/total insts: 1000 *  1825263 / 29499970 =  61.873
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+total calls:                       825753
+total returns:                     825729
+total indirects:                  1027486
+total accuracy:                    63.149 %
+*********************************************************
+

@@ -1,0 +1,19 @@
+DIST-SERV-5
+---CONFIG---
+RAT Size: 4
+BTB Size: 4096
+---CONFIG---
+RAT Size: 4
+BTB Size: 4096
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *  2268003 / 29497759 =  76.887
+1000*wrong_tpredicts/total insts: 1000 *  3509501 / 29497759 = 118.975
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+total calls:                       667104
+total returns:                     666752
+total indirects:                   979776
+total accuracy:                    45.260 %
+*********************************************************
+

@@ -1,0 +1,19 @@
+DIST-FP-3
+---CONFIG---
+RAT Size: 8
+BTB Size: 4096
+---CONFIG---
+RAT Size: 8
+BTB Size: 4096
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *  1348983 / 29499978 =  45.728
+1000*wrong_tpredicts/total insts: 1000 *  1363953 / 29499978 =  46.236
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+total calls:                         6042
+total returns:                       6035
+total indirects:                     6476
+total accuracy:                    13.319 %
+*********************************************************
+

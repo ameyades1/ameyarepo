@@ -1,0 +1,42 @@
+
+RAT Size = 1
+Conditional Mispredicts GeoMean = 0
+Target Mispredicts GeoMean = 59.9806
+Total Accuracy GeoMean = 40.2804
+
+
+
+RAT Size = 2
+Conditional Mispredicts GeoMean = 0
+Target Mispredicts GeoMean = 58.6185
+Total Accuracy GeoMean = 41.254
+
+
+
+RAT Size = 4
+Conditional Mispredicts GeoMean = 0
+Target Mispredicts GeoMean = 58.0561
+Total Accuracy GeoMean = 41.7142
+
+
+
+RAT Size = 8
+Conditional Mispredicts GeoMean = 0
+Target Mispredicts GeoMean = 57.7961
+Total Accuracy GeoMean = 41.9167
+
+
+
+RAT Size = 16
+Conditional Mispredicts GeoMean = 0
+Target Mispredicts GeoMean = 57.6897
+Total Accuracy GeoMean = 42.0034
+
+
+
+RAT Size = 32
+Conditional Mispredicts GeoMean = 0
+Target Mispredicts GeoMean = 57.6463
+Total Accuracy GeoMean = 42.041
+
+
