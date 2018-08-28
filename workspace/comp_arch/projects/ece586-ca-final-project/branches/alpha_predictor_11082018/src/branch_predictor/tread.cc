@@ -9,8 +9,7 @@
 #include "op_state.h"
 #include "predictor.h"
 
-extern PREDICTOR predictor;
-extern const uint32 NUM_BTB_ENTRIES;
+extern PREDICTOR* predictor;
 
 using namespace cbp;
 using namespace std;
@@ -77,8 +76,8 @@ cbp_trace_reader_c::cbp_trace_reader_c(char *trace_name){
 cbp_trace_reader_c::~cbp_trace_reader_c(){
 
 	printf("---CONFIG---\n");
-	printf("RAT Size: %d\n", predictor.rat.max_size);
-	printf("BTB Size: %d\n", NUM_BTB_ENTRIES);
+	printf("RAT Size: %d\n", predictor->rat.max_size);
+	printf("BTB Size: %d\n", predictor->NUM_BTB_ENTRIES);
 
     printf("*********************************************************\n");
     int   mis_bpreds     = (stat_num_cc_branches - stat_num_correct_bpredicts);

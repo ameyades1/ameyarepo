@@ -30,15 +30,8 @@ typedef unsigned int		uint32;
 typedef signed int 			int32;
 typedef signed short		int16;
 
-
-// Global History Size
-const uint8 GR_SIZE = 12;
-
-// Need at the most 2 ^ GR_SIZE counter
-const uint32 NUM_COUNTERS = 1 << GR_SIZE;
-
-// Same as number of counters
-const uint32 NUM_BTB_ENTRIES = NUM_COUNTERS;
+// The default global record size
+#define DEFAULT_GR_SIZE  12
 
 
 /*
@@ -49,7 +42,7 @@ const uint32 NUM_BTB_ENTRIES = NUM_COUNTERS;
 typedef struct _rat
 {
 	std::list<uint> stack;
-	uint max_size;
+	uint8 max_size;
 
 	_rat()
 	{
@@ -65,8 +58,9 @@ typedef enum _counter
 	NOT_TAKEN_STRONG = 0,
 	NOT_TAKEN_WEAK,
 	TAKEN_WEAK,
-	TAKEN_STRONG
-}PRED_COUNTER;
+	TAKEN_STRONG,
+	COUNTER_SIZE
+}PREDICTION;
 
 /*
  * Branch Target Buffer entry
@@ -75,10 +69,10 @@ typedef enum _counter
  */
 typedef struct _btb_entry
 {
-	uint tag;
-	uint target;
+	uint32 tag;
+	uint32 target;
 	bool valid;
-	uint  lru;
+	uint32  lru;
 
 }BTB_ENTRY;
 
@@ -88,11 +82,23 @@ typedef struct _btb_entry
 class PREDICTOR
 {
 public:
+	// Global History Size
+	uint8 GR_SIZE; // = 12;
+
+	// The global history record (masked by GR_SIZE)
+	uint32 GR;
+
+	// Need at the most 2 ^ GR_SIZE counter
+	uint32 NUM_COUNTERS; // = 1 << GR_SIZE;
+
+	// Same as number of counters
+	uint32 NUM_BTB_ENTRIES; // = NUM_COUNTERS;
+
 	// The prediction counters
-	uint8 PRED_COUNTER[NUM_COUNTERS];
+	uint8* PRED_COUNTER; // [NUM_COUNTERS];
 
 	// The Branch Target Buffer
-	BTB_ENTRY BTB[NUM_BTB_ENTRIES];
+	BTB_ENTRY* BTB; // [NUM_BTB_ENTRIES];
 
 	// Current total number of valid entries in the BTB
 	uint NUM_VALID_BTB_ENTRIES;
@@ -100,9 +106,7 @@ public:
 	// Current eviction candidate (Round Robin)
 	uint EVICTION_ENTRY;
 
-	// The global history (masked by GR_SIZE)
-	uint32 GR;
-
+	// The return address stack
 	return_address_stack rat;
 
     bool get_prediction(const branch_record_c* br, const op_state_c* os,
@@ -113,6 +117,10 @@ public:
 
     uint get_target_address(uint32 current_branch_address);
 
+    void update_counter(bool taken);
+
+    bool get_condition_prediction(uint8 counter_value);
+
     /*
      * Clear everything at reset:
      * All counters NOT_TAKEN_STRONG, all BTB entries invalid (0)
@@ -120,11 +128,37 @@ public:
      */
     PREDICTOR()
     {
-    	memset(&PRED_COUNTER, 0, sizeof(PRED_COUNTER));
-    	memset(&BTB, 0, sizeof(BTB));
     	GR = 0;
     	NUM_VALID_BTB_ENTRIES = 0;
     	EVICTION_ENTRY = 0;
+    	PRED_COUNTER = NULL;
+    	BTB = NULL;
+
+    	GR_SIZE = DEFAULT_GR_SIZE;
+    	NUM_COUNTERS = 1 << GR_SIZE;
+    	NUM_BTB_ENTRIES = NUM_COUNTERS;
+    }
+
+    PREDICTOR(uint8 _rat_size, uint8 _gr_size)
+    {
+    	PREDICTOR();
+    	GR_SIZE = _gr_size;
+    	rat.max_size = _rat_size;
+
+    	NUM_COUNTERS = 1 << GR_SIZE;
+    	NUM_BTB_ENTRIES = NUM_COUNTERS;
+
+    	PRED_COUNTER = new uint8[NUM_COUNTERS];
+    	BTB = new BTB_ENTRY[NUM_BTB_ENTRIES];
+
+    	memset(PRED_COUNTER, 0, sizeof(uint8) * NUM_COUNTERS);
+    	memset(BTB, 0, sizeof(BTB_ENTRY) * NUM_BTB_ENTRIES);
+    }
+
+    ~PREDICTOR()
+    {
+    	if(PRED_COUNTER) delete[] PRED_COUNTER;
+    	if(BTB) delete[] BTB;
     }
 };
 

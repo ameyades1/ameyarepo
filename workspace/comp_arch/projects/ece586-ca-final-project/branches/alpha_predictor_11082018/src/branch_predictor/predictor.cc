@@ -8,9 +8,6 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 	bool prediction = false;
 	*predicted_target_address = br->instruction_addr;
 
-	// Compute the gshare hash
-	uint gshare_hash = (br->instruction_addr & ~(-1 << GR_SIZE)) ^ (GR & ~(1 << GR_SIZE));
-
 	/*
 	 * Return address stack for calls, returns
 	 */
@@ -57,8 +54,20 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 	 * If we land here, its a conditional branch
 	 */
 
-	return prediction;   // true for taken, false for not taken
+	// Compute the gshare hash
+	uint gshare_hash = (br->instruction_addr & ~(-1 << GR_SIZE)) ^ (GR & ~(1 << GR_SIZE));
 
+	// Predict taken
+	if(true == get_condition_prediction(PRED_COUNTER[gshare_hash]))
+	{
+		*predicted_target_address = get_target_address(br->instruction_addr);
+		prediction = true;
+	}
+	// Predict not taken
+	else
+		prediction = false;
+
+	return prediction;   // true for taken, false for not taken
 }
 
 
@@ -73,6 +82,14 @@ void PREDICTOR::update_predictor(const branch_record_c* br, const op_state_c* os
 	bool is_btb_full = false;
 	bool first_invalid_found = false;
 
+	/*
+	 * Update the condition counters
+	 */
+	update_counter(taken);
+
+	/*
+	 * Update the target address with actual taken target address
+	 */
 	first_invalid_index = NUM_BTB_ENTRIES - 1;
 
 	// Find the current branch in the BTB and update with actual target address
@@ -123,6 +140,12 @@ void PREDICTOR::update_predictor(const branch_record_c* br, const op_state_c* os
 		}
 	}
 
+	/*
+	 * Finally update the global history record
+	 */
+	GR = GR << 1;
+	if(taken) GR |= 0x01;
+	GR &= ~(-1 << GR_SIZE);
 }
 
 // Get the target address from BTB
@@ -143,4 +166,31 @@ uint PREDICTOR::get_target_address(uint current_branch_address)
 	}
 
 	return target_address;
+}
+
+// Update the two bit prediction counters
+void PREDICTOR::update_counter(bool taken)
+{
+	if(taken)
+	{
+		PRED_COUNTER[GR]++;
+
+		// Ceil to TAKEN_STRONG
+		if(PRED_COUNTER[GR] >= COUNTER_SIZE)
+			PRED_COUNTER[GR]--;
+	}
+	else
+	{
+		// Floor to NOT_TAKEN_STRONG
+		if(NOT_TAKEN_STRONG != PRED_COUNTER[GR])
+			PRED_COUNTER[GR]--;
+	}
+}
+
+bool PREDICTOR::get_condition_prediction(uint8 counter_value)
+{
+	if(counter_value == NOT_TAKEN_STRONG || counter_value == NOT_TAKEN_WEAK)
+		return false;
+	else
+		return true;
 }

@@ -13,7 +13,6 @@ mkdir -p $results_folder
 
 # Log file
 log_file=$results_folder/rat_results.log
-#rm -rf $log_file
 
 # Executable path
 predictor_path=../src/branch_predictor
@@ -30,7 +29,10 @@ declare -a trace_list=(
 )
 
 # Return Address stack sizes
-declare -a rat_sizes=(1 4 8 16 32)
+declare -a rat_sizes=(1 2 4 8 16 32)
+
+# Global History Size
+g_hist_size=12
 
 for i in ${rat_sizes[@]}; do
   mkdir -p $results_folder/rat_${i}
@@ -38,7 +40,7 @@ for i in ${rat_sizes[@]}; do
   for j in ${trace_list[@]}; do
     echo "Simulating RAT =" $i "for trace " $j " ..."
     echo $j >> $results_folder/rat_${i}/trace_analysis_${j}.txt  
-    $predictor_path/predictor --trace-file=$trace_file_directory/$j --rat-size=$i >> $results_folder/rat_${i}/trace_analysis_${j}.txt &
+    $predictor_path/predictor --trace-file=$trace_file_directory/$j --rat-size=$i --g-history-size=$g_hist_size >> $results_folder/rat_${i}/trace_analysis_${j}.txt &
   done
   
 done
@@ -51,13 +53,12 @@ for i in ${rat_sizes[@]}; do
   cat $results_folder/rat_${i}/trace_analysis_* > $results_folder/rat_${i}/trace_analysis.txt
 done
     
-
 # Compute the mispredict params
-echo -e "\nResults Summary:"
+echo -e "\nResults Summary: " $results_folder
 
 for i in ${rat_sizes[@]}; do
 	echo -e "\nRAT Size = $i" | tee -a $log_file
-	grep -i wrong_cc_bpredicts $results_folder/rat_${i}/trace_analysis.txt | awk -v mul=1 '{mul=mul*$9} END {print "Conditional Mispredicts GeoMean = " (mul ^ (1/NR))}' | tee -a $log_file
+	grep -i wrong_cc_bpredicts $results_folder/rat_${i}/trace_analysis.txt | awk -v mul=1 '{mul=mual*$9} END {print "Conditional Mispredicts GeoMean = " (mul ^ (1/NR))}' | tee -a $log_file
 	grep -i wrong_tpredicts $results_folder/rat_${i}/trace_analysis.txt | awk -v mul=1 '{mul=mul*$9} END {print "Target Mispredicts GeoMean = " (mul ^ (1/NR))}' | tee -a $log_file
     grep -i "total accuracy" $results_folder/rat_${i}/trace_analysis.txt | awk -v mul=1 '{mul=mul*$3} END {print "Total Accuracy GeoMean = " (mul ^ (1/NR))}' | tee -a $log_file  
 	echo -e "\n" | tee -a $log_file
