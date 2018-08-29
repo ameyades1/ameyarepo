@@ -77,67 +77,32 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 
 void PREDICTOR::update_predictor(const branch_record_c* br, const op_state_c* os, bool taken, uint actual_target_address)
 {
-	uint i, first_invalid_index;
-	bool found = false;
-	bool is_btb_full = false;
-	bool first_invalid_found = false;
-
 	/*
 	 * Update the condition counters
 	 */
 	update_counter(taken);
 
-	/*
-	 * Update the target address with actual taken target address
-	 */
-	first_invalid_index = NUM_BTB_ENTRIES - 1;
-
 	// Find the current branch in the BTB and update with actual target address
 	// As we traverse, count the valid and track the first invalid (empty) entry too.
-	for(i = 0; i < NUM_BTB_ENTRIES; i++)
+	std::list<BTB_ENTRY>::iterator it;
+	it = std::find(BTB.begin(), BTB.end(), BTB_ENTRY(br->instruction_addr));
+
+	if (it != BTB.end())
 	{
-		if(BTB[i].valid)
-			NUM_VALID_BTB_ENTRIES++;
-
-		if(!BTB[i].valid && first_invalid_found == false)
-		{
-			first_invalid_index = i;
-			first_invalid_found = true;
-		}
-
-		if (BTB[i].valid && BTB[i].tag == br->instruction_addr)
-		{
-			found = true;
-			break;
-		}
-	}
-
-	is_btb_full = (NUM_VALID_BTB_ENTRIES == NUM_BTB_ENTRIES) ? true : false;
-
-	// If we find a matching one, update the correct address
-	if(found)
-	{
-		BTB[i].target = actual_target_address;
+		// BTB Entry found
+		it->target = actual_target_address;
 	}
 	else
 	{
-		// Not found. If BTB is not full, insert the counter at first invalid index
-		if(!is_btb_full)
+		// Not found
+		if(BTB.size() >= NUM_BTB_ENTRIES)
 		{
-			BTB[first_invalid_index].tag    = br->instruction_addr;
-			BTB[first_invalid_index].target = actual_target_address;
-			BTB[first_invalid_index].valid  = true;
+			// BTB Full. Evict someone
+			BTB.pop_front();
 		}
-		else
-		{
-			// BTB is full. Capacity miss! Evict in round robin fashion
-			BTB[EVICTION_ENTRY].tag    = br->instruction_addr;
-			BTB[EVICTION_ENTRY].target = actual_target_address;
-			BTB[EVICTION_ENTRY].valid  = true;
 
-			EVICTION_ENTRY++;
-			EVICTION_ENTRY = (EVICTION_ENTRY + 1) % NUM_BTB_ENTRIES;
-		}
+		// Insert the BTB entry
+	    BTB.push_back(BTB_ENTRY(br->instruction_addr, actual_target_address));
 	}
 
 	/*
@@ -151,19 +116,18 @@ void PREDICTOR::update_predictor(const branch_record_c* br, const op_state_c* os
 // Get the target address from BTB
 uint PREDICTOR::get_target_address(uint current_branch_address)
 {
-	uint i, target_address;
+	uint target_address;
 
 	// If not found, set target to a safe known branch
 	target_address = current_branch_address;
 
-	for(i = 0; i < NUM_BTB_ENTRIES; i++)
-	{
-		if(BTB[i].valid && BTB[i].tag == current_branch_address)
-		{
-			target_address = BTB[i].target;
-			break;
-		}
-	}
+	std::list<BTB_ENTRY>::iterator it;
+	it = std::find(BTB.begin(), BTB.end(), BTB_ENTRY(current_branch_address));
+
+	if (it != BTB.end())
+		target_address = it->target;
+	else
+		target_address = current_branch_address;
 
 	return target_address;
 }

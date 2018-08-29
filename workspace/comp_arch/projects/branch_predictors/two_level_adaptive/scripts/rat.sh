@@ -1,21 +1,20 @@
 #!/bin/bash
 
 #
-# Return Address Stack, No BTB
+# Return Address Stack
 #
 
 # Results folder
-results_folder_base=$1
-[ -z $results_folder_base ] && results_folder_base=../results
+#[ -z $results_folder_base ] && results_folder_base=../results/return_address_stack
 
-results_folder=../results/$results_folder_base/$(uuidgen -t)
+results_folder=../results/return_address_stack/$(uuidgen -t)
 mkdir -p $results_folder
 
 # Log file
 log_file=$results_folder/rat_results.log
 
 # Executable path
-predictor_path=../src/branch_predictor
+predictor_path=../src/
 
 # Trace file directory
 trace_file_directory=../traces
@@ -29,7 +28,7 @@ declare -a trace_list=(
 )
 
 # Return Address stack sizes
-declare -a rat_sizes=(1 2 4 8 16 32)
+declare -a rat_sizes=(16 32)
 
 # Global History Size
 g_hist_size=12

@@ -1,5 +1,12 @@
 g++ -g -Wall   -c -o cbp_inst.o cbp_inst.cc
 g++ -g -Wall   -c -o main.o main.cc
+main.cc: In function ‘int main(int, char**)’:
+main.cc:89:40: warning: format ‘%d’ expects argument of type ‘int*’, but argument 3 has type ‘uint8* {aka unsigned char*}’ [-Wformat=]
+          sscanf(optarg, "%d", &rat_size);
+                                        ^
+main.cc:93:41: warning: format ‘%d’ expects argument of type ‘int*’, but argument 3 has type ‘uint8* {aka unsigned char*}’ [-Wformat=]
+            sscanf(optarg, "%d", &gr_size);
+                                         ^
 g++ -g -Wall   -c -o op_state.o op_state.cc
 g++ -g -Wall   -c -o predictor.o predictor.cc
 g++ -g -Wall   -c -o tread.o tread.cc

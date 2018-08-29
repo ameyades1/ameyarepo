@@ -74,6 +74,28 @@ typedef struct _btb_entry
 	bool valid;
 	uint32  lru;
 
+	_btb_entry(uint32 _tag)
+	{
+		tag = _tag;
+	}
+
+	_btb_entry(uint32 _tag, uint32 _target)
+	{
+		tag = _tag;
+		target = _target;
+	}
+
+	// Predicate
+	bool operator() (const _btb_entry& entry) const
+	{
+		return entry.tag == tag;
+	}
+
+	bool operator== (const _btb_entry& entry) const
+	{
+		return entry.tag == tag;
+	}
+
 }BTB_ENTRY;
 
 /*
@@ -98,7 +120,7 @@ public:
 	uint8* PRED_COUNTER; // [NUM_COUNTERS];
 
 	// The Branch Target Buffer
-	BTB_ENTRY* BTB; // [NUM_BTB_ENTRIES];
+	std::list<BTB_ENTRY> BTB; // [NUM_BTB_ENTRIES];
 
 	// Current total number of valid entries in the BTB
 	uint NUM_VALID_BTB_ENTRIES;
@@ -132,7 +154,6 @@ public:
     	NUM_VALID_BTB_ENTRIES = 0;
     	EVICTION_ENTRY = 0;
     	PRED_COUNTER = NULL;
-    	BTB = NULL;
 
     	GR_SIZE = DEFAULT_GR_SIZE;
     	NUM_COUNTERS = 1 << GR_SIZE;
@@ -149,16 +170,13 @@ public:
     	NUM_BTB_ENTRIES = NUM_COUNTERS;
 
     	PRED_COUNTER = new uint8[NUM_COUNTERS];
-    	BTB = new BTB_ENTRY[NUM_BTB_ENTRIES];
 
     	memset(PRED_COUNTER, 0, sizeof(uint8) * NUM_COUNTERS);
-    	memset(BTB, 0, sizeof(BTB_ENTRY) * NUM_BTB_ENTRIES);
     }
 
     ~PREDICTOR()
     {
     	if(PRED_COUNTER) delete[] PRED_COUNTER;
-    	if(BTB) delete[] BTB;
     }
 };
 
