@@ -1,0 +1,16 @@
+---Predictor Configurations---
+RAT Sizes: 16
+GHR Sizes: 12
+AHRT Sizes: 32 64 128 256 512
+AHRT Asso: 2
+BTB Sizes: 256
+
+Total Configurations = 1 x 1 x 5 x 1 x 1 = 5
+
+---Results Summary---
+RAT GHR AHRT AHRT_ASSO -- Accuracy
+16   12   32    2      84.1529
+16   12   64    2      86.3455
+16   12   128    2      87.864
+16   12   256    2      88.8965
+16   12   512    2      89.2918
