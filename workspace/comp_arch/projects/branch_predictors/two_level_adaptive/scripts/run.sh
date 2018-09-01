@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Return Address Stack
+# Per Address Local History
 #
 
 # Results folder
@@ -31,10 +31,10 @@ declare -a trace_list=(
 declare rat_size=16
 
 # Global History Size
-declare -a g_hist_sizes=(8 16)
+declare -a g_hist_sizes=(12)
 
 # AHRT Size
-declare -a ahrt_sizes=(128 256 512)
+declare -a ahrt_sizes=(16 32 64 128 256 512)
 
 # AHRT Associativity
 declare ahrt_asso=4
@@ -43,13 +43,13 @@ declare ahrt_asso=4
 declare btb_size=512
 
 for i in ${g_hist_sizes[@]}; do
-  mkdir -p $results_folder/g_hist_sizes_${i}
+  mkdir -p $results_folder/
   
   for k in ${ahrt_sizes[@]}; do
     for j in ${trace_list[@]}; do
       echo "Simulating g_hist_size =" $i " ahrt_size = " $k " for trace " $j " ..."
-      echo $j >> $results_folder/g_hist_sizes_${i}/trace_analysis_${i}_${k}_${j}.txt  
-      $predictor_path/predictor --trace-file=$trace_file_directory/$j --rat-size=$rat_size --g-history-size=$i --ahrt-size=$k --ahrt-asso=$ahrt_asso --btb-size=$btb_size>> $results_folder/g_hist_sizes_${i}/trace_analysis_${i}_${k}_${j}.txt &
+      echo $j >> $results_folder/trace_analysis_${i}_${k}_${j}.txt  
+      $predictor_path/predictor --trace-file=$trace_file_directory/$j --rat-size=$rat_size --g-history-size=$i --ahrt-size=$k --ahrt-asso=$ahrt_asso --btb-size=$btb_size>> $results_folder/trace_analysis_${i}_${k}_${j}.txt &
     done
   done
   
@@ -59,10 +59,9 @@ wait
 
 echo -e "\nFinished Simulating ..."
 
-for i in ${g_hist_sizes[@]}; do
-  cat $results_folder/g_hist_sizes_${i}/trace_analysis_* > $results_folder/g_hist_sizes_${i}/trace_analysis.txt
-done
-    
+cat $results_folder/trace_analysis_* > $results_folder/trace_analysis.txt
+echo -e "\nResults Summary: " $results_folder
+
 ## Compute the mispredict params
 #echo -e "\nResults Summary: " $results_folder
 #

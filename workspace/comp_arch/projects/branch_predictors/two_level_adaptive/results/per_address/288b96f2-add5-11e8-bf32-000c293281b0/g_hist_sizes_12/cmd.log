@@ -1,0 +1,10 @@
+ 2082  clear
+ 2083  grep -i -e DIST -e accuracy trace_analysis.txt | paste -d " "  - - | awk '{printf("%-15s %s\n",$1,$4)}'
+ 2084  clear
+ 2085  history -n 1
+ 2086  history -n -1
+ 2087  history | tail 
+ 2088  clear
+ 2089  ls
+ 2090  clear
+ 2091  history | tail -n 10 > cmd.log
