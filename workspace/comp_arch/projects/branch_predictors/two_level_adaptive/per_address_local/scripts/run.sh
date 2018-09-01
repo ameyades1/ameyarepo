@@ -34,10 +34,10 @@ declare rat_size=16
 declare -a g_hist_sizes=(12)
 
 # AHRT Size
-declare -a ahrt_sizes=(16 32 64 128 256 512)
+declare -a ahrt_sizes=(256)
 
 # AHRT Associativity
-declare ahrt_asso=4
+declare ahrt_asso=8
 
 # BTB Sizes
 declare btb_size=512
@@ -60,6 +60,7 @@ wait
 echo -e "\nFinished Simulating ..."
 
 cat $results_folder/trace_analysis_* > $results_folder/trace_analysis.txt
+#./run.sh $results_folder/trace_analysis.txt | tee $results_folder/result.log
 echo -e "\nResults Summary: " $results_folder
 
 ## Compute the mispredict params
