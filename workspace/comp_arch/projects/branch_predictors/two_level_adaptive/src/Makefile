@@ -19,7 +19,7 @@ tread.o : tread.h cbp_inst.h op_state.h
 clean :
 	rm -f predictor $(objects) check.log
 
-CHECK_TRACE_FILE=../../traces/DIST-FP-1
+CHECK_TRACE_FILE=../traces/DIST-FP-1
 CHECK_RAT_SIZE=4
 CHECK_G_HISTORY_SIZE=12
 check:

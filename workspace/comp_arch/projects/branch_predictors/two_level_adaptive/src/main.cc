@@ -17,21 +17,35 @@
 PREDICTOR* predictor;
 
 
+/*
+ * DEFAULT VALUES
+ */
+#define DEFAULT_RAT_SIZE           (16)
+#define DEFAULT_GHR_SIZE           (12)
+#define DEFAULT_AHRT_ENTRIES       (512)
+#define DEFAULT_AHRT_ASSOCIATIVITY (4)
+#define DEFAULT_BTB_ENTRIES        (DEFAULT_AHRT_ENTRIES)
+
 // usage: predictor <trace>
 int
 main(int argc, char* argv[])
 {
     using namespace std;
-    /*
-     * Arguments
-     * 1 = trace file
-     * 2 = return address stack size
-     */
+
     // Return address stack size
-    uint8 rat_size;
+    uint8 rat_size = DEFAULT_RAT_SIZE;
 
     // Global history record size
-    uint8 gr_size;
+    uint8 ghr_size = DEFAULT_GHR_SIZE;
+
+    // AHRT Entries
+    uint32 ahrt_entries = DEFAULT_AHRT_ENTRIES;
+
+    // AHRT Associativity
+    uint32 ahrt_associativity = DEFAULT_AHRT_ASSOCIATIVITY;
+
+    // BTB Entries
+    uint32 btb_entries = DEFAULT_BTB_ENTRIES;
 
     branch_record_c br;     // Branch record
     uint targetaddress;		// predicted target address
@@ -47,12 +61,15 @@ main(int argc, char* argv[])
       {
         static struct option long_options[] =
           {
-            /* These options don’t set a flag.
+            /* These options donï¿½t set a flag.
                We distinguish them by their indices. */
             {"help",           no_argument,       0, 'h'},
             {"trace-file",     required_argument, 0, 't'},
             {"rat-size",       required_argument, 0, 'r'},
 			{"g-history-size", required_argument, 0, 'g'},
+			{"ahrt-size",      required_argument, 0, 'a'},
+			{"ahrt-asso",      required_argument, 0, 's'},
+			{"btb-size",       required_argument, 0, 'b'},
             {0, 0, 0, 0}
           };
         /* getopt_long stores the option index here. */
@@ -89,24 +106,42 @@ main(int argc, char* argv[])
         	sscanf(optarg, "%d", &rat_size);
         	break;
 
+        	// Global history record size
           case 'g':
-        	  sscanf(optarg, "%d", &gr_size);
+        	  sscanf(optarg, "%d", &ghr_size);
             break;
 
+            // Associative History Record Table Size
+          case 'a':
+        	  sscanf(optarg, "%d", &ahrt_entries);
+            break;
+
+            // History Record Table Associativity
+          case 's':
+        	  sscanf(optarg, "%d", &ahrt_associativity);
+            break;
+
+            // Branch Target Buffer Size
+          case 'b':
+        	  sscanf(optarg, "%d", &btb_entries);
+            break;
           default:
             abort ();
           }
       }
 
-    predictor = new PREDICTOR(rat_size, gr_size);
+    predictor = new PREDICTOR(rat_size, ghr_size, ahrt_entries, ahrt_associativity, btb_entries);
 
-	printf("---CONFIG---\n");
-	printf("RAT Size: %d\n", predictor->rat.max_size);
-	printf("BTB Size: %d\n", predictor->NUM_BTB_ENTRIES);
+	printf("---Predictor Configuration---\n");
+	printf("RAT Size:  %d\n", rat_size);
+	printf("GHR Size:  %d\n", ghr_size);
+	printf("AHRT Size: %d\n", ahrt_entries);
+	printf("AHRT Asso: %d\n", ahrt_associativity);
+	printf("BTB Size: %d\n", btb_entries);
 
     if(NULL == cbptr)
     {
-    	printf("usage: %s --trace-file=<trace> --rat-size=<value> --g-history-size=<value>\n", argv[0]);
+    	printf("usage: %s --trace-file=<trace> --rat-size=<value> --g-history-size=<value> \n", argv[0]);
     	exit(EXIT_FAILURE);
     }
 

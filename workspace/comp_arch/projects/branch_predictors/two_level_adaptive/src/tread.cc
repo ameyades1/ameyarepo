@@ -74,11 +74,11 @@ cbp_trace_reader_c::cbp_trace_reader_c(char *trace_name){
 }
 
 cbp_trace_reader_c::~cbp_trace_reader_c(){
-
+#if 0
 	printf("---CONFIG---\n");
 	printf("RAT Size: %d\n", predictor->rat.max_size);
 	printf("BTB Size: %d\n", predictor->NUM_BTB_ENTRIES);
-
+#endif
     printf("*********************************************************\n");
     int   mis_bpreds     = (stat_num_cc_branches - stat_num_correct_bpredicts);
     int   mis_tpreds	 = (stat_num_branches - stat_num_correct_tpredicts);

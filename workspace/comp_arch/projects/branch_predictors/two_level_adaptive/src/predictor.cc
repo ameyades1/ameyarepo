@@ -54,18 +54,32 @@ bool PREDICTOR::get_prediction(const branch_record_c* br, const op_state_c* os,
 	 * If we land here, its a conditional branch
 	 */
 
-	// Compute the gshare hash
-	uint gshare_hash = (br->instruction_addr & ~(-1 << GR_SIZE)) ^ (GR & ~(1 << GR_SIZE));
-
-	// Predict taken
-	if(true == get_condition_prediction(PRED_COUNTER[gshare_hash]))
+	// Get the history pattern for this branch in the AHRT
+	uint32 ghrt;
+	if(AHRT->read_cache(br->instruction_addr, ghrt))
 	{
-		*predicted_target_address = get_target_address(br->instruction_addr);
-		prediction = true;
+		// Pattern found
+		if(true == get_condition_prediction(PRED_COUNTER[ghrt]))
+		{
+            // Predict taken, not get target address
+			*predicted_target_address = get_target_address(br->instruction_addr);
+			prediction = true;
+
+			// We are done
+			return prediction;
+		}
+		else
+		{
+			// Predict not taken
+			prediction = false;
+
+			// We are done
+			return prediction;
+		}
 	}
-	// Predict not taken
-	else
-		prediction = false;
+
+	// Pattern not found. Predict not taken
+	prediction = false;
 
 	return prediction;   // true for taken, false for not taken
 }
@@ -80,10 +94,29 @@ void PREDICTOR::update_predictor(const branch_record_c* br, const op_state_c* os
 	/*
 	 * Update the condition counters
 	 */
-	update_counter(taken);
+
+	uint32 ghr = 0;
+
+	// Get the global history record for this branch
+    if(AHRT->read_cache(br->instruction_addr, ghr))
+    {
+    	// It exists, update the counter
+    	update_counter(ghr, taken);
+    }
+
+	// Update it
+	ghr = ghr << 1;
+	if(taken)
+		ghr |= 0x01;
+	ghr = ghr & ~(-1 << GHR_SIZE);
+
+	AHRT->write_cache(br->instruction_addr, ghr);
+
+	/*
+	 * Update the Branch Target Buffer
+	 */
 
 	// Find the current branch in the BTB and update with actual target address
-	// As we traverse, count the valid and track the first invalid (empty) entry too.
 	std::list<BTB_ENTRY>::iterator it;
 	it = std::find(BTB.begin(), BTB.end(), BTB_ENTRY(br->instruction_addr));
 
@@ -98,19 +131,32 @@ void PREDICTOR::update_predictor(const branch_record_c* br, const op_state_c* os
 		if(BTB.size() >= NUM_BTB_ENTRIES)
 		{
 			// BTB Full. Evict someone
-			BTB.pop_front();
+			BTB.pop_back();
 		}
 
 		// Insert the BTB entry
-	    BTB.push_back(BTB_ENTRY(br->instruction_addr, actual_target_address));
+	    BTB.push_front(BTB_ENTRY(br->instruction_addr, actual_target_address));
 	}
+}
 
-	/*
-	 * Finally update the global history record
-	 */
-	GR = GR << 1;
-	if(taken) GR |= 0x01;
-	GR &= ~(-1 << GR_SIZE);
+
+// Update the prediction counters
+void PREDICTOR::update_counter(uint32 ghrt, bool taken)
+{
+    if(taken)
+    {
+    	PRED_COUNTER[ghrt]++;
+
+    	// Ceil to TAKEN_STRONG
+    	if(PRED_COUNTER[ghrt] >= COUNTER_SIZE)
+    		PRED_COUNTER[ghrt] = TAKEN_STRONG;
+    }
+    else
+    {
+        // Floor to NOT_TAKEN_STRONG
+    	if(PRED_COUNTER[ghrt] > 0)
+        	PRED_COUNTER[ghrt]--;
+    }
 }
 
 // Get the target address from BTB
@@ -132,24 +178,6 @@ uint PREDICTOR::get_target_address(uint current_branch_address)
 	return target_address;
 }
 
-// Update the two bit prediction counters
-void PREDICTOR::update_counter(bool taken)
-{
-	if(taken)
-	{
-		PRED_COUNTER[GR]++;
-
-		// Ceil to TAKEN_STRONG
-		if(PRED_COUNTER[GR] >= COUNTER_SIZE)
-			PRED_COUNTER[GR]--;
-	}
-	else
-	{
-		// Floor to NOT_TAKEN_STRONG
-		if(NOT_TAKEN_STRONG != PRED_COUNTER[GR])
-			PRED_COUNTER[GR]--;
-	}
-}
 
 bool PREDICTOR::get_condition_prediction(uint8 counter_value)
 {
