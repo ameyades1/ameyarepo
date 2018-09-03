@@ -34,7 +34,7 @@ declare rat_size=16
 declare -a g_hist_sizes=(12)
 
 # AHRT Size
-declare -a ahrt_sizes=(32 64 128 256 512)
+declare -a ahrt_sizes=(256 512 1024 2048 4096 8192)
 
 # AHRT Associativity
 declare ahrt_asso=2

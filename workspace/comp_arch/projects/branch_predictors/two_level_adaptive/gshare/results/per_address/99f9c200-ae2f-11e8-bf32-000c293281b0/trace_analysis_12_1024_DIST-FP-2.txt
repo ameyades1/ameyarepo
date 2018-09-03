@@ -1,0 +1,20 @@
+DIST-FP-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+gshare Size: 8
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    56730 / 29499869 =   1.923
+1000*wrong_tpredicts/total insts: 1000 *    59291 / 29499869 =   2.010
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+total calls:                          451
+total returns:                        447
+total indirects:                      737
+total accuracy:                    96.716 %
+*********************************************************
+

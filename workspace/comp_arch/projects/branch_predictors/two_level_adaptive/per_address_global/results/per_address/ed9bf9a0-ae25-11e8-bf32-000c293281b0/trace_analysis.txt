@@ -1,0 +1,2280 @@
+DIST-FP-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   134581 / 29499988 =   4.562
+1000*wrong_tpredicts/total insts: 1000 *   136738 / 29499988 =   4.635
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+total calls:                       143763
+total returns:                     143760
+total indirects:                   143951
+total accuracy:                    94.774 %
+*********************************************************
+
+DIST-FP-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    58401 / 29499869 =   1.980
+1000*wrong_tpredicts/total insts: 1000 *    59396 / 29499869 =   2.013
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+total calls:                          451
+total returns:                        447
+total indirects:                      737
+total accuracy:                    96.710 %
+*********************************************************
+
+DIST-FP-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    19440 / 29499978 =   0.659
+1000*wrong_tpredicts/total insts: 1000 *    20467 / 29499978 =   0.694
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+total calls:                         6042
+total returns:                       6035
+total indirects:                     6476
+total accuracy:                    98.699 %
+*********************************************************
+
+DIST-FP-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    12000 / 29499976 =   0.407
+1000*wrong_tpredicts/total insts: 1000 *    12794 / 29499976 =   0.434
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+total calls:                         7853
+total returns:                       7854
+total indirects:                     8149
+total accuracy:                    98.611 %
+*********************************************************
+
+DIST-FP-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    78632 / 29499969 =   2.665
+1000*wrong_tpredicts/total insts: 1000 *    78894 / 29499969 =   2.674
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+total calls:                       125386
+total returns:                     125386
+total indirects:                   125473
+total accuracy:                    97.102 %
+*********************************************************
+
+DIST-INT-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   371325 / 29499987 =  12.587
+1000*wrong_tpredicts/total insts: 1000 *   405239 / 29499987 =  13.737
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+total calls:                       227558
+total returns:                     227563
+total indirects:                   227762
+total accuracy:                    91.877 %
+*********************************************************
+
+DIST-INT-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   399295 / 29499985 =  13.535
+1000*wrong_tpredicts/total insts: 1000 *   796246 / 29499985 =  26.991
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+total calls:                       227338
+total returns:                     227336
+total indirects:                   258125
+total accuracy:                    78.312 %
+*********************************************************
+
+DIST-INT-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   569241 / 29499978 =  19.296
+1000*wrong_tpredicts/total insts: 1000 *   689336 / 29499978 =  23.367
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+total calls:                        28369
+total returns:                      28365
+total indirects:                    28870
+total accuracy:                    83.335 %
+*********************************************************
+
+DIST-INT-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   106240 / 29499960 =   3.601
+1000*wrong_tpredicts/total insts: 1000 *   219954 / 29499960 =   7.456
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+total calls:                       141358
+total returns:                     141358
+total indirects:                   186029
+total accuracy:                    90.959 %
+*********************************************************
+
+DIST-INT-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    18784 / 29499990 =   0.637
+1000*wrong_tpredicts/total insts: 1000 *    26390 / 29499990 =   0.895
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+total calls:                        17200
+total returns:                      17198
+total indirects:                    24891
+total accuracy:                    99.309 %
+*********************************************************
+
+DIST-MM-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   329781 / 29499979 =  11.179
+1000*wrong_tpredicts/total insts: 1000 *   335179 / 29499979 =  11.362
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+total calls:                       144562
+total returns:                     144561
+total indirects:                   181668
+total accuracy:                    87.962 %
+*********************************************************
+
+DIST-MM-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   415084 / 29499970 =  14.071
+1000*wrong_tpredicts/total insts: 1000 *   433964 / 29499970 =  14.711
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+total calls:                       109399
+total returns:                     109049
+total indirects:                   195694
+total accuracy:                    89.700 %
+*********************************************************
+
+DIST-MM-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   268499 / 29499970 =   9.102
+1000*wrong_tpredicts/total insts: 1000 *   717265 / 29499970 =  24.314
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+total calls:                       825753
+total returns:                     825729
+total indirects:                  1027486
+total accuracy:                    85.519 %
+*********************************************************
+
+DIST-MM-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    76739 / 29499993 =   2.601
+1000*wrong_tpredicts/total insts: 1000 *   146552 / 29499993 =   4.968
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+total calls:                        78119
+total returns:                      77950
+total indirects:                    92379
+total accuracy:                    97.118 %
+*********************************************************
+
+DIST-MM-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   263553 / 29499791 =   8.934
+1000*wrong_tpredicts/total insts: 1000 *   661691 / 29499791 =  22.430
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+total calls:                       304647
+total returns:                     304333
+total indirects:                   479709
+total accuracy:                    80.575 %
+*********************************************************
+
+DIST-SERV-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   328992 / 29499316 =  11.153
+1000*wrong_tpredicts/total insts: 1000 *  1117269 / 29499316 =  37.874
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+total calls:                       692706
+total returns:                     691662
+total indirects:                   973088
+total accuracy:                    80.074 %
+*********************************************************
+
+DIST-SERV-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   332007 / 29499198 =  11.255
+1000*wrong_tpredicts/total insts: 1000 *  1106606 / 29499198 =  37.513
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+total calls:                       669963
+total returns:                     668950
+total indirects:                   942449
+total accuracy:                    79.673 %
+*********************************************************
+
+DIST-SERV-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   291960 / 29499817 =   9.897
+1000*wrong_tpredicts/total insts: 1000 *   886873 / 29499817 =  30.064
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+total calls:                       445955
+total returns:                     444864
+total indirects:                   583482
+total accuracy:                    83.449 %
+*********************************************************
+
+DIST-SERV-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   354018 / 29498081 =  12.001
+1000*wrong_tpredicts/total insts: 1000 *  1347975 / 29498081 =  45.697
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+total calls:                       651171
+total returns:                     650002
+total indirects:                   949499
+total accuracy:                    78.603 %
+*********************************************************
+
+DIST-SERV-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 1024
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   363790 / 29497759 =  12.333
+1000*wrong_tpredicts/total insts: 1000 *  1360827 / 29497759 =  46.133
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+total calls:                       667104
+total returns:                     666752
+total indirects:                   979776
+total accuracy:                    78.774 %
+*********************************************************
+
+DIST-FP-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   134576 / 29499988 =   4.562
+1000*wrong_tpredicts/total insts: 1000 *   136737 / 29499988 =   4.635
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+total calls:                       143763
+total returns:                     143760
+total indirects:                   143951
+total accuracy:                    94.774 %
+*********************************************************
+
+DIST-FP-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    58400 / 29499869 =   1.980
+1000*wrong_tpredicts/total insts: 1000 *    59399 / 29499869 =   2.014
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+total calls:                          451
+total returns:                        447
+total indirects:                      737
+total accuracy:                    96.710 %
+*********************************************************
+
+DIST-FP-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    19434 / 29499978 =   0.659
+1000*wrong_tpredicts/total insts: 1000 *    20466 / 29499978 =   0.694
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+total calls:                         6042
+total returns:                       6035
+total indirects:                     6476
+total accuracy:                    98.699 %
+*********************************************************
+
+DIST-FP-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    11990 / 29499976 =   0.406
+1000*wrong_tpredicts/total insts: 1000 *    12788 / 29499976 =   0.433
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+total calls:                         7853
+total returns:                       7854
+total indirects:                     8149
+total accuracy:                    98.612 %
+*********************************************************
+
+DIST-FP-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    78632 / 29499969 =   2.665
+1000*wrong_tpredicts/total insts: 1000 *    78894 / 29499969 =   2.674
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+total calls:                       125386
+total returns:                     125386
+total indirects:                   125473
+total accuracy:                    97.102 %
+*********************************************************
+
+DIST-INT-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   371317 / 29499987 =  12.587
+1000*wrong_tpredicts/total insts: 1000 *   405243 / 29499987 =  13.737
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+total calls:                       227558
+total returns:                     227563
+total indirects:                   227762
+total accuracy:                    91.877 %
+*********************************************************
+
+DIST-INT-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   389534 / 29499985 =  13.205
+1000*wrong_tpredicts/total insts: 1000 *   794818 / 29499985 =  26.943
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+total calls:                       227338
+total returns:                     227336
+total indirects:                   258125
+total accuracy:                    78.351 %
+*********************************************************
+
+DIST-INT-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   556425 / 29499978 =  18.862
+1000*wrong_tpredicts/total insts: 1000 *   679407 / 29499978 =  23.031
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+total calls:                        28369
+total returns:                      28365
+total indirects:                    28870
+total accuracy:                    83.575 %
+*********************************************************
+
+DIST-INT-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   105008 / 29499960 =   3.560
+1000*wrong_tpredicts/total insts: 1000 *   218497 / 29499960 =   7.407
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+total calls:                       141358
+total returns:                     141358
+total indirects:                   186029
+total accuracy:                    91.019 %
+*********************************************************
+
+DIST-INT-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    18536 / 29499990 =   0.628
+1000*wrong_tpredicts/total insts: 1000 *    26149 / 29499990 =   0.886
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+total calls:                        17200
+total returns:                      17198
+total indirects:                    24891
+total accuracy:                    99.315 %
+*********************************************************
+
+DIST-MM-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   329712 / 29499979 =  11.177
+1000*wrong_tpredicts/total insts: 1000 *   335132 / 29499979 =  11.360
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+total calls:                       144562
+total returns:                     144561
+total indirects:                   181668
+total accuracy:                    87.964 %
+*********************************************************
+
+DIST-MM-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   414762 / 29499970 =  14.060
+1000*wrong_tpredicts/total insts: 1000 *   434062 / 29499970 =  14.714
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+total calls:                       109399
+total returns:                     109049
+total indirects:                   195694
+total accuracy:                    89.698 %
+*********************************************************
+
+DIST-MM-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   249620 / 29499970 =   8.462
+1000*wrong_tpredicts/total insts: 1000 *   714472 / 29499970 =  24.219
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+total calls:                       825753
+total returns:                     825729
+total indirects:                  1027486
+total accuracy:                    85.575 %
+*********************************************************
+
+DIST-MM-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    74515 / 29499993 =   2.526
+1000*wrong_tpredicts/total insts: 1000 *   146347 / 29499993 =   4.961
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+total calls:                        78119
+total returns:                      77950
+total indirects:                    92379
+total accuracy:                    97.122 %
+*********************************************************
+
+DIST-MM-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   242032 / 29499791 =   8.205
+1000*wrong_tpredicts/total insts: 1000 *   662558 / 29499791 =  22.460
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+total calls:                       304647
+total returns:                     304333
+total indirects:                   479709
+total accuracy:                    80.549 %
+*********************************************************
+
+DIST-SERV-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   297796 / 29499316 =  10.095
+1000*wrong_tpredicts/total insts: 1000 *  1128155 / 29499316 =  38.243
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+total calls:                       692706
+total returns:                     691662
+total indirects:                   973088
+total accuracy:                    79.880 %
+*********************************************************
+
+DIST-SERV-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   300161 / 29499198 =  10.175
+1000*wrong_tpredicts/total insts: 1000 *  1117084 / 29499198 =  37.868
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+total calls:                       669963
+total returns:                     668950
+total indirects:                   942449
+total accuracy:                    79.480 %
+*********************************************************
+
+DIST-SERV-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   260564 / 29499817 =   8.833
+1000*wrong_tpredicts/total insts: 1000 *   879160 / 29499817 =  29.802
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+total calls:                       445955
+total returns:                     444864
+total indirects:                   583482
+total accuracy:                    83.593 %
+*********************************************************
+
+DIST-SERV-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   285775 / 29498081 =   9.688
+1000*wrong_tpredicts/total insts: 1000 *  1352868 / 29498081 =  45.863
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+total calls:                       651171
+total returns:                     650002
+total indirects:                   949499
+total accuracy:                    78.525 %
+*********************************************************
+
+DIST-SERV-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   295866 / 29497759 =  10.030
+1000*wrong_tpredicts/total insts: 1000 *  1370627 / 29497759 =  46.465
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+total calls:                       667104
+total returns:                     666752
+total indirects:                   979776
+total accuracy:                    78.621 %
+*********************************************************
+
+DIST-FP-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   141038 / 29499988 =   4.781
+1000*wrong_tpredicts/total insts: 1000 *   153452 / 29499988 =   5.202
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+total calls:                       143763
+total returns:                     143760
+total indirects:                   143951
+total accuracy:                    94.135 %
+*********************************************************
+
+DIST-FP-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    58938 / 29499869 =   1.998
+1000*wrong_tpredicts/total insts: 1000 *    59907 / 29499869 =   2.031
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+total calls:                          451
+total returns:                        447
+total indirects:                      737
+total accuracy:                    96.682 %
+*********************************************************
+
+DIST-FP-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    19504 / 29499978 =   0.661
+1000*wrong_tpredicts/total insts: 1000 *    20517 / 29499978 =   0.695
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+total calls:                         6042
+total returns:                       6035
+total indirects:                     6476
+total accuracy:                    98.696 %
+*********************************************************
+
+DIST-FP-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    12564 / 29499976 =   0.426
+1000*wrong_tpredicts/total insts: 1000 *    13572 / 29499976 =   0.460
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+total calls:                         7853
+total returns:                       7854
+total indirects:                     8149
+total accuracy:                    98.527 %
+*********************************************************
+
+DIST-FP-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    78635 / 29499969 =   2.666
+1000*wrong_tpredicts/total insts: 1000 *    81140 / 29499969 =   2.751
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+total calls:                       125386
+total returns:                     125386
+total indirects:                   125473
+total accuracy:                    97.020 %
+*********************************************************
+
+DIST-INT-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   373742 / 29499987 =  12.669
+1000*wrong_tpredicts/total insts: 1000 *   411468 / 29499987 =  13.948
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+total calls:                       227558
+total returns:                     227563
+total indirects:                   227762
+total accuracy:                    91.753 %
+*********************************************************
+
+DIST-INT-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   441573 / 29499985 =  14.969
+1000*wrong_tpredicts/total insts: 1000 *   801922 / 29499985 =  27.184
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+total calls:                       227338
+total returns:                     227336
+total indirects:                   258125
+total accuracy:                    78.158 %
+*********************************************************
+
+DIST-INT-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   602895 / 29499978 =  20.437
+1000*wrong_tpredicts/total insts: 1000 *   727341 / 29499978 =  24.656
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+total calls:                        28369
+total returns:                      28365
+total indirects:                    28870
+total accuracy:                    82.416 %
+*********************************************************
+
+DIST-INT-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   119261 / 29499960 =   4.043
+1000*wrong_tpredicts/total insts: 1000 *   231327 / 29499960 =   7.842
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+total calls:                       141358
+total returns:                     141358
+total indirects:                   186029
+total accuracy:                    90.492 %
+*********************************************************
+
+DIST-INT-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    20058 / 29499990 =   0.680
+1000*wrong_tpredicts/total insts: 1000 *    28698 / 29499990 =   0.973
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+total calls:                        17200
+total returns:                      17198
+total indirects:                    24891
+total accuracy:                    99.248 %
+*********************************************************
+
+DIST-MM-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   331073 / 29499979 =  11.223
+1000*wrong_tpredicts/total insts: 1000 *   340709 / 29499979 =  11.549
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+total calls:                       144562
+total returns:                     144561
+total indirects:                   181668
+total accuracy:                    87.764 %
+*********************************************************
+
+DIST-MM-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   418117 / 29499970 =  14.173
+1000*wrong_tpredicts/total insts: 1000 *   435168 / 29499970 =  14.751
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+total calls:                       109399
+total returns:                     109049
+total indirects:                   195694
+total accuracy:                    89.672 %
+*********************************************************
+
+DIST-MM-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   374134 / 29499970 =  12.683
+1000*wrong_tpredicts/total insts: 1000 *   724592 / 29499970 =  24.562
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+total calls:                       825753
+total returns:                     825729
+total indirects:                  1027486
+total accuracy:                    85.371 %
+*********************************************************
+
+DIST-MM-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    86992 / 29499993 =   2.949
+1000*wrong_tpredicts/total insts: 1000 *   148688 / 29499993 =   5.040
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+total calls:                        78119
+total returns:                      77950
+total indirects:                    92379
+total accuracy:                    97.076 %
+*********************************************************
+
+DIST-MM-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   362847 / 29499791 =  12.300
+1000*wrong_tpredicts/total insts: 1000 *   663849 / 29499791 =  22.504
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+total calls:                       304647
+total returns:                     304333
+total indirects:                   479709
+total accuracy:                    80.511 %
+*********************************************************
+
+DIST-SERV-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   378346 / 29499316 =  12.826
+1000*wrong_tpredicts/total insts: 1000 *  1111922 / 29499316 =  37.693
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+total calls:                       692706
+total returns:                     691662
+total indirects:                   973088
+total accuracy:                    80.170 %
+*********************************************************
+
+DIST-SERV-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   375953 / 29499198 =  12.745
+1000*wrong_tpredicts/total insts: 1000 *  1101179 / 29499198 =  37.329
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+total calls:                       669963
+total returns:                     668950
+total indirects:                   942449
+total accuracy:                    79.772 %
+*********************************************************
+
+DIST-SERV-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   380279 / 29499817 =  12.891
+1000*wrong_tpredicts/total insts: 1000 *   925534 / 29499817 =  31.374
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+total calls:                       445955
+total returns:                     444864
+total indirects:                   583482
+total accuracy:                    82.728 %
+*********************************************************
+
+DIST-SERV-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   507247 / 29498081 =  17.196
+1000*wrong_tpredicts/total insts: 1000 *  1356031 / 29498081 =  45.970
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+total calls:                       651171
+total returns:                     650002
+total indirects:                   949499
+total accuracy:                    78.475 %
+*********************************************************
+
+DIST-SERV-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 256
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   494614 / 29497759 =  16.768
+1000*wrong_tpredicts/total insts: 1000 *  1354316 / 29497759 =  45.913
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+total calls:                       667104
+total returns:                     666752
+total indirects:                   979776
+total accuracy:                    78.876 %
+*********************************************************
+
+DIST-FP-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   134576 / 29499988 =   4.562
+1000*wrong_tpredicts/total insts: 1000 *   136737 / 29499988 =   4.635
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+total calls:                       143763
+total returns:                     143760
+total indirects:                   143951
+total accuracy:                    94.774 %
+*********************************************************
+
+DIST-FP-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    58397 / 29499869 =   1.980
+1000*wrong_tpredicts/total insts: 1000 *    59398 / 29499869 =   2.014
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+total calls:                          451
+total returns:                        447
+total indirects:                      737
+total accuracy:                    96.710 %
+*********************************************************
+
+DIST-FP-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    19430 / 29499978 =   0.659
+1000*wrong_tpredicts/total insts: 1000 *    20466 / 29499978 =   0.694
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+total calls:                         6042
+total returns:                       6035
+total indirects:                     6476
+total accuracy:                    98.699 %
+*********************************************************
+
+DIST-FP-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    11986 / 29499976 =   0.406
+1000*wrong_tpredicts/total insts: 1000 *    12787 / 29499976 =   0.433
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+total calls:                         7853
+total returns:                       7854
+total indirects:                     8149
+total accuracy:                    98.612 %
+*********************************************************
+
+DIST-FP-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    78632 / 29499969 =   2.665
+1000*wrong_tpredicts/total insts: 1000 *    78894 / 29499969 =   2.674
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+total calls:                       125386
+total returns:                     125386
+total indirects:                   125473
+total accuracy:                    97.102 %
+*********************************************************
+
+DIST-INT-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   371066 / 29499987 =  12.579
+1000*wrong_tpredicts/total insts: 1000 *   405242 / 29499987 =  13.737
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+total calls:                       227558
+total returns:                     227563
+total indirects:                   227762
+total accuracy:                    91.877 %
+*********************************************************
+
+DIST-INT-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   389161 / 29499985 =  13.192
+1000*wrong_tpredicts/total insts: 1000 *   796911 / 29499985 =  27.014
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+total calls:                       227338
+total returns:                     227336
+total indirects:                   258125
+total accuracy:                    78.294 %
+*********************************************************
+
+DIST-INT-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   555989 / 29499978 =  18.847
+1000*wrong_tpredicts/total insts: 1000 *   679356 / 29499978 =  23.029
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+total calls:                        28369
+total returns:                      28365
+total indirects:                    28870
+total accuracy:                    83.576 %
+*********************************************************
+
+DIST-INT-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   104960 / 29499960 =   3.558
+1000*wrong_tpredicts/total insts: 1000 *   218488 / 29499960 =   7.406
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+total calls:                       141358
+total returns:                     141358
+total indirects:                   186029
+total accuracy:                    91.019 %
+*********************************************************
+
+DIST-INT-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    18535 / 29499990 =   0.628
+1000*wrong_tpredicts/total insts: 1000 *    26149 / 29499990 =   0.886
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+total calls:                        17200
+total returns:                      17198
+total indirects:                    24891
+total accuracy:                    99.315 %
+*********************************************************
+
+DIST-MM-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   329694 / 29499979 =  11.176
+1000*wrong_tpredicts/total insts: 1000 *   335120 / 29499979 =  11.360
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+total calls:                       144562
+total returns:                     144561
+total indirects:                   181668
+total accuracy:                    87.965 %
+*********************************************************
+
+DIST-MM-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   414611 / 29499970 =  14.055
+1000*wrong_tpredicts/total insts: 1000 *   434128 / 29499970 =  14.716
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+total calls:                       109399
+total returns:                     109049
+total indirects:                   195694
+total accuracy:                    89.696 %
+*********************************************************
+
+DIST-MM-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   247561 / 29499970 =   8.392
+1000*wrong_tpredicts/total insts: 1000 *   714473 / 29499970 =  24.219
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+total calls:                       825753
+total returns:                     825729
+total indirects:                  1027486
+total accuracy:                    85.575 %
+*********************************************************
+
+DIST-MM-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    73457 / 29499993 =   2.490
+1000*wrong_tpredicts/total insts: 1000 *   146356 / 29499993 =   4.961
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+total calls:                        78119
+total returns:                      77950
+total indirects:                    92379
+total accuracy:                    97.121 %
+*********************************************************
+
+DIST-MM-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   231281 / 29499791 =   7.840
+1000*wrong_tpredicts/total insts: 1000 *   663586 / 29499791 =  22.495
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+total calls:                       304647
+total returns:                     304333
+total indirects:                   479709
+total accuracy:                    80.519 %
+*********************************************************
+
+DIST-SERV-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   257787 / 29499316 =   8.739
+1000*wrong_tpredicts/total insts: 1000 *  1139737 / 29499316 =  38.636
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+total calls:                       692706
+total returns:                     691662
+total indirects:                   973088
+total accuracy:                    79.674 %
+*********************************************************
+
+DIST-SERV-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   258388 / 29499198 =   8.759
+1000*wrong_tpredicts/total insts: 1000 *  1128522 / 29499198 =  38.256
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+total calls:                       669963
+total returns:                     668950
+total indirects:                   942449
+total accuracy:                    79.270 %
+*********************************************************
+
+DIST-SERV-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   245767 / 29499817 =   8.331
+1000*wrong_tpredicts/total insts: 1000 *   881011 / 29499817 =  29.865
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+total calls:                       445955
+total returns:                     444864
+total indirects:                   583482
+total accuracy:                    83.559 %
+*********************************************************
+
+DIST-SERV-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   248086 / 29498081 =   8.410
+1000*wrong_tpredicts/total insts: 1000 *  1361590 / 29498081 =  46.159
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+total calls:                       651171
+total returns:                     650002
+total indirects:                   949499
+total accuracy:                    78.387 %
+*********************************************************
+
+DIST-SERV-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 4096
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   258423 / 29497759 =   8.761
+1000*wrong_tpredicts/total insts: 1000 *  1381566 / 29497759 =  46.836
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+total calls:                       667104
+total returns:                     666752
+total indirects:                   979776
+total accuracy:                    78.451 %
+*********************************************************
+
+DIST-FP-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   134829 / 29499988 =   4.570
+1000*wrong_tpredicts/total insts: 1000 *   137208 / 29499988 =   4.651
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+total calls:                       143763
+total returns:                     143760
+total indirects:                   143951
+total accuracy:                    94.756 %
+*********************************************************
+
+DIST-FP-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    58405 / 29499869 =   1.980
+1000*wrong_tpredicts/total insts: 1000 *    59391 / 29499869 =   2.013
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+total calls:                          451
+total returns:                        447
+total indirects:                      737
+total accuracy:                    96.710 %
+*********************************************************
+
+DIST-FP-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    19449 / 29499978 =   0.659
+1000*wrong_tpredicts/total insts: 1000 *    20466 / 29499978 =   0.694
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+total calls:                         6042
+total returns:                       6035
+total indirects:                     6476
+total accuracy:                    98.699 %
+*********************************************************
+
+DIST-FP-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    12267 / 29499976 =   0.416
+1000*wrong_tpredicts/total insts: 1000 *    13039 / 29499976 =   0.442
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+total calls:                         7853
+total returns:                       7854
+total indirects:                     8149
+total accuracy:                    98.585 %
+*********************************************************
+
+DIST-FP-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    78633 / 29499969 =   2.666
+1000*wrong_tpredicts/total insts: 1000 *    78895 / 29499969 =   2.674
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+total calls:                       125386
+total returns:                     125386
+total indirects:                   125473
+total accuracy:                    97.102 %
+*********************************************************
+
+DIST-INT-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   371849 / 29499987 =  12.605
+1000*wrong_tpredicts/total insts: 1000 *   405458 / 29499987 =  13.744
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+total calls:                       227558
+total returns:                     227563
+total indirects:                   227762
+total accuracy:                    91.873 %
+*********************************************************
+
+DIST-INT-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   413100 / 29499985 =  14.003
+1000*wrong_tpredicts/total insts: 1000 *   797877 / 29499985 =  27.047
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+total calls:                       227338
+total returns:                     227336
+total indirects:                   258125
+total accuracy:                    78.268 %
+*********************************************************
+
+DIST-INT-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   574885 / 29499978 =  19.488
+1000*wrong_tpredicts/total insts: 1000 *   691752 / 29499978 =  23.449
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+total calls:                        28369
+total returns:                      28365
+total indirects:                    28870
+total accuracy:                    83.277 %
+*********************************************************
+
+DIST-INT-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   109631 / 29499960 =   3.716
+1000*wrong_tpredicts/total insts: 1000 *   220480 / 29499960 =   7.474
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+total calls:                       141358
+total returns:                     141358
+total indirects:                   186029
+total accuracy:                    90.937 %
+*********************************************************
+
+DIST-INT-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    18787 / 29499990 =   0.637
+1000*wrong_tpredicts/total insts: 1000 *    26398 / 29499990 =   0.895
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+total calls:                        17200
+total returns:                      17198
+total indirects:                    24891
+total accuracy:                    99.309 %
+*********************************************************
+
+DIST-MM-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   329993 / 29499979 =  11.186
+1000*wrong_tpredicts/total insts: 1000 *   335433 / 29499979 =  11.371
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+total calls:                       144562
+total returns:                     144561
+total indirects:                   181668
+total accuracy:                    87.953 %
+*********************************************************
+
+DIST-MM-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   416037 / 29499970 =  14.103
+1000*wrong_tpredicts/total insts: 1000 *   433921 / 29499970 =  14.709
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+total calls:                       109399
+total returns:                     109049
+total indirects:                   195694
+total accuracy:                    89.701 %
+*********************************************************
+
+DIST-MM-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   309081 / 29499970 =  10.477
+1000*wrong_tpredicts/total insts: 1000 *   720570 / 29499970 =  24.426
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+total calls:                       825753
+total returns:                     825729
+total indirects:                  1027486
+total accuracy:                    85.452 %
+*********************************************************
+
+DIST-MM-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    79925 / 29499993 =   2.709
+1000*wrong_tpredicts/total insts: 1000 *   146853 / 29499993 =   4.978
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+total calls:                        78119
+total returns:                      77950
+total indirects:                    92379
+total accuracy:                    97.112 %
+*********************************************************
+
+DIST-MM-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   307150 / 29499791 =  10.412
+1000*wrong_tpredicts/total insts: 1000 *   661860 / 29499791 =  22.436
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+total calls:                       304647
+total returns:                     304333
+total indirects:                   479709
+total accuracy:                    80.570 %
+*********************************************************
+
+DIST-SERV-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   354566 / 29499316 =  12.019
+1000*wrong_tpredicts/total insts: 1000 *  1110806 / 29499316 =  37.655
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+total calls:                       692706
+total returns:                     691662
+total indirects:                   973088
+total accuracy:                    80.189 %
+*********************************************************
+
+DIST-SERV-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   355685 / 29499198 =  12.057
+1000*wrong_tpredicts/total insts: 1000 *  1100493 / 29499198 =  37.306
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+total calls:                       669963
+total returns:                     668950
+total indirects:                   942449
+total accuracy:                    79.785 %
+*********************************************************
+
+DIST-SERV-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   327656 / 29499817 =  11.107
+1000*wrong_tpredicts/total insts: 1000 *   892534 / 29499817 =  30.256
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+total calls:                       445955
+total returns:                     444864
+total indirects:                   583482
+total accuracy:                    83.344 %
+*********************************************************
+
+DIST-SERV-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   430098 / 29498081 =  14.581
+1000*wrong_tpredicts/total insts: 1000 *  1343301 / 29498081 =  45.539
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+total calls:                       651171
+total returns:                     650002
+total indirects:                   949499
+total accuracy:                    78.677 %
+*********************************************************
+
+DIST-SERV-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 512
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   429212 / 29497759 =  14.551
+1000*wrong_tpredicts/total insts: 1000 *  1349171 / 29497759 =  45.738
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+total calls:                       667104
+total returns:                     666752
+total indirects:                   979776
+total accuracy:                    78.956 %
+*********************************************************
+
+DIST-FP-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   134576 / 29499988 =   4.562
+1000*wrong_tpredicts/total insts: 1000 *   136737 / 29499988 =   4.635
+total branches:                   2616522
+total cc branches:                2213673
+total predicts:                   2213673
+total calls:                       143763
+total returns:                     143760
+total indirects:                   143951
+total accuracy:                    94.774 %
+*********************************************************
+
+DIST-FP-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    58397 / 29499869 =   1.980
+1000*wrong_tpredicts/total insts: 1000 *    59398 / 29499869 =   2.014
+total branches:                   1805454
+total cc branches:                1792835
+total predicts:                   1792835
+total calls:                          451
+total returns:                        447
+total indirects:                      737
+total accuracy:                    96.710 %
+*********************************************************
+
+DIST-FP-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    19430 / 29499978 =   0.659
+1000*wrong_tpredicts/total insts: 1000 *    20466 / 29499978 =   0.694
+total branches:                   1573540
+total cc branches:                1546797
+total predicts:                   1546797
+total calls:                         6042
+total returns:                       6035
+total indirects:                     6476
+total accuracy:                    98.699 %
+*********************************************************
+
+DIST-FP-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    11986 / 29499976 =   0.406
+1000*wrong_tpredicts/total insts: 1000 *    12787 / 29499976 =   0.433
+total branches:                    921402
+total cc branches:                 895842
+total predicts:                    895842
+total calls:                         7853
+total returns:                       7854
+total indirects:                     8149
+total accuracy:                    98.612 %
+*********************************************************
+
+DIST-FP-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    78632 / 29499969 =   2.665
+1000*wrong_tpredicts/total insts: 1000 *    78894 / 29499969 =   2.674
+total branches:                   2722674
+total cc branches:                2422049
+total predicts:                   2422049
+total calls:                       125386
+total returns:                     125386
+total indirects:                   125473
+total accuracy:                    97.102 %
+*********************************************************
+
+DIST-INT-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   371066 / 29499987 =  12.579
+1000*wrong_tpredicts/total insts: 1000 *   405242 / 29499987 =  13.737
+total branches:                   4989048
+total cc branches:                4184792
+total predicts:                   4184792
+total calls:                       227558
+total returns:                     227563
+total indirects:                   227762
+total accuracy:                    91.877 %
+*********************************************************
+
+DIST-INT-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   389007 / 29499985 =  13.187
+1000*wrong_tpredicts/total insts: 1000 *   797080 / 29499985 =  27.020
+total branches:                   3671448
+total cc branches:                2866495
+total predicts:                   2866495
+total calls:                       227338
+total returns:                     227336
+total indirects:                   258125
+total accuracy:                    78.290 %
+*********************************************************
+
+DIST-INT-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   555992 / 29499978 =  18.847
+1000*wrong_tpredicts/total insts: 1000 *   679362 / 29499978 =  23.029
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+total calls:                        28369
+total returns:                      28365
+total indirects:                    28870
+total accuracy:                    83.576 %
+*********************************************************
+
+DIST-INT-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   104961 / 29499960 =   3.558
+1000*wrong_tpredicts/total insts: 1000 *   218489 / 29499960 =   7.406
+total branches:                   2432848
+total cc branches:                2069894
+total predicts:                   2069894
+total calls:                       141358
+total returns:                     141358
+total indirects:                   186029
+total accuracy:                    91.019 %
+*********************************************************
+
+DIST-INT-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    18535 / 29499990 =   0.628
+1000*wrong_tpredicts/total insts: 1000 *    26149 / 29499990 =   0.886
+total branches:                   3818636
+total cc branches:                3755315
+total predicts:                   3755315
+total calls:                        17200
+total returns:                      17198
+total indirects:                    24891
+total accuracy:                    99.315 %
+*********************************************************
+
+DIST-MM-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   329694 / 29499979 =  11.176
+1000*wrong_tpredicts/total insts: 1000 *   335120 / 29499979 =  11.360
+total branches:                   2784449
+total cc branches:                2229289
+total predicts:                   2229289
+total calls:                       144562
+total returns:                     144561
+total indirects:                   181668
+total accuracy:                    87.965 %
+*********************************************************
+
+DIST-MM-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   414572 / 29499970 =  14.053
+1000*wrong_tpredicts/total insts: 1000 *   434161 / 29499970 =  14.717
+total branches:                   4213315
+total cc branches:                3809780
+total predicts:                   3809780
+total calls:                       109399
+total returns:                     109049
+total indirects:                   195694
+total accuracy:                    89.696 %
+*********************************************************
+
+DIST-MM-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   246076 / 29499970 =   8.342
+1000*wrong_tpredicts/total insts: 1000 *   714474 / 29499970 =  24.219
+total branches:                   4953146
+total cc branches:                3014850
+total predicts:                   3014850
+total calls:                       825753
+total returns:                     825729
+total indirects:                  1027486
+total accuracy:                    85.575 %
+*********************************************************
+
+DIST-MM-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *    73143 / 29499993 =   2.479
+1000*wrong_tpredicts/total insts: 1000 *   146249 / 29499993 =   4.958
+total branches:                   5084440
+total cc branches:                4874888
+total predicts:                   4874888
+total calls:                        78119
+total returns:                      77950
+total indirects:                    92379
+total accuracy:                    97.124 %
+*********************************************************
+
+DIST-MM-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   226419 / 29499791 =   7.675
+1000*wrong_tpredicts/total insts: 1000 *   663843 / 29499791 =  22.503
+total branches:                   3406316
+total cc branches:                2563897
+total predicts:                   2563897
+total calls:                       304647
+total returns:                     304333
+total indirects:                   479709
+total accuracy:                    80.511 %
+*********************************************************
+
+DIST-SERV-1
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   220771 / 29499316 =   7.484
+1000*wrong_tpredicts/total insts: 1000 *  1147036 / 29499316 =  38.883
+total branches:                   5607148
+total cc branches:                3660616
+total predicts:                   3660616
+total calls:                       692706
+total returns:                     691662
+total indirects:                   973088
+total accuracy:                    79.543 %
+*********************************************************
+
+DIST-SERV-2
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   219232 / 29499198 =   7.432
+1000*wrong_tpredicts/total insts: 1000 *  1135752 / 29499198 =  38.501
+total branches:                   5443962
+total cc branches:                3537562
+total predicts:                   3537562
+total calls:                       669963
+total returns:                     668950
+total indirects:                   942449
+total accuracy:                    79.137 %
+*********************************************************
+
+DIST-SERV-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   236410 / 29499817 =   8.014
+1000*wrong_tpredicts/total insts: 1000 *   881410 / 29499817 =  29.878
+total branches:                   5358488
+total cc branches:                3811906
+total predicts:                   3811906
+total calls:                       445955
+total returns:                     444864
+total indirects:                   583482
+total accuracy:                    83.551 %
+*********************************************************
+
+DIST-SERV-4
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   222437 / 29498081 =   7.541
+1000*wrong_tpredicts/total insts: 1000 *  1366266 / 29498081 =  46.317
+total branches:                   6299843
+total cc branches:                4266796
+total predicts:                   4266796
+total calls:                       651171
+total returns:                     650002
+total indirects:                   949499
+total accuracy:                    78.313 %
+*********************************************************
+
+DIST-SERV-5
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 8192
+AHRT Asso: 2
+BTB Size: 256
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   234769 / 29497759 =   7.959
+1000*wrong_tpredicts/total insts: 1000 *  1386588 / 29497759 =  47.007
+total branches:                   6411192
+total cc branches:                4291964
+total predicts:                   4291964
+total calls:                       667104
+total returns:                     666752
+total indirects:                   979776
+total accuracy:                    78.372 %
+*********************************************************
+

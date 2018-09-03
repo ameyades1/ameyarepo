@@ -28,19 +28,19 @@ declare -a trace_list=(
 )
 
 # Return Address stack sizes
-declare rat_size=16
+declare rat_size=32
 
 # Global History Size
-declare -a g_hist_sizes=(12)
+declare -a g_hist_sizes=(16)
 
 # AHRT Size
-declare -a ahrt_sizes=(256)
+declare -a ahrt_sizes=(256 512 1024 2048 4096 8192 16384 32768)
 
 # AHRT Associativity
-declare ahrt_asso=8
+declare ahrt_asso=4
 
 # BTB Sizes
-declare btb_size=512
+declare btb_size=16384
 
 for i in ${g_hist_sizes[@]}; do
   mkdir -p $results_folder/

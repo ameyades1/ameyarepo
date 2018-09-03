@@ -1,0 +1,35 @@
+==6048== Memcheck, a memory error detector
+==6048== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==6048== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==6048== Command: ./predictor --trace-file=../traces/DIST-FP-1 --rat-size=4 --g-history-size=12 --gshare-size=8
+==6048== Parent PID: 6047
+==6048== 
+==6048== 
+==6048== Process terminating with default action of signal 2 (SIGINT)
+==6048==    at 0x57D225E: __read_nocancel (syscall-template.S:84)
+==6048==    by 0x57555E7: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:592)
+==6048==    by 0x57567D8: __underflow (genops.c:342)
+==6048==    by 0x57567D8: _IO_default_xsgetn (genops.c:504)
+==6048==    by 0x5749235: fread (iofread.c:38)
+==6048==    by 0x40453A: cbp::CBP_INST_STREAM::read(cbp::CBP_INST*) (cbp_inst.cc:1122)
+==6048==    by 0x402E0E: cbp::cbp_inst_read(cbp::CBP_INST_STREAM*, cbp::CBP_INST*) (cbp_inst.cc:1331)
+==6048==    by 0x4099C7: cbp_trace_reader_c::get_branch_record(branch_record_c*) (tread.cc:153)
+==6048==    by 0x4062D6: main (main.cc:161)
+==6048== 
+==6048== HEAP SUMMARY:
+==6048==     in use at exit: 6,979,144 bytes in 797 blocks
+==6048==   total heap usage: 14,389 allocs, 13,592 frees, 7,310,424 bytes allocated
+==6048== 
+==6048== LEAK SUMMARY:
+==6048==    definitely lost: 0 bytes in 0 blocks
+==6048==    indirectly lost: 0 bytes in 0 blocks
+==6048==      possibly lost: 0 bytes in 0 blocks
+==6048==    still reachable: 6,979,144 bytes in 797 blocks
+==6048==                       of which reachable via heuristic:
+==6048==                         newarray           : 13,328 bytes in 2 blocks
+==6048==         suppressed: 0 bytes in 0 blocks
+==6048== Reachable blocks (those to which a pointer was found) are not shown.
+==6048== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==6048== 
+==6048== For counts of detected and suppressed errors, rerun with: -v
+==6048== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

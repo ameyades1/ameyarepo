@@ -1,0 +1,20 @@
+DIST-INT-3
+---Predictor Configuration---
+RAT Size:  16
+GHR Size:  12
+AHRT Size: 2048
+AHRT Asso: 2
+BTB Size: 256
+gshare Size: 8
+*********************************************************
+1000*wrong_cc_bpredicts/total insts: 1000 *   603008 / 29499978 =  20.441
+1000*wrong_tpredicts/total insts: 1000 *   730509 / 29499978 =  24.763
+total branches:                   4136429
+total cc branches:                3771697
+total predicts:                   3771697
+total calls:                        28369
+total returns:                      28365
+total indirects:                    28870
+total accuracy:                    82.340 %
+*********************************************************
+
