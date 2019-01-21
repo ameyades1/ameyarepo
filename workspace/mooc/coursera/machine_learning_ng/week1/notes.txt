@@ -7,3 +7,6 @@ In a classification problem, we are instead trying to predict results in a discr
 (a) Regression - Given a picture of a person, we have to predict their age on the basis of the given picture
 
 (b) Classification - Given a patient with a tumor, we have to predict whether the tumor is malignant or benign.
+
+Cost Function Minimization
+
