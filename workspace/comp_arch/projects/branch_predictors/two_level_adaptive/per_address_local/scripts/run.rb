@@ -30,14 +30,15 @@ CONFIGURATION = { "RAT_SIZE"    => RAT_SIZE,
                   "BTB_SIZE"    => BTB_SIZE }
 
 puts "\n"
-puts "********************************"
-puts "* BRANCH PREDICTIOR SIMULATION *"
-puts "********************************"
+puts "*******************************"
+puts "* BRANCH PREDICTOR SIMULATION *"
+puts "*******************************"
 puts "\n"
 
 puts "--- Test Configurations---\n"
 CONFIGURATION.each do |key, value| puts "#{key} = #{value}" end
 puts "--------------------------"
+puts "\n"
 
 FNAME = UUID.new.generate
 RESULTS_FOLDER = "../results/per_address/#{FNAME}"
