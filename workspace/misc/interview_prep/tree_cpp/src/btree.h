@@ -5,7 +5,7 @@
  * SYSTEM INCLUDES
  */
 #include <vector>
-
+#include <stack>
 
 /*
  * PROJECT INCLUDES
@@ -13,6 +13,9 @@
 #include "btree_node.h"
 
 
+/*
+ * Class Binary Tree
+ */
 template <typename T>
 class CBinaryTree {
 		private:
@@ -34,12 +37,16 @@ class CBinaryTree {
 				void InitBST(std::vector<T> vec);
 
 				void InorderTraversal(CNode<T>* node);
+				void InorderTraversalStack(CNode<T>* node);
 				void PreorderTraversal(CNode<T>* node);
 				void PostorderTraversal(CNode<T>* node);
 				void ReverseInorderTraversal(CNode<T>* node);
 };
 
 
+/*
+ * Default constructor
+ */
 		template <typename T>
 CBinaryTree<T>::CBinaryTree()
 {
@@ -49,12 +56,20 @@ CBinaryTree<T>::CBinaryTree()
 
 }
 
+/*
+ * Copy constructor
+ */
+
 		template <typename T>
 CBinaryTree<T>::CBinaryTree(CNode<T>* node)
 {
 		root = node;
 }
 
+
+/*
+ * Delete a subtree for specified node
+ */
 		template <typename T>
 void CBinaryTree<T>::delete_subtree(CNode<T>* node)
 {
@@ -72,6 +87,10 @@ void CBinaryTree<T>::delete_subtree(CNode<T>* node)
 		node = NULL;
 }
 
+
+/*
+ * Destructor
+ */
 		template <typename T>
 CBinaryTree<T>::~CBinaryTree()
 {
@@ -115,6 +134,10 @@ CNode<T>* CBinaryTree<T>::InsertNodeBST(CNode<T>* cur_root, const CNode<T>& node
 
 }
 
+
+/*
+ * Initialize the BST with supplied vector
+ */
 		template <typename T>
 void CBinaryTree<T>::InitBST(std::vector<T> vec)
 {
@@ -124,6 +147,9 @@ void CBinaryTree<T>::InitBST(std::vector<T> vec)
 }
 
 
+/*
+ * Inorder traversal recursive
+ */
 		template <typename T>
 void CBinaryTree<T>::InorderTraversal(CNode<T>* node)
 {
@@ -136,6 +162,37 @@ void CBinaryTree<T>::InorderTraversal(CNode<T>* node)
 
 }
 
+
+/*
+ * Inorder traversal non-recursive
+ */
+		template <typename T>
+void CBinaryTree<T>::InorderTraversalStack(CNode<T>* node)
+{
+		if(node == NULL)
+				return;
+
+		std::stack<CNode<T>*> stack;
+		do {
+
+				while(node) {
+						stack.push(node->pleft);
+						stack.push(node);
+						stack.push(node->pright);
+						if(node) node = node->pleft;
+				}
+
+				CNode<T>* temp = stack.top();
+				if(node) std::cout << node->data << " ";
+				stack.pop();
+
+		}while(!stack.empty());
+}
+
+
+/*
+ * Preorder traversal recursive
+ */
 		template <typename T>
 void CBinaryTree<T>::PreorderTraversal(CNode<T>* node)
 {
@@ -148,6 +205,10 @@ void CBinaryTree<T>::PreorderTraversal(CNode<T>* node)
 
 }
 
+
+/*
+ * Postorder traversal recursive
+ */
 		template <typename T>
 void CBinaryTree<T>::PostorderTraversal(CNode<T>* node)
 {
@@ -161,6 +222,9 @@ void CBinaryTree<T>::PostorderTraversal(CNode<T>* node)
 }
 
 
+/*
+ * Reverse inorder traversal recursive
+ */
 		template <typename T>
 void CBinaryTree<T>::ReverseInorderTraversal(CNode<T>* node)
 {

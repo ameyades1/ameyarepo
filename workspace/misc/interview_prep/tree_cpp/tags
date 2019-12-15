@@ -9,7 +9,7 @@ CBinaryTree	src/btree.h	/^CBinaryTree<T>::CBinaryTree()$/;"	f	class:CBinaryTree
 CBinaryTree	src/btree.h	/^CBinaryTree<T>::CBinaryTree(CNode<T>* node)$/;"	f	class:CBinaryTree
 CBinaryTree	src/btree.h	/^class CBinaryTree {$/;"	c
 CC	Makefile	/^CC=clang++$/;"	m
-CC_OPTS	Makefile	/^CC_OPTS=--std=c++11 -g$/;"	m
+CC_OPTS	Makefile	/^CC_OPTS=--std=c++11 -g -O4$/;"	m
 CNode	src/btree_node.h	/^CNode<T>::CNode()$/;"	f	class:CNode
 CNode	src/btree_node.h	/^CNode<T>::CNode(CNode* node)$/;"	f	class:CNode
 CNode	src/btree_node.h	/^CNode<T>::CNode(T d)$/;"	f	class:CNode
@@ -18,6 +18,7 @@ CNode	src/btree_node.h	/^class CNode {$/;"	c
 GetRoot	src/btree.h	/^				CNode<T>* GetRoot(){return root;};$/;"	f	class:CBinaryTree
 InitBST	src/btree.h	/^void CBinaryTree<T>::InitBST(std::vector<T> vec)$/;"	f	class:CBinaryTree
 InorderTraversal	src/btree.h	/^void CBinaryTree<T>::InorderTraversal(CNode<T>* node)$/;"	f	class:CBinaryTree
+InorderTraversalStack	src/btree.h	/^void CBinaryTree<T>::InorderTraversalStack(CNode<T>* node)$/;"	f	class:CBinaryTree
 InsertNodeBST	src/btree.h	/^CNode<T>* CBinaryTree<T>::InsertNodeBST(CNode<T>* cur_root, const CNode<T>& node)$/;"	f	class:CBinaryTree
 PostorderTraversal	src/btree.h	/^void CBinaryTree<T>::PostorderTraversal(CNode<T>* node)$/;"	f	class:CBinaryTree
 PreorderTraversal	src/btree.h	/^void CBinaryTree<T>::PreorderTraversal(CNode<T>* node)$/;"	f	class:CBinaryTree

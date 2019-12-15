@@ -1,5 +1,5 @@
 CC=clang++
-CC_OPTS=--std=c++11 -g
+CC_OPTS=--std=c++11 -g -O4
 SRC_PATH=src
 
 all: clean build

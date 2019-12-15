@@ -39,7 +39,9 @@ int main(int argc, char* argv[])
 		tree.InorderTraversal(tree.GetRoot());
 		std::cout << "\n\n";
 		
-
+		std::cout << "Inorder traversal Non Recursive: \n";
+		tree.InorderTraversalStack(tree.GetRoot());
+		std::cout << "\n\n";
 
 		return 0;
 }

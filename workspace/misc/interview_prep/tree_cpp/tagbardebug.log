@@ -1,0 +1,1072 @@
+
+
+VIM - Vi IMproved 8.1 (2018 May 18, compiled Sep 24 2018 11:53:41)
+Included patches: 1-429
+Compiled by adeswand@ubuntu
+Huge version without GUI.  Features included (+) or not (-):
++acl               -clientserver      +diff              +folding           +libcall           -mouse_gpm         +packages          -ruby              +termguicolors     +visual            -xsmp
++arabic            -clipboard         +digraphs          -footer            +linebreak         -mouse_jsbterm     +path_extra        +scrollbind        +terminal          +visualextra       -xterm_clipboard
++autocmd           +cmdline_compl     -dnd               +fork()            +lispindent        +mouse_netterm     -perl              +signs             +terminfo          +viminfo           -xterm_save
++autochdir         +cmdline_hist      -ebcdic            -gettext           +listcmds          +mouse_sgr         +persistent_undo   +smartindent       +termresponse      +vreplace          
+-autoservername    +cmdline_info      +emacs_tags        -hangul_input      +localmap          -mouse_sysmouse    +postscript        +startuptime       +textobjects       +wildignore        
+-balloon_eval      +comments          +eval              +iconv             -lua               +mouse_urxvt       +printer           +statusline        +timers            +wildmenu          
++balloon_eval_term +conceal           +ex_extra          +insert_expand     +menu              +mouse_xterm       +profile           -sun_workshop      +title             +windows           
+-browse            +cryptv            +extra_search      +job               +mksession         +multi_byte        +python            +syntax            -toolbar           +writebackup       
+++builtin_terms    +cscope            +farsi             +jumplist          +modify_fname      +multi_lang        -python3           +tag_binary        +user_commands     -X11               
++byte_offset       +cursorbind        +file_in_path      +keymap            +mouse             -mzscheme          +quickfix          +tag_old_static    +vartabs           -xfontset          
++channel           +cursorshape       +find_in_path      +lambda            -mouseshape        +netbeans_intg     +reltime           -tag_any_white     +vertsplit         -xim               
++cindent           +dialog_con        +float             +langmap           +mouse_dec         +num64             +rightleft         -tcl               +virtualedit       -xpm               
+   system vimrc file: "$VIM/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+  fall-back for $VIM: "/usr/local/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1       
+Linking: gcc   -L/usr/local/lib -Wl,--as-needed -o vim        -lm -ltinfo -lnsl   -ldl    -L/usr/lib/python2.7/config-x86_64-linux-gnu -lpython2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions       2019-10-13 10:57:13.735941: CloseWindow called
+2019-10-13 10:57:13.806142: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:13.808264: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 10:57:13.808894: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:13.810089: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:13.812033: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:13.817720: AutoUpdate finished successfully
+2019-10-13 10:57:13.817994: goto_win(): wincmd p, 0
+2019-10-13 10:57:13.818474: CloseWindow finished
+2019-10-13 10:57:17.251350: ToggleWindow called
+2019-10-13 10:57:17.252365: OpenWindow called with flags: ''
+2019-10-13 10:57:17.253355: goto_win(): wincmd p, 1
+2019-10-13 10:57:17.253623: goto_win(): wincmd p, 1
+2019-10-13 10:57:17.301000: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/__Tagbar__.2]
+2019-10-13 10:57:17.301236: Still opening window, stopping processing
+2019-10-13 10:57:17.345480: InitWindow called with autoclose: 0
+2019-10-13 10:57:17.350772: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/__Tagbar__.2]
+2019-10-13 10:57:17.351092: In Tagbar window, stopping processing
+2019-10-13 10:57:17.359043: InitWindow finished
+2019-10-13 10:57:17.359263: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:17.359558: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 10:57:17.359953: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:17.360559: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:17.361109: RenderContent called
+2019-10-13 10:57:17.361707: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:17.362249: No tags found, skipping printing.
+2019-10-13 10:57:17.362883: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 10:57:17.370611: AutoUpdate finished successfully
+2019-10-13 10:57:17.562055: OpenWindow finished
+2019-10-13 10:57:17.562341: ToggleWindow finished
+2019-10-13 11:04:11.697970: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:11.698869: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:11.699127: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:11.699309: Empty filename or type
+2019-10-13 11:04:11.699449: Not a valid file, stopping processing
+2019-10-13 11:04:11.732786: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:11.733348: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:11.733540: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:11.734191: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:11.735223: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:11.740822: goto_win(): wincmd p, 1
+2019-10-13 11:04:11.741231: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:11.746461: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:11.747150: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:11.747543: AutoUpdate finished successfully
+2019-10-13 11:04:12.051441: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:12.052303: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:12.052466: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:12.052592: Empty filename or type
+2019-10-13 11:04:12.052702: Not a valid file, stopping processing
+2019-10-13 11:04:12.122676: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.123066: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:12.123212: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.123646: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.124297: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.128583: goto_win(): wincmd p, 1
+2019-10-13 11:04:12.128803: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:12.132449: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:12.132671: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:12.132828: AutoUpdate finished successfully
+2019-10-13 11:04:12.204298: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:12.205016: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:12.205164: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:12.205288: Empty filename or type
+2019-10-13 11:04:12.205394: Not a valid file, stopping processing
+2019-10-13 11:04:12.298843: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.299242: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:12.299406: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.300044: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.300862: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.306304: goto_win(): wincmd p, 1
+2019-10-13 11:04:12.306662: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:12.310769: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:12.311013: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:12.311186: AutoUpdate finished successfully
+2019-10-13 11:04:12.793856: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:12.794712: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:12.794894: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:12.795046: Empty filename or type
+2019-10-13 11:04:12.795257: Not a valid file, stopping processing
+2019-10-13 11:04:12.892024: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.893559: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:12.893932: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.894455: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.895101: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:12.899972: goto_win(): wincmd p, 1
+2019-10-13 11:04:12.900230: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:12.904738: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:12.905069: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:12.905260: AutoUpdate finished successfully
+2019-10-13 11:04:13.347026: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:13.347971: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:13.348168: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:13.348324: Empty filename or type
+2019-10-13 11:04:13.348456: Not a valid file, stopping processing
+2019-10-13 11:04:13.440994: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:13.441351: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:13.441498: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:13.442069: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:13.442702: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:13.447714: goto_win(): wincmd p, 1
+2019-10-13 11:04:13.447970: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:13.452012: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:13.452263: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:13.452437: AutoUpdate finished successfully
+2019-10-13 11:04:38.147788: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:38.148777: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:38.148976: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:38.149158: Empty filename or type
+2019-10-13 11:04:38.149296: Not a valid file, stopping processing
+2019-10-13 11:04:38.437482: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.438000: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:38.438180: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.438768: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.439358: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.444478: goto_win(): wincmd p, 1
+2019-10-13 11:04:38.444823: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:38.453306: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:38.453738: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:38.453975: AutoUpdate finished successfully
+2019-10-13 11:04:38.643806: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:38.644662: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:38.644827: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:38.644963: Empty filename or type
+2019-10-13 11:04:38.645156: Not a valid file, stopping processing
+2019-10-13 11:04:38.732173: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.732532: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:38.732676: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.733237: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.733810: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:38.738813: goto_win(): wincmd p, 1
+2019-10-13 11:04:38.739146: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:38.743183: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:38.743428: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:38.743601: AutoUpdate finished successfully
+2019-10-13 11:04:39.082429: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:39.083251: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:39.083435: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:39.083587: Empty filename or type
+2019-10-13 11:04:39.083899: Not a valid file, stopping processing
+2019-10-13 11:04:39.178652: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.179009: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:39.179155: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.179710: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.180284: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.185163: goto_win(): wincmd p, 1
+2019-10-13 11:04:39.185408: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:39.189766: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:39.190022: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:39.190198: AutoUpdate finished successfully
+2019-10-13 11:04:39.653481: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:39.654331: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:04:39.654517: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:04:39.654671: Empty filename or type
+2019-10-13 11:04:39.654892: Not a valid file, stopping processing
+2019-10-13 11:04:39.747138: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.747574: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:04:39.747750: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.748234: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.748948: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:04:39.753761: goto_win(): wincmd p, 1
+2019-10-13 11:04:39.754012: goto_win(): 4wincmd w, 1
+2019-10-13 11:04:39.758090: goto_win(): 2wincmd w, 1
+2019-10-13 11:04:39.758335: goto_win(): 3wincmd w, 1
+2019-10-13 11:04:39.758574: AutoUpdate finished successfully
+2019-10-13 11:05:08.928015: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:08.928891: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:05:08.929084: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:08.930487: Empty filename or type
+2019-10-13 11:05:08.930744: Not a valid file, stopping processing
+2019-10-13 11:05:08.963435: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:08.963919: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:08.964089: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:08.964815: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:08.965461: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:08.972782: goto_win(): wincmd p, 1
+2019-10-13 11:05:08.973158: goto_win(): 4wincmd w, 1
+2019-10-13 11:05:08.979101: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:08.979418: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:08.979725: AutoUpdate finished successfully
+2019-10-13 11:05:09.294377: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:09.295150: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:05:09.295314: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:09.295450: Empty filename or type
+2019-10-13 11:05:09.295569: Not a valid file, stopping processing
+2019-10-13 11:05:09.372972: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.373531: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:09.373699: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.374191: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.374988: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.379887: goto_win(): wincmd p, 1
+2019-10-13 11:05:09.380139: goto_win(): 4wincmd w, 1
+2019-10-13 11:05:09.384233: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:09.384607: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:09.384805: AutoUpdate finished successfully
+2019-10-13 11:05:09.463268: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:09.463868: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:05:09.464004: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:09.464128: Empty filename or type
+2019-10-13 11:05:09.464352: Not a valid file, stopping processing
+2019-10-13 11:05:09.537258: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.537576: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:09.537707: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.538213: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.538752: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:09.543218: goto_win(): wincmd p, 1
+2019-10-13 11:05:09.543452: goto_win(): 4wincmd w, 1
+2019-10-13 11:05:09.547112: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:09.547335: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:09.547493: AutoUpdate finished successfully
+2019-10-13 11:05:17.514347: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:17.515321: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:05:17.515959: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:17.516561: Empty filename or type
+2019-10-13 11:05:17.516842: Not a valid file, stopping processing
+2019-10-13 11:05:17.796798: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:17.797160: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:17.797377: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:17.797885: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:17.798516: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:17.803458: goto_win(): wincmd p, 1
+2019-10-13 11:05:17.803707: goto_win(): 4wincmd w, 1
+2019-10-13 11:05:17.807723: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:17.807980: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:17.808158: AutoUpdate finished successfully
+2019-10-13 11:05:17.975214: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:17.975944: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:05:17.976112: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:17.976237: Empty filename or type
+2019-10-13 11:05:17.976346: Not a valid file, stopping processing
+2019-10-13 11:05:18.054913: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:18.055266: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:18.055413: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:18.056064: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:18.056708: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:18.061765: goto_win(): wincmd p, 1
+2019-10-13 11:05:18.062029: goto_win(): 4wincmd w, 1
+2019-10-13 11:05:18.066105: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:18.066351: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:18.066526: AutoUpdate finished successfully
+2019-10-13 11:05:25.373510: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:25.374319: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:05:25.374577: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:05:25.374751: Empty filename or type
+2019-10-13 11:05:25.374887: Not a valid file, stopping processing
+2019-10-13 11:05:25.646287: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:25.646609: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:25.646806: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:25.647255: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:25.647896: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:25.652226: goto_win(): wincmd p, 1
+2019-10-13 11:05:25.652471: goto_win(): 4wincmd w, 1
+2019-10-13 11:05:25.656273: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:25.656496: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:25.656653: AutoUpdate finished successfully
+2019-10-13 11:05:35.744026: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:35.744668: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:35.744850: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:35.745485: File data outdated, updating [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:35.745682: ProcessFile called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:35.745850: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:35.746844: typeinfo for file to process: {'ctagstype': 'c++', 'ftype': 'cuda', 'kinddict': {'p': 1, 's': 7, 'v': 11, 'c': 6, 'd': 0, 'e': 3, 'f': 9, 'g': 2, 't': 4, '?': 12, 'm': 10, 'n': 5, 'u': 8}, 'sro': '::', 'createKinddict': function('<SNR>95_createKinddict'), 'getKind': function('<SNR>95_getKind'), 'kind2scope': {'s': 'struct', 'c': 'class', 'u': 'union', 'g': 'enum', 'n': 'namespace', '?': 'unknown'}, 'scope2kind': {'enum': 'g', 'namespace': 'n', 'class': 'c', 'struct': 's', 'union': 'u'}, 'kinds': [{'short': 'd', 'long': 'macros', 'fold': 1, 'stl': 0}, {'short': 'p', 'long': 'prototypes', 'fold': 1, 'stl': 0}, {'short': 'g', 'long': 'enums', 'fold': 0, 'stl': 1}, {'short': 'e', 'long': 'enumerators', 'fold': 0, 'stl': 0}, {'short': 't', 'long': 'typedefs', 'fold': 0, 'stl': 0}, {'short': 'n', 'long': 'namespaces', 'fold': 0, 'stl': 1}, {'short': 'c', 'long': 'classes', 'fold': 0, 'stl': 1}, {'short': 's', 'long': 'structs', 'fold': 0, 'stl': 1}, {'short': 'u', 'long': 'unions', 'fold': 0, 'stl': 1}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'm', 'long': 'members', 'fold': 0, 'stl': 0}, {'short': 'v', 'long': 'variables', 'fold': 0, 'stl': 0}, {'short': '?', 'long': 'unknown', 'fold': 0, 'stl': 1}]}
+2019-10-13 11:05:35.747338: Caching file into: /tmp/vIS0LqF/116.h
+2019-10-13 11:05:35.749891: ExecuteCtagsOnFile called [/tmp/vIS0LqF/116.h]
+2019-10-13 11:05:35.750584: EscapeCtagsCmd called
+2019-10-13 11:05:35.750775: ctags_bin: ctags-exuberant
+2019-10-13 11:05:35.750971: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--extra=', '--file-scope=yes', '--sort=no', '--append=no', '-V', '--language-force=c++', '--c++-kinds=dpgetncsufmv']
+2019-10-13 11:05:35.751610: Escaped ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/116.h'
+2019-10-13 11:05:35.751867: Executing ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/116.h'
+2019-10-13 11:05:35.894062: Calling shell to execute: "('ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/116.h') >/tmp/vIS0LqF/117 2>&1"
+2019-10-13 11:05:35.894433: Exit code: 0
+2019-10-13 11:05:35.925632: Ctags executed successfully
+2019-10-13 11:05:35.927179: Filetype tag kinds: ['p', 's', 'v', 'c', 'd', 'e', 'f', 'g', 't', '?', 'm', 'n', 'u']
+2019-10-13 11:05:35.927469: Parsing ctags output
+2019-10-13 11:05:36.030332: Processing kind: d, number of tags: 1
+2019-10-13 11:05:36.031722: Processing kind: p, number of tags: 0
+2019-10-13 11:05:36.032136: Processing kind: e, number of tags: 0
+2019-10-13 11:05:36.032455: Processing kind: t, number of tags: 0
+2019-10-13 11:05:36.032823: Processing kind: f, number of tags: 0
+2019-10-13 11:05:36.033333: Processing kind: m, number of tags: 0
+2019-10-13 11:05:36.033776: Processing kind: v, number of tags: 0
+2019-10-13 11:05:36.042918: RenderContent called
+2019-10-13 11:05:36.043571: goto_win(): wincmd p, 1
+2019-10-13 11:05:36.043844: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:36.044473: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:36.045477: PrintKinds called
+2019-10-13 11:05:36.045835: Printing kind: d, number of (top-level) tags: 1
+2019-10-13 11:05:36.046501: Printing kind: p, number of (top-level) tags: 0
+2019-10-13 11:05:36.046791: Printing kind: g, number of (top-level) tags: 0
+2019-10-13 11:05:36.047082: Printing kind: e, number of (top-level) tags: 0
+2019-10-13 11:05:36.047286: Printing kind: t, number of (top-level) tags: 0
+2019-10-13 11:05:36.047470: Printing kind: n, number of (top-level) tags: 0
+2019-10-13 11:05:36.047649: Printing kind: c, number of (top-level) tags: 1
+2019-10-13 11:05:36.070956: Printing kind: s, number of (top-level) tags: 0
+2019-10-13 11:05:36.071373: Printing kind: u, number of (top-level) tags: 0
+2019-10-13 11:05:36.071725: Printing kind: f, number of (top-level) tags: 0
+2019-10-13 11:05:36.072276: Printing kind: m, number of (top-level) tags: 0
+2019-10-13 11:05:36.072610: Printing kind: v, number of (top-level) tags: 0
+2019-10-13 11:05:36.072826: Printing kind: ?, number of (top-level) tags: 0
+2019-10-13 11:05:36.074036: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:36.074324: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:36.074534: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:36.075607: goto_win(): wincmd p, 1
+2019-10-13 11:05:36.075969: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:36.076480: Highlight pattern: '/^\%27l\s*[▼▶ ][-+# ]\?\zs[^( ]\+\ze/'
+2019-10-13 11:05:36.076776: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:36.077364: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:36.150155: goto_win(): wincmd p, 1
+2019-10-13 11:05:36.150937: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:36.160045: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:36.160327: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:36.160523: AutoUpdate finished successfully
+2019-10-13 11:05:36.160895: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:36.161708: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:05:36.162053: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:36.162930: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:36.163927: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:05:36.165111: goto_win(): wincmd p, 1
+2019-10-13 11:05:36.165400: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:36.173888: goto_win(): 3wincmd w, 1
+2019-10-13 11:05:36.174191: goto_win(): 2wincmd w, 1
+2019-10-13 11:05:36.174400: AutoUpdate finished successfully
+2019-10-13 11:06:00.958419: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:06:00.959297: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:06:00.959489: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:06:00.959651: Empty filename or type
+2019-10-13 11:06:00.959789: Not a valid file, stopping processing
+2019-10-13 11:06:00.997090: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:00.997646: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:06:00.998016: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:00.998908: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:00.999735: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:01.001140: goto_win(): wincmd p, 1
+2019-10-13 11:06:01.001466: goto_win(): 4wincmd w, 1
+2019-10-13 11:06:01.006631: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:01.007005: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:01.007222: AutoUpdate finished successfully
+2019-10-13 11:06:01.315715: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:06:01.316466: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:06:01.316614: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:06:01.316739: Empty filename or type
+2019-10-13 11:06:01.316845: Not a valid file, stopping processing
+2019-10-13 11:06:01.386918: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:01.387237: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:06:01.387365: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:01.387907: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:01.388430: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:01.389310: goto_win(): wincmd p, 1
+2019-10-13 11:06:01.389520: goto_win(): 4wincmd w, 1
+2019-10-13 11:06:01.393253: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:01.393474: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:01.393630: AutoUpdate finished successfully
+2019-10-13 11:06:26.496877: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.497408: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:06:26.497603: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.498580: File data outdated, updating [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.498867: ProcessFile called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.499045: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.500558: typeinfo for file to process: {'ctagstype': 'c++', 'ftype': 'cuda', 'kinddict': {'p': 1, 's': 7, 'v': 11, 'c': 6, 'd': 0, 'e': 3, 'f': 9, 'g': 2, 't': 4, '?': 12, 'm': 10, 'n': 5, 'u': 8}, 'sro': '::', 'createKinddict': function('<SNR>95_createKinddict'), 'getKind': function('<SNR>95_getKind'), 'kind2scope': {'s': 'struct', 'c': 'class', 'u': 'union', 'g': 'enum', 'n': 'namespace', '?': 'unknown'}, 'scope2kind': {'enum': 'g', 'namespace': 'n', 'class': 'c', 'struct': 's', 'union': 'u'}, 'kinds': [{'short': 'd', 'long': 'macros', 'fold': 1, 'stl': 0}, {'short': 'p', 'long': 'prototypes', 'fold': 1, 'stl': 0}, {'short': 'g', 'long': 'enums', 'fold': 0, 'stl': 1}, {'short': 'e', 'long': 'enumerators', 'fold': 0, 'stl': 0}, {'short': 't', 'long': 'typedefs', 'fold': 0, 'stl': 0}, {'short': 'n', 'long': 'namespaces', 'fold': 0, 'stl': 1}, {'short': 'c', 'long': 'classes', 'fold': 0, 'stl': 1}, {'short': 's', 'long': 'structs', 'fold': 0, 'stl': 1}, {'short': 'u', 'long': 'unions', 'fold': 0, 'stl': 1}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'm', 'long': 'members', 'fold': 0, 'stl': 0}, {'short': 'v', 'long': 'variables', 'fold': 0, 'stl': 0}, {'short': '?', 'long': 'unknown', 'fold': 0, 'stl': 1}]}
+2019-10-13 11:06:26.501001: Caching file into: /tmp/vIS0LqF/118.h
+2019-10-13 11:06:26.503520: ExecuteCtagsOnFile called [/tmp/vIS0LqF/118.h]
+2019-10-13 11:06:26.504140: EscapeCtagsCmd called
+2019-10-13 11:06:26.504584: ctags_bin: ctags-exuberant
+2019-10-13 11:06:26.504826: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--extra=', '--file-scope=yes', '--sort=no', '--append=no', '-V', '--language-force=c++', '--c++-kinds=dpgetncsufmv']
+2019-10-13 11:06:26.505551: Escaped ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/118.h'
+2019-10-13 11:06:26.505838: Executing ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/118.h'
+2019-10-13 11:06:26.605666: Calling shell to execute: "('ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/118.h') >/tmp/vIS0LqF/119 2>&1"
+2019-10-13 11:06:26.605950: Exit code: 0
+2019-10-13 11:06:26.695271: Ctags executed successfully
+2019-10-13 11:06:26.698082: Filetype tag kinds: ['p', 's', 'v', 'c', 'd', 'e', 'f', 'g', 't', '?', 'm', 'n', 'u']
+2019-10-13 11:06:26.698425: Parsing ctags output
+2019-10-13 11:06:26.801603: Processing kind: d, number of tags: 1
+2019-10-13 11:06:26.803824: Processing kind: p, number of tags: 0
+2019-10-13 11:06:26.804114: Processing kind: e, number of tags: 0
+2019-10-13 11:06:26.804334: Processing kind: t, number of tags: 0
+2019-10-13 11:06:26.804785: Processing kind: f, number of tags: 0
+2019-10-13 11:06:26.805003: Processing kind: m, number of tags: 0
+2019-10-13 11:06:26.805203: Processing kind: v, number of tags: 0
+2019-10-13 11:06:26.813172: RenderContent called
+2019-10-13 11:06:26.813715: goto_win(): wincmd p, 1
+2019-10-13 11:06:26.813971: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:26.814284: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.814999: PrintKinds called
+2019-10-13 11:06:26.815222: Printing kind: d, number of (top-level) tags: 1
+2019-10-13 11:06:26.815681: Printing kind: p, number of (top-level) tags: 0
+2019-10-13 11:06:26.815874: Printing kind: g, number of (top-level) tags: 0
+2019-10-13 11:06:26.816038: Printing kind: e, number of (top-level) tags: 0
+2019-10-13 11:06:26.816267: Printing kind: t, number of (top-level) tags: 0
+2019-10-13 11:06:26.816723: Printing kind: n, number of (top-level) tags: 0
+2019-10-13 11:06:26.816931: Printing kind: c, number of (top-level) tags: 1
+2019-10-13 11:06:26.832048: Printing kind: s, number of (top-level) tags: 0
+2019-10-13 11:06:26.832286: Printing kind: u, number of (top-level) tags: 0
+2019-10-13 11:06:26.832580: Printing kind: f, number of (top-level) tags: 0
+2019-10-13 11:06:26.832768: Printing kind: m, number of (top-level) tags: 0
+2019-10-13 11:06:26.832938: Printing kind: v, number of (top-level) tags: 0
+2019-10-13 11:06:26.833098: Printing kind: ?, number of (top-level) tags: 0
+2019-10-13 11:06:26.834055: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:26.834300: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:26.834566: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.835593: goto_win(): wincmd p, 1
+2019-10-13 11:06:26.835832: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:26.843168: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:26.843484: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:26.843683: AutoUpdate finished successfully
+2019-10-13 11:06:26.843933: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.844222: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:06:26.844453: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.844971: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.845595: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:26.846610: goto_win(): wincmd p, 1
+2019-10-13 11:06:26.846845: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:26.854187: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:26.854509: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:26.854733: AutoUpdate finished successfully
+2019-10-13 11:06:38.431531: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:38.432356: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:06:38.432564: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:38.433233: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:38.434011: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:38.435245: goto_win(): wincmd p, 1
+2019-10-13 11:06:38.435525: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:38.443974: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:38.444255: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:38.444465: AutoUpdate finished successfully
+2019-10-13 11:06:54.325505: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:54.326029: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:06:54.326219: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:54.326778: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:54.327529: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:06:54.328923: goto_win(): wincmd p, 1
+2019-10-13 11:06:54.329230: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:54.337790: goto_win(): 3wincmd w, 1
+2019-10-13 11:06:54.338161: goto_win(): 2wincmd w, 1
+2019-10-13 11:06:54.338377: AutoUpdate finished successfully
+2019-10-13 11:07:01.978469: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:07:01.978930: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:07:01.979104: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:07:01.979763: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:07:01.980664: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:07:01.982061: goto_win(): wincmd p, 1
+2019-10-13 11:07:01.982424: goto_win(): 3wincmd w, 1
+2019-10-13 11:07:01.991012: goto_win(): 3wincmd w, 1
+2019-10-13 11:07:01.991307: goto_win(): 2wincmd w, 1
+2019-10-13 11:07:01.991624: AutoUpdate finished successfully
+2019-10-13 11:15:35.814783: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:15:35.815616: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:15:35.816664: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:15:35.817565: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:15:35.818344: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:15:35.819625: goto_win(): wincmd p, 1
+2019-10-13 11:15:35.820040: goto_win(): 3wincmd w, 1
+2019-10-13 11:15:35.828840: goto_win(): 3wincmd w, 1
+2019-10-13 11:15:35.829229: goto_win(): 2wincmd w, 1
+2019-10-13 11:15:35.829451: AutoUpdate finished successfully
+2019-10-13 11:18:01.320163: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:18:01.321038: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:18:01.321239: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:18:01.321399: Empty filename or type
+2019-10-13 11:18:01.321535: Not a valid file, stopping processing
+2019-10-13 11:18:01.352937: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.353464: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:18:01.353646: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.354315: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.355069: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.356352: goto_win(): wincmd p, 1
+2019-10-13 11:18:01.356674: goto_win(): 4wincmd w, 1
+2019-10-13 11:18:01.361721: goto_win(): 2wincmd w, 1
+2019-10-13 11:18:01.362107: goto_win(): 3wincmd w, 1
+2019-10-13 11:18:01.362322: AutoUpdate finished successfully
+2019-10-13 11:18:01.717631: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:18:01.718419: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:18:01.718584: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:18:01.718720: Empty filename or type
+2019-10-13 11:18:01.718837: Not a valid file, stopping processing
+2019-10-13 11:18:01.796558: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.796984: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:18:01.797135: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.797619: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.798272: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:18:01.799321: goto_win(): wincmd p, 1
+2019-10-13 11:18:01.799559: goto_win(): 4wincmd w, 1
+2019-10-13 11:18:01.803612: goto_win(): 2wincmd w, 1
+2019-10-13 11:18:01.803960: goto_win(): 3wincmd w, 1
+2019-10-13 11:18:01.804139: AutoUpdate finished successfully
+2019-10-13 11:19:18.728394: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:19:18.729274: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:19:18.729475: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:19:18.729805: Empty filename or type
+2019-10-13 11:19:18.729968: Not a valid file, stopping processing
+2019-10-13 11:19:18.765783: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:18.766301: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:19:18.766671: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:18.767765: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:18.768784: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:18.770137: goto_win(): wincmd p, 1
+2019-10-13 11:19:18.770538: goto_win(): 4wincmd w, 1
+2019-10-13 11:19:18.775883: goto_win(): 2wincmd w, 1
+2019-10-13 11:19:18.776223: goto_win(): 3wincmd w, 1
+2019-10-13 11:19:18.776566: AutoUpdate finished successfully
+2019-10-13 11:19:19.113321: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:19:19.114091: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:19:19.114256: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:19:19.114394: Empty filename or type
+2019-10-13 11:19:19.114514: Not a valid file, stopping processing
+2019-10-13 11:19:19.192991: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.193418: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:19:19.193583: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.194069: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.194747: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.195863: goto_win(): wincmd p, 1
+2019-10-13 11:19:19.196105: goto_win(): 4wincmd w, 1
+2019-10-13 11:19:19.200156: goto_win(): 2wincmd w, 1
+2019-10-13 11:19:19.200525: goto_win(): 3wincmd w, 1
+2019-10-13 11:19:19.200724: AutoUpdate finished successfully
+2019-10-13 11:19:19.270558: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:19:19.271208: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:19:19.271360: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:19:19.271484: Empty filename or type
+2019-10-13 11:19:19.271590: Not a valid file, stopping processing
+2019-10-13 11:19:19.351514: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.351840: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:19:19.352133: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.352598: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.353182: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:19:19.354181: goto_win(): wincmd p, 1
+2019-10-13 11:19:19.354402: goto_win(): 4wincmd w, 1
+2019-10-13 11:19:19.358097: goto_win(): 2wincmd w, 1
+2019-10-13 11:19:19.358318: goto_win(): 3wincmd w, 1
+2019-10-13 11:19:19.358475: AutoUpdate finished successfully
+2019-10-13 11:38:19.293194: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:38:19.293664: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:38:19.294011: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:38:19.294865: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:38:19.296018: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:38:19.298454: goto_win(): wincmd p, 1
+2019-10-13 11:38:19.298864: goto_win(): 3wincmd w, 1
+2019-10-13 11:38:19.309335: goto_win(): 2wincmd w, 1
+2019-10-13 11:38:19.309652: goto_win(): 2wincmd w, 1
+2019-10-13 11:38:19.309856: AutoUpdate finished successfully
+2019-10-13 11:39:02.273879: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.274440: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:02.274631: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.275249: File data outdated, updating [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.275449: ProcessFile called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.275624: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.277117: typeinfo for file to process: {'ctagstype': 'c++', 'ftype': 'cuda', 'kinddict': {'p': 1, 's': 7, 'v': 11, 'c': 6, 'd': 0, 'e': 3, 'f': 9, 'g': 2, 't': 4, '?': 12, 'm': 10, 'n': 5, 'u': 8}, 'sro': '::', 'createKinddict': function('<SNR>95_createKinddict'), 'getKind': function('<SNR>95_getKind'), 'kind2scope': {'s': 'struct', 'c': 'class', 'u': 'union', 'g': 'enum', 'n': 'namespace', '?': 'unknown'}, 'scope2kind': {'enum': 'g', 'namespace': 'n', 'class': 'c', 'struct': 's', 'union': 'u'}, 'kinds': [{'short': 'd', 'long': 'macros', 'fold': 1, 'stl': 0}, {'short': 'p', 'long': 'prototypes', 'fold': 1, 'stl': 0}, {'short': 'g', 'long': 'enums', 'fold': 0, 'stl': 1}, {'short': 'e', 'long': 'enumerators', 'fold': 0, 'stl': 0}, {'short': 't', 'long': 'typedefs', 'fold': 0, 'stl': 0}, {'short': 'n', 'long': 'namespaces', 'fold': 0, 'stl': 1}, {'short': 'c', 'long': 'classes', 'fold': 0, 'stl': 1}, {'short': 's', 'long': 'structs', 'fold': 0, 'stl': 1}, {'short': 'u', 'long': 'unions', 'fold': 0, 'stl': 1}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'm', 'long': 'members', 'fold': 0, 'stl': 0}, {'short': 'v', 'long': 'variables', 'fold': 0, 'stl': 0}, {'short': '?', 'long': 'unknown', 'fold': 0, 'stl': 1}]}
+2019-10-13 11:39:02.277574: Caching file into: /tmp/vIS0LqF/120.h
+2019-10-13 11:39:02.280442: ExecuteCtagsOnFile called [/tmp/vIS0LqF/120.h]
+2019-10-13 11:39:02.281124: EscapeCtagsCmd called
+2019-10-13 11:39:02.281299: ctags_bin: ctags-exuberant
+2019-10-13 11:39:02.281501: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--extra=', '--file-scope=yes', '--sort=no', '--append=no', '-V', '--language-force=c++', '--c++-kinds=dpgetncsufmv']
+2019-10-13 11:39:02.282128: Escaped ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/120.h'
+2019-10-13 11:39:02.282389: Executing ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/120.h'
+2019-10-13 11:39:02.308828: Calling shell to execute: "('ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/120.h') >/tmp/vIS0LqF/121 2>&1"
+2019-10-13 11:39:02.309282: Exit code: 0
+2019-10-13 11:39:02.403122: Ctags executed successfully
+2019-10-13 11:39:02.410268: Filetype tag kinds: ['p', 's', 'v', 'c', 'd', 'e', 'f', 'g', 't', '?', 'm', 'n', 'u']
+2019-10-13 11:39:02.410513: Parsing ctags output
+2019-10-13 11:39:02.514642: Processing kind: d, number of tags: 1
+2019-10-13 11:39:02.516037: Processing kind: p, number of tags: 0
+2019-10-13 11:39:02.516310: Processing kind: e, number of tags: 0
+2019-10-13 11:39:02.516686: Processing kind: t, number of tags: 0
+2019-10-13 11:39:02.516949: Processing kind: f, number of tags: 0
+2019-10-13 11:39:02.517151: Processing kind: m, number of tags: 0
+2019-10-13 11:39:02.517419: Processing kind: v, number of tags: 0
+2019-10-13 11:39:02.526749: RenderContent called
+2019-10-13 11:39:02.527296: goto_win(): wincmd p, 1
+2019-10-13 11:39:02.527685: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:02.528026: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.528786: PrintKinds called
+2019-10-13 11:39:02.529032: Printing kind: d, number of (top-level) tags: 1
+2019-10-13 11:39:02.529566: Printing kind: p, number of (top-level) tags: 0
+2019-10-13 11:39:02.529796: Printing kind: g, number of (top-level) tags: 0
+2019-10-13 11:39:02.529958: Printing kind: e, number of (top-level) tags: 0
+2019-10-13 11:39:02.530115: Printing kind: t, number of (top-level) tags: 0
+2019-10-13 11:39:02.530281: Printing kind: n, number of (top-level) tags: 0
+2019-10-13 11:39:02.530536: Printing kind: c, number of (top-level) tags: 1
+2019-10-13 11:39:02.545168: Printing kind: s, number of (top-level) tags: 0
+2019-10-13 11:39:02.545481: Printing kind: u, number of (top-level) tags: 0
+2019-10-13 11:39:02.545667: Printing kind: f, number of (top-level) tags: 0
+2019-10-13 11:39:02.545832: Printing kind: m, number of (top-level) tags: 0
+2019-10-13 11:39:02.545998: Printing kind: v, number of (top-level) tags: 0
+2019-10-13 11:39:02.546157: Printing kind: ?, number of (top-level) tags: 0
+2019-10-13 11:39:02.547329: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:02.547584: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:02.547779: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.549242: goto_win(): wincmd p, 1
+2019-10-13 11:39:02.549593: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:02.557286: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:02.557570: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:02.557758: AutoUpdate finished successfully
+2019-10-13 11:39:02.558025: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.558410: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:02.558570: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.559052: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.559728: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:02.561130: goto_win(): wincmd p, 1
+2019-10-13 11:39:02.561457: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:02.568774: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:02.569016: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:02.569259: AutoUpdate finished successfully
+2019-10-13 11:39:20.715396: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.716089: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:20.716270: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.716831: File data outdated, updating [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.717016: ProcessFile called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.717175: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.718277: typeinfo for file to process: {'ctagstype': 'c++', 'ftype': 'cuda', 'kinddict': {'p': 1, 's': 7, 'v': 11, 'c': 6, 'd': 0, 'e': 3, 'f': 9, 'g': 2, 't': 4, '?': 12, 'm': 10, 'n': 5, 'u': 8}, 'sro': '::', 'createKinddict': function('<SNR>95_createKinddict'), 'getKind': function('<SNR>95_getKind'), 'kind2scope': {'s': 'struct', 'c': 'class', 'u': 'union', 'g': 'enum', 'n': 'namespace', '?': 'unknown'}, 'scope2kind': {'enum': 'g', 'namespace': 'n', 'class': 'c', 'struct': 's', 'union': 'u'}, 'kinds': [{'short': 'd', 'long': 'macros', 'fold': 1, 'stl': 0}, {'short': 'p', 'long': 'prototypes', 'fold': 1, 'stl': 0}, {'short': 'g', 'long': 'enums', 'fold': 0, 'stl': 1}, {'short': 'e', 'long': 'enumerators', 'fold': 0, 'stl': 0}, {'short': 't', 'long': 'typedefs', 'fold': 0, 'stl': 0}, {'short': 'n', 'long': 'namespaces', 'fold': 0, 'stl': 1}, {'short': 'c', 'long': 'classes', 'fold': 0, 'stl': 1}, {'short': 's', 'long': 'structs', 'fold': 0, 'stl': 1}, {'short': 'u', 'long': 'unions', 'fold': 0, 'stl': 1}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'm', 'long': 'members', 'fold': 0, 'stl': 0}, {'short': 'v', 'long': 'variables', 'fold': 0, 'stl': 0}, {'short': '?', 'long': 'unknown', 'fold': 0, 'stl': 1}]}
+2019-10-13 11:39:20.718698: Caching file into: /tmp/vIS0LqF/122.h
+2019-10-13 11:39:20.721088: ExecuteCtagsOnFile called [/tmp/vIS0LqF/122.h]
+2019-10-13 11:39:20.721637: EscapeCtagsCmd called
+2019-10-13 11:39:20.721870: ctags_bin: ctags-exuberant
+2019-10-13 11:39:20.722057: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--extra=', '--file-scope=yes', '--sort=no', '--append=no', '-V', '--language-force=c++', '--c++-kinds=dpgetncsufmv']
+2019-10-13 11:39:20.722548: Escaped ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/122.h'
+2019-10-13 11:39:20.722844: Executing ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/122.h'
+2019-10-13 11:39:20.745298: Calling shell to execute: "('ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/122.h') >/tmp/vIS0LqF/123 2>&1"
+2019-10-13 11:39:20.745663: Exit code: 0
+2019-10-13 11:39:20.829010: Ctags executed successfully
+2019-10-13 11:39:20.830816: Filetype tag kinds: ['p', 's', 'v', 'c', 'd', 'e', 'f', 'g', 't', '?', 'm', 'n', 'u']
+2019-10-13 11:39:20.831014: Parsing ctags output
+2019-10-13 11:39:20.926605: Processing kind: d, number of tags: 1
+2019-10-13 11:39:20.927856: Processing kind: p, number of tags: 0
+2019-10-13 11:39:20.928103: Processing kind: e, number of tags: 0
+2019-10-13 11:39:20.928493: Processing kind: t, number of tags: 0
+2019-10-13 11:39:20.928723: Processing kind: f, number of tags: 0
+2019-10-13 11:39:20.928903: Processing kind: m, number of tags: 0
+2019-10-13 11:39:20.929132: Processing kind: v, number of tags: 0
+2019-10-13 11:39:20.937314: RenderContent called
+2019-10-13 11:39:20.937822: goto_win(): wincmd p, 1
+2019-10-13 11:39:20.938066: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:20.938462: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.939035: PrintKinds called
+2019-10-13 11:39:20.939324: Printing kind: d, number of (top-level) tags: 1
+2019-10-13 11:39:20.939722: Printing kind: p, number of (top-level) tags: 0
+2019-10-13 11:39:20.939968: Printing kind: g, number of (top-level) tags: 0
+2019-10-13 11:39:20.940426: Printing kind: e, number of (top-level) tags: 0
+2019-10-13 11:39:20.940628: Printing kind: t, number of (top-level) tags: 0
+2019-10-13 11:39:20.940805: Printing kind: n, number of (top-level) tags: 0
+2019-10-13 11:39:20.940965: Printing kind: c, number of (top-level) tags: 1
+2019-10-13 11:39:20.956205: Printing kind: s, number of (top-level) tags: 0
+2019-10-13 11:39:20.956463: Printing kind: u, number of (top-level) tags: 0
+2019-10-13 11:39:20.956638: Printing kind: f, number of (top-level) tags: 0
+2019-10-13 11:39:20.956806: Printing kind: m, number of (top-level) tags: 0
+2019-10-13 11:39:20.956979: Printing kind: v, number of (top-level) tags: 0
+2019-10-13 11:39:20.957241: Printing kind: ?, number of (top-level) tags: 0
+2019-10-13 11:39:20.958241: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:20.958481: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:20.958676: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.960017: goto_win(): wincmd p, 1
+2019-10-13 11:39:20.960422: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:20.967912: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:20.968274: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:20.968477: AutoUpdate finished successfully
+2019-10-13 11:39:20.968730: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.969106: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:20.969276: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.969782: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.970454: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:39:20.971765: goto_win(): wincmd p, 1
+2019-10-13 11:39:20.972148: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:20.980778: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:20.981129: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:20.981343: AutoUpdate finished successfully
+2019-10-13 11:39:24.380203: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:24.380678: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:24.380850: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:24.381431: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:24.382198: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:24.383367: goto_win(): wincmd p, 1
+2019-10-13 11:39:24.383640: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:24.384038: Highlight pattern: '/^\%4l\s*[▼▶ ][-+# ]\?\zs[^( ]\+\ze/'
+2019-10-13 11:39:24.384571: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:24.384824: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:24.646362: goto_win(): wincmd p, 1
+2019-10-13 11:39:24.647013: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:24.656209: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:24.656757: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:24.657244: AutoUpdate finished successfully
+2019-10-13 11:39:51.527799: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:39:51.528602: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:39:51.528871: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:39:51.529038: Empty filename or type
+2019-10-13 11:39:51.529172: Not a valid file, stopping processing
+2019-10-13 11:39:51.560160: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.560685: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:51.560878: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.561441: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.562190: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.563949: goto_win(): wincmd p, 1
+2019-10-13 11:39:51.564447: goto_win(): 4wincmd w, 1
+2019-10-13 11:39:51.569345: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:51.569722: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:51.569948: AutoUpdate finished successfully
+2019-10-13 11:39:51.895976: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:39:51.896576: Vim filetype: '', sanitized filetype: ''
+2019-10-13 11:39:51.896778: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/]
+2019-10-13 11:39:51.896919: Empty filename or type
+2019-10-13 11:39:51.897029: Not a valid file, stopping processing
+2019-10-13 11:39:51.963846: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.964168: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:51.964298: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.964898: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.965420: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:51.966808: goto_win(): wincmd p, 1
+2019-10-13 11:39:51.967028: goto_win(): 4wincmd w, 1
+2019-10-13 11:39:51.970697: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:51.970922: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:51.971082: AutoUpdate finished successfully
+2019-10-13 11:39:59.257221: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.257919: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:59.258112: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.258760: File data outdated, updating [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.258981: ProcessFile called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.259172: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.261696: typeinfo for file to process: {'ctagstype': 'c++', 'ftype': 'cuda', 'kinddict': {'p': 1, 's': 7, 'v': 11, 'c': 6, 'd': 0, 'e': 3, 'f': 9, 'g': 2, 't': 4, '?': 12, 'm': 10, 'n': 5, 'u': 8}, 'sro': '::', 'createKinddict': function('<SNR>95_createKinddict'), 'getKind': function('<SNR>95_getKind'), 'kind2scope': {'s': 'struct', 'c': 'class', 'u': 'union', 'g': 'enum', 'n': 'namespace', '?': 'unknown'}, 'scope2kind': {'enum': 'g', 'namespace': 'n', 'class': 'c', 'struct': 's', 'union': 'u'}, 'kinds': [{'short': 'd', 'long': 'macros', 'fold': 1, 'stl': 0}, {'short': 'p', 'long': 'prototypes', 'fold': 1, 'stl': 0}, {'short': 'g', 'long': 'enums', 'fold': 0, 'stl': 1}, {'short': 'e', 'long': 'enumerators', 'fold': 0, 'stl': 0}, {'short': 't', 'long': 'typedefs', 'fold': 0, 'stl': 0}, {'short': 'n', 'long': 'namespaces', 'fold': 0, 'stl': 1}, {'short': 'c', 'long': 'classes', 'fold': 0, 'stl': 1}, {'short': 's', 'long': 'structs', 'fold': 0, 'stl': 1}, {'short': 'u', 'long': 'unions', 'fold': 0, 'stl': 1}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'm', 'long': 'members', 'fold': 0, 'stl': 0}, {'short': 'v', 'long': 'variables', 'fold': 0, 'stl': 0}, {'short': '?', 'long': 'unknown', 'fold': 0, 'stl': 1}]}
+2019-10-13 11:39:59.262207: Caching file into: /tmp/vIS0LqF/124.cpp
+2019-10-13 11:39:59.264742: ExecuteCtagsOnFile called [/tmp/vIS0LqF/124.cpp]
+2019-10-13 11:39:59.265423: EscapeCtagsCmd called
+2019-10-13 11:39:59.265631: ctags_bin: ctags-exuberant
+2019-10-13 11:39:59.265827: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--extra=', '--file-scope=yes', '--sort=no', '--append=no', '-V', '--language-force=c++', '--c++-kinds=dpgetncsufmv']
+2019-10-13 11:39:59.266478: Escaped ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/124.cpp'
+2019-10-13 11:39:59.266740: Executing ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/124.cpp'
+2019-10-13 11:39:59.289365: Calling shell to execute: "('ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/124.cpp') >/tmp/vIS0LqF/125 2>&1"
+2019-10-13 11:39:59.289779: Exit code: 0
+2019-10-13 11:39:59.325154: Ctags executed successfully
+2019-10-13 11:39:59.326243: Filetype tag kinds: ['p', 's', 'v', 'c', 'd', 'e', 'f', 'g', 't', '?', 'm', 'n', 'u']
+2019-10-13 11:39:59.326436: Parsing ctags output
+2019-10-13 11:39:59.329238: Processing kind: d, number of tags: 0
+2019-10-13 11:39:59.329486: Processing kind: p, number of tags: 0
+2019-10-13 11:39:59.329701: Processing kind: e, number of tags: 0
+2019-10-13 11:39:59.329881: Processing kind: t, number of tags: 0
+2019-10-13 11:39:59.330101: Processing kind: f, number of tags: 1
+2019-10-13 11:39:59.331337: Processing kind: m, number of tags: 0
+2019-10-13 11:39:59.331547: Processing kind: v, number of tags: 0
+2019-10-13 11:39:59.332651: RenderContent called
+2019-10-13 11:39:59.333107: goto_win(): wincmd p, 1
+2019-10-13 11:39:59.333426: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:59.333751: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.334469: PrintKinds called
+2019-10-13 11:39:59.334682: Printing kind: d, number of (top-level) tags: 0
+2019-10-13 11:39:59.334855: Printing kind: p, number of (top-level) tags: 0
+2019-10-13 11:39:59.335023: Printing kind: g, number of (top-level) tags: 0
+2019-10-13 11:39:59.335263: Printing kind: e, number of (top-level) tags: 0
+2019-10-13 11:39:59.335442: Printing kind: t, number of (top-level) tags: 0
+2019-10-13 11:39:59.335597: Printing kind: n, number of (top-level) tags: 0
+2019-10-13 11:39:59.335750: Printing kind: c, number of (top-level) tags: 0
+2019-10-13 11:39:59.335925: Printing kind: s, number of (top-level) tags: 0
+2019-10-13 11:39:59.336079: Printing kind: u, number of (top-level) tags: 0
+2019-10-13 11:39:59.336416: Printing kind: f, number of (top-level) tags: 1
+2019-10-13 11:39:59.336997: Printing kind: m, number of (top-level) tags: 0
+2019-10-13 11:39:59.337248: Printing kind: v, number of (top-level) tags: 0
+2019-10-13 11:39:59.337434: Printing kind: ?, number of (top-level) tags: 0
+2019-10-13 11:39:59.338366: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:59.338656: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:59.338845: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.340510: goto_win(): wincmd p, 1
+2019-10-13 11:39:59.340758: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:59.351681: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:59.351959: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:59.352291: AutoUpdate finished successfully
+2019-10-13 11:39:59.352588: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.352914: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:39:59.353060: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.353676: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.354406: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:39:59.355960: goto_win(): wincmd p, 1
+2019-10-13 11:39:59.356488: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:59.372602: goto_win(): 3wincmd w, 1
+2019-10-13 11:39:59.372912: goto_win(): 2wincmd w, 1
+2019-10-13 11:39:59.373290: AutoUpdate finished successfully
+2019-10-13 11:40:10.642524: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.643102: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:40:10.643285: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.644041: File data outdated, updating [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.644242: ProcessFile called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.644411: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.645508: typeinfo for file to process: {'ctagstype': 'c++', 'ftype': 'cuda', 'kinddict': {'p': 1, 's': 7, 'v': 11, 'c': 6, 'd': 0, 'e': 3, 'f': 9, 'g': 2, 't': 4, '?': 12, 'm': 10, 'n': 5, 'u': 8}, 'sro': '::', 'createKinddict': function('<SNR>95_createKinddict'), 'getKind': function('<SNR>95_getKind'), 'kind2scope': {'s': 'struct', 'c': 'class', 'u': 'union', 'g': 'enum', 'n': 'namespace', '?': 'unknown'}, 'scope2kind': {'enum': 'g', 'namespace': 'n', 'class': 'c', 'struct': 's', 'union': 'u'}, 'kinds': [{'short': 'd', 'long': 'macros', 'fold': 1, 'stl': 0}, {'short': 'p', 'long': 'prototypes', 'fold': 1, 'stl': 0}, {'short': 'g', 'long': 'enums', 'fold': 0, 'stl': 1}, {'short': 'e', 'long': 'enumerators', 'fold': 0, 'stl': 0}, {'short': 't', 'long': 'typedefs', 'fold': 0, 'stl': 0}, {'short': 'n', 'long': 'namespaces', 'fold': 0, 'stl': 1}, {'short': 'c', 'long': 'classes', 'fold': 0, 'stl': 1}, {'short': 's', 'long': 'structs', 'fold': 0, 'stl': 1}, {'short': 'u', 'long': 'unions', 'fold': 0, 'stl': 1}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'm', 'long': 'members', 'fold': 0, 'stl': 0}, {'short': 'v', 'long': 'variables', 'fold': 0, 'stl': 0}, {'short': '?', 'long': 'unknown', 'fold': 0, 'stl': 1}]}
+2019-10-13 11:40:10.646007: Caching file into: /tmp/vIS0LqF/126.cpp
+2019-10-13 11:40:10.648565: ExecuteCtagsOnFile called [/tmp/vIS0LqF/126.cpp]
+2019-10-13 11:40:10.649261: EscapeCtagsCmd called
+2019-10-13 11:40:10.649417: ctags_bin: ctags-exuberant
+2019-10-13 11:40:10.649731: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--extra=', '--file-scope=yes', '--sort=no', '--append=no', '-V', '--language-force=c++', '--c++-kinds=dpgetncsufmv']
+2019-10-13 11:40:10.650314: Escaped ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/126.cpp'
+2019-10-13 11:40:10.650568: Executing ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/126.cpp'
+2019-10-13 11:40:10.673248: Calling shell to execute: "('ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/126.cpp') >/tmp/vIS0LqF/127 2>&1"
+2019-10-13 11:40:10.673715: Exit code: 0
+2019-10-13 11:40:10.712147: Ctags executed successfully
+2019-10-13 11:40:10.713218: Filetype tag kinds: ['p', 's', 'v', 'c', 'd', 'e', 'f', 'g', 't', '?', 'm', 'n', 'u']
+2019-10-13 11:40:10.713608: Parsing ctags output
+2019-10-13 11:40:10.717054: Processing kind: d, number of tags: 0
+2019-10-13 11:40:10.717399: Processing kind: p, number of tags: 0
+2019-10-13 11:40:10.717791: Processing kind: e, number of tags: 0
+2019-10-13 11:40:10.718016: Processing kind: t, number of tags: 0
+2019-10-13 11:40:10.718288: Processing kind: f, number of tags: 1
+2019-10-13 11:40:10.719748: Processing kind: m, number of tags: 0
+2019-10-13 11:40:10.719993: Processing kind: v, number of tags: 0
+2019-10-13 11:40:10.721154: RenderContent called
+2019-10-13 11:40:10.721879: goto_win(): wincmd p, 1
+2019-10-13 11:40:10.722191: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:10.722674: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.723333: PrintKinds called
+2019-10-13 11:40:10.723654: Printing kind: d, number of (top-level) tags: 0
+2019-10-13 11:40:10.723880: Printing kind: p, number of (top-level) tags: 0
+2019-10-13 11:40:10.724082: Printing kind: g, number of (top-level) tags: 0
+2019-10-13 11:40:10.724268: Printing kind: e, number of (top-level) tags: 0
+2019-10-13 11:40:10.724619: Printing kind: t, number of (top-level) tags: 0
+2019-10-13 11:40:10.724849: Printing kind: n, number of (top-level) tags: 0
+2019-10-13 11:40:10.725032: Printing kind: c, number of (top-level) tags: 0
+2019-10-13 11:40:10.725214: Printing kind: s, number of (top-level) tags: 0
+2019-10-13 11:40:10.725401: Printing kind: u, number of (top-level) tags: 0
+2019-10-13 11:40:10.725689: Printing kind: f, number of (top-level) tags: 1
+2019-10-13 11:40:10.726678: Printing kind: m, number of (top-level) tags: 0
+2019-10-13 11:40:10.727128: Printing kind: v, number of (top-level) tags: 0
+2019-10-13 11:40:10.727395: Printing kind: ?, number of (top-level) tags: 0
+2019-10-13 11:40:10.729098: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:10.729406: goto_win(): 2wincmd w, 1
+2019-10-13 11:40:10.729745: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.731540: goto_win(): wincmd p, 1
+2019-10-13 11:40:10.731818: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:10.740655: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:10.740953: goto_win(): 2wincmd w, 1
+2019-10-13 11:40:10.741162: AutoUpdate finished successfully
+2019-10-13 11:40:10.741551: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.741947: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:40:10.742264: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.743075: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.743879: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:10.745842: goto_win(): wincmd p, 1
+2019-10-13 11:40:10.746177: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:10.757642: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:10.757960: goto_win(): 2wincmd w, 1
+2019-10-13 11:40:10.758179: AutoUpdate finished successfully
+2019-10-13 11:40:33.237726: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:33.238192: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:40:33.238366: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:33.239032: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:33.239816: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:40:33.241591: goto_win(): wincmd p, 1
+2019-10-13 11:40:33.241901: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:33.250461: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:33.250838: goto_win(): 2wincmd w, 1
+2019-10-13 11:40:33.251060: AutoUpdate finished successfully
+2019-10-13 11:40:40.250639: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:40.251026: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:40:40.251260: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:40.251770: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:40.252612: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:40.254167: goto_win(): wincmd p, 1
+2019-10-13 11:40:40.254457: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:40.254911: Highlight pattern: '/^\%27l\s*[▼▶ ][-+# ]\?\zs[^( ]\+\ze/'
+2019-10-13 11:40:40.255311: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:40.255526: goto_win(): 2wincmd w, 1
+2019-10-13 11:40:40.535039: goto_win(): wincmd p, 1
+2019-10-13 11:40:40.535436: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:40.545500: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:40.545904: goto_win(): 2wincmd w, 1
+2019-10-13 11:40:40.546115: AutoUpdate finished successfully
+2019-10-13 11:40:47.071764: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:47.072687: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:40:47.072920: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:47.073568: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:47.074329: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:40:47.075550: goto_win(): wincmd p, 1
+2019-10-13 11:40:47.075829: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:47.084511: goto_win(): 3wincmd w, 1
+2019-10-13 11:40:47.084798: goto_win(): 2wincmd w, 1
+2019-10-13 11:40:47.085090: AutoUpdate finished successfully
+2019-10-13 11:47:23.984730: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:23.985266: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:47:23.985463: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:23.985989: File data outdated, updating [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:23.986247: ProcessFile called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:23.986440: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:23.987620: typeinfo for file to process: {'ctagstype': 'c++', 'ftype': 'cuda', 'kinddict': {'p': 1, 's': 7, 'v': 11, 'c': 6, 'd': 0, 'e': 3, 'f': 9, 'g': 2, 't': 4, '?': 12, 'm': 10, 'n': 5, 'u': 8}, 'sro': '::', 'createKinddict': function('<SNR>95_createKinddict'), 'getKind': function('<SNR>95_getKind'), 'kind2scope': {'s': 'struct', 'c': 'class', 'u': 'union', 'g': 'enum', 'n': 'namespace', '?': 'unknown'}, 'scope2kind': {'enum': 'g', 'namespace': 'n', 'class': 'c', 'struct': 's', 'union': 'u'}, 'kinds': [{'short': 'd', 'long': 'macros', 'fold': 1, 'stl': 0}, {'short': 'p', 'long': 'prototypes', 'fold': 1, 'stl': 0}, {'short': 'g', 'long': 'enums', 'fold': 0, 'stl': 1}, {'short': 'e', 'long': 'enumerators', 'fold': 0, 'stl': 0}, {'short': 't', 'long': 'typedefs', 'fold': 0, 'stl': 0}, {'short': 'n', 'long': 'namespaces', 'fold': 0, 'stl': 1}, {'short': 'c', 'long': 'classes', 'fold': 0, 'stl': 1}, {'short': 's', 'long': 'structs', 'fold': 0, 'stl': 1}, {'short': 'u', 'long': 'unions', 'fold': 0, 'stl': 1}, {'short': 'f', 'long': 'functions', 'fold': 0, 'stl': 1}, {'short': 'm', 'long': 'members', 'fold': 0, 'stl': 0}, {'short': 'v', 'long': 'variables', 'fold': 0, 'stl': 0}, {'short': '?', 'long': 'unknown', 'fold': 0, 'stl': 1}]}
+2019-10-13 11:47:23.988058: Caching file into: /tmp/vIS0LqF/128.h
+2019-10-13 11:47:23.991685: ExecuteCtagsOnFile called [/tmp/vIS0LqF/128.h]
+2019-10-13 11:47:23.992720: EscapeCtagsCmd called
+2019-10-13 11:47:23.993000: ctags_bin: ctags-exuberant
+2019-10-13 11:47:23.993444: ctags_args (is a list): ['-f', '-', '--format=2', '--excmd=pattern', '--fields=nksSaf', '--extra=', '--file-scope=yes', '--sort=no', '--append=no', '-V', '--language-force=c++', '--c++-kinds=dpgetncsufmv']
+2019-10-13 11:47:23.994345: Escaped ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/128.h'
+2019-10-13 11:47:23.994705: Executing ctags command: 'ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/128.h'
+2019-10-13 11:47:24.043565: Calling shell to execute: "('ctags-exuberant' '-f' '-' '--format=2' '--excmd=pattern' '--fields=nksSaf' '--extra=' '--file-scope=yes' '--sort=no' '--append=no' '-V' '--language-force=c++' '--c++-kinds=dpgetncsufmv' '/tmp/vIS0LqF/128.h') >/tmp/vIS0LqF/129 2>&1"
+2019-10-13 11:47:24.043839: Exit code: 0
+2019-10-13 11:47:24.135093: Ctags executed successfully
+2019-10-13 11:47:24.137030: Filetype tag kinds: ['p', 's', 'v', 'c', 'd', 'e', 'f', 'g', 't', '?', 'm', 'n', 'u']
+2019-10-13 11:47:24.137217: Parsing ctags output
+2019-10-13 11:47:24.226516: Processing kind: d, number of tags: 1
+2019-10-13 11:47:24.227766: Processing kind: p, number of tags: 0
+2019-10-13 11:47:24.228009: Processing kind: e, number of tags: 0
+2019-10-13 11:47:24.228204: Processing kind: t, number of tags: 0
+2019-10-13 11:47:24.228568: Processing kind: f, number of tags: 0
+2019-10-13 11:47:24.228790: Processing kind: m, number of tags: 0
+2019-10-13 11:47:24.228973: Processing kind: v, number of tags: 0
+2019-10-13 11:47:24.237085: RenderContent called
+2019-10-13 11:47:24.237671: goto_win(): wincmd p, 1
+2019-10-13 11:47:24.237930: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:24.238233: Redisplaying file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:24.238853: PrintKinds called
+2019-10-13 11:47:24.239068: Printing kind: d, number of (top-level) tags: 1
+2019-10-13 11:47:24.239521: Printing kind: p, number of (top-level) tags: 0
+2019-10-13 11:47:24.239714: Printing kind: g, number of (top-level) tags: 0
+2019-10-13 11:47:24.239877: Printing kind: e, number of (top-level) tags: 0
+2019-10-13 11:47:24.240035: Printing kind: t, number of (top-level) tags: 0
+2019-10-13 11:47:24.240203: Printing kind: n, number of (top-level) tags: 0
+2019-10-13 11:47:24.240362: Printing kind: c, number of (top-level) tags: 1
+2019-10-13 11:47:24.255206: Printing kind: s, number of (top-level) tags: 0
+2019-10-13 11:47:24.255555: Printing kind: u, number of (top-level) tags: 0
+2019-10-13 11:47:24.255752: Printing kind: f, number of (top-level) tags: 0
+2019-10-13 11:47:24.255917: Printing kind: m, number of (top-level) tags: 0
+2019-10-13 11:47:24.256085: Printing kind: v, number of (top-level) tags: 0
+2019-10-13 11:47:24.256242: Printing kind: ?, number of (top-level) tags: 0
+2019-10-13 11:47:24.257236: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:24.257551: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:24.257764: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:24.259031: goto_win(): wincmd p, 1
+2019-10-13 11:47:24.259281: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:24.266646: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:24.266890: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:24.267074: AutoUpdate finished successfully
+2019-10-13 11:47:24.267319: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:24.267708: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:47:24.267845: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:24.268324: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:24.269057: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:24.270245: goto_win(): wincmd p, 1
+2019-10-13 11:47:24.270552: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:24.278051: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:24.278371: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:24.278595: AutoUpdate finished successfully
+2019-10-13 11:47:36.244647: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:47:36.245069: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:47:36.245330: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:47:36.245917: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:47:36.246618: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/main.cpp]
+2019-10-13 11:47:36.247905: goto_win(): wincmd p, 1
+2019-10-13 11:47:36.248413: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:36.248959: Highlight pattern: '/^\%4l\s*[▼▶ ][-+# ]\?\zs[^( ]\+\ze/'
+2019-10-13 11:47:36.249349: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:36.249594: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:36.488226: goto_win(): wincmd p, 1
+2019-10-13 11:47:36.488532: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:36.496369: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:36.496717: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:36.496927: AutoUpdate finished successfully
+2019-10-13 11:47:38.693503: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:38.693885: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:47:38.694040: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:38.694621: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:38.695291: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:38.696630: goto_win(): wincmd p, 1
+2019-10-13 11:47:38.696883: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:38.697350: Highlight pattern: '/^\%27l\s*[▼▶ ][-+# ]\?\zs[^( ]\+\ze/'
+2019-10-13 11:47:38.697628: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:38.697827: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:38.953661: goto_win(): wincmd p, 1
+2019-10-13 11:47:38.953969: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:38.961916: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:38.962194: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:38.962384: AutoUpdate finished successfully
+2019-10-13 11:47:43.074699: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:43.075445: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:47:43.075629: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:43.076456: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:43.077239: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:47:43.078617: goto_win(): wincmd p, 1
+2019-10-13 11:47:43.078980: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:43.095354: goto_win(): 3wincmd w, 1
+2019-10-13 11:47:43.095817: goto_win(): 2wincmd w, 1
+2019-10-13 11:47:43.096102: AutoUpdate finished successfully
+2019-10-13 11:48:57.023738: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:48:57.024418: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:48:57.024609: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:48:57.025265: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:48:57.025949: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:48:57.027455: goto_win(): wincmd p, 1
+2019-10-13 11:48:57.027753: goto_win(): 3wincmd w, 1
+2019-10-13 11:48:57.036367: goto_win(): 3wincmd w, 1
+2019-10-13 11:48:57.036654: goto_win(): 2wincmd w, 1
+2019-10-13 11:48:57.036865: AutoUpdate finished successfully
+2019-10-13 11:49:13.129144: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:49:13.129770: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:49:13.129964: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:49:13.130635: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:49:13.131376: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:49:13.132612: goto_win(): wincmd p, 1
+2019-10-13 11:49:13.132899: goto_win(): 3wincmd w, 1
+2019-10-13 11:49:13.141129: goto_win(): 3wincmd w, 1
+2019-10-13 11:49:13.141489: goto_win(): 2wincmd w, 1
+2019-10-13 11:49:13.141715: AutoUpdate finished successfully
+2019-10-13 11:53:36.417580: AutoUpdate called [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:53:36.418154: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2019-10-13 11:53:36.418341: Checking if file is valid [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:53:36.419006: File data seems up to date [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:53:36.419686: Setting current file [/home/adeswand/ameyarepo/workspace/misc/interview_prep/tree_cpp/src/btree.h]
+2019-10-13 11:53:36.421006: goto_win(): wincmd p, 1
+2019-10-13 11:53:36.421366: goto_win(): 3wincmd w, 1
+2019-10-13 11:53:36.429829: goto_win(): 3wincmd w, 1
+2019-10-13 11:53:36.430113: goto_win(): 2wincmd w, 1
+2019-10-13 11:53:36.430321: AutoUpdate finished successfully
+                     2019-10-20 06:53:07.291506: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.292688: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:53:07.292791: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.293006: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.293296: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.294210: AutoUpdate finished successfully
+2019-10-20 06:53:07.296088: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.296254: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:53:07.296315: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.296494: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.296812: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.297165: AutoUpdate finished successfully
+2019-10-20 06:53:07.302216: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.302360: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:53:07.302418: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.302578: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.302849: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:53:07.303220: AutoUpdate finished successfully
+2019-10-20 06:53:16.124631: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:53:16.124784: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:53:16.124840: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:53:16.124998: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:53:16.125270: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:53:16.125803: AutoUpdate finished successfully
+2019-10-20 06:53:33.297348: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:53:33.297534: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:53:33.297599: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:53:33.297763: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:53:33.298109: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:53:33.298707: AutoUpdate finished successfully
+2019-10-20 06:53:37.450746: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:53:37.450893: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:53:37.450949: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:53:37.451107: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:53:37.451435: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:53:37.452039: AutoUpdate finished successfully
+2019-10-20 06:53:53.459446: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:53:53.459600: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:53:53.459655: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:53:53.459819: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:53:53.460093: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:53:53.460830: AutoUpdate finished successfully
+2019-10-20 06:54:06.315025: AutoUpdate called [/home/adeswand/.vimrc]
+2019-10-20 06:54:06.315175: Vim filetype: 'vim', sanitized filetype: 'vim'
+2019-10-20 06:54:06.315231: Checking if file is valid [/home/adeswand/.vimrc]
+2019-10-20 06:54:06.315392: File data seems up to date [/home/adeswand/.vimrc]
+2019-10-20 06:54:06.315667: Setting current file [/home/adeswand/.vimrc]
+2019-10-20 06:54:06.316237: AutoUpdate finished successfully

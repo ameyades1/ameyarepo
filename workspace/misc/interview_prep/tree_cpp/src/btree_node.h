@@ -4,7 +4,7 @@
 /*
  * SYSTEM INCLUDES
  */
-
+#include <iostream>
 
 /*
  * Class Binary Tree Node
@@ -36,6 +36,9 @@ CNode<T>::CNode()
 		pright = NULL;
 }
 
+/*
+ * Parameterized constructor
+ */
 		template <typename T>
 CNode<T>::CNode(T d)
 {
@@ -44,12 +47,17 @@ CNode<T>::CNode(T d)
 		pright = NULL;
 }
 
+/*
+ * Destructor
+ */
 		template <typename T>
 CNode<T>::~CNode()
 {
 }
 
-
+/*
+ * Parameterized constructor
+ */
 		template <typename T>
 CNode<T>::CNode(CNode* node)
 {
@@ -58,6 +66,9 @@ CNode<T>::CNode(CNode* node)
 		pright = node->pright;
 }
 
+/*
+ * Parameterized constructor
+ */
 		template <typename T>
 CNode<T>::CNode(const CNode<T>& node)
 {
@@ -65,7 +76,5 @@ CNode<T>::CNode(const CNode<T>& node)
 		pleft  = node.pleft;
 		pright = node.pright;
 }
-
-
 
 #endif

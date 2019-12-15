@@ -1,0 +1,34 @@
+  Option: --language-force=c++
+  Option: --c++-kinds=dpgetncsufmv
+Reading command line arguments
+OPENING /tmp/vIS0LqF/128.h as C++ language include file
+__BTREE_H__	/tmp/vIS0LqF/128.h	/^#define __BTREE_H__$/;"	d	line:2
+CBinaryTree	/tmp/vIS0LqF/128.h	/^class CBinaryTree {$/;"	c	line:20
+root	/tmp/vIS0LqF/128.h	/^				CNode<T>* root;$/;"	m	line:22	class:CBinaryTree	access:private
+height	/tmp/vIS0LqF/128.h	/^				uint64_t height;$/;"	m	line:23	class:CBinaryTree	access:private
+num_nodes	/tmp/vIS0LqF/128.h	/^				uint64_t num_nodes;$/;"	m	line:24	class:CBinaryTree	access:private
+CBinaryTree	/tmp/vIS0LqF/128.h	/^				CBinaryTree(CNode<T> node);$/;"	p	line:26	class:CBinaryTree	access:private	signature:(CNode<T> node)
+CBinaryTree	/tmp/vIS0LqF/128.h	/^				CBinaryTree(CBinaryTree* tree) {};$/;"	f	line:27	class:CBinaryTree	access:private	signature:(CBinaryTree* tree)
+delete_subtree	/tmp/vIS0LqF/128.h	/^				void delete_subtree(CNode<T>* node);$/;"	p	line:28	class:CBinaryTree	access:private	signature:(CNode<T>* node)
+CBinaryTree	/tmp/vIS0LqF/128.h	/^				CBinaryTree();$/;"	p	line:31	class:CBinaryTree	access:public	signature:()
+CBinaryTree	/tmp/vIS0LqF/128.h	/^				CBinaryTree(CNode<T>* node);$/;"	p	line:32	class:CBinaryTree	access:public	signature:(CNode<T>* node)
+~CBinaryTree	/tmp/vIS0LqF/128.h	/^				~CBinaryTree();$/;"	p	line:33	class:CBinaryTree	access:public	signature:()
+GetRoot	/tmp/vIS0LqF/128.h	/^				CNode<T>* GetRoot(){return root;};$/;"	f	line:34	class:CBinaryTree	access:public	signature:()
+InsertNodeBST	/tmp/vIS0LqF/128.h	/^				CNode<T>* InsertNodeBST(CNode<T>* root, const CNode<T>& data);$/;"	p	line:36	class:CBinaryTree	access:public	signature:(CNode<T>* root, const CNode<T>& data)
+InitBST	/tmp/vIS0LqF/128.h	/^				void InitBST(std::vector<T> vec);$/;"	p	line:37	class:CBinaryTree	access:public	signature:(std::vector<T> vec)
+InorderTraversal	/tmp/vIS0LqF/128.h	/^				void InorderTraversal(CNode<T>* node);$/;"	p	line:39	class:CBinaryTree	access:public	signature:(CNode<T>* node)
+InorderTraversalStack	/tmp/vIS0LqF/128.h	/^				void InorderTraversalStack(CNode<T>* node);$/;"	p	line:40	class:CBinaryTree	access:public	signature:(CNode<T>* node)
+PreorderTraversal	/tmp/vIS0LqF/128.h	/^				void PreorderTraversal(CNode<T>* node);$/;"	p	line:41	class:CBinaryTree	access:public	signature:(CNode<T>* node)
+PostorderTraversal	/tmp/vIS0LqF/128.h	/^				void PostorderTraversal(CNode<T>* node);$/;"	p	line:42	class:CBinaryTree	access:public	signature:(CNode<T>* node)
+ReverseInorderTraversal	/tmp/vIS0LqF/128.h	/^				void ReverseInorderTraversal(CNode<T>* node);$/;"	p	line:43	class:CBinaryTree	access:public	signature:(CNode<T>* node)
+CBinaryTree	/tmp/vIS0LqF/128.h	/^CBinaryTree<T>::CBinaryTree()$/;"	f	line:51	class:CBinaryTree	signature:()
+CBinaryTree	/tmp/vIS0LqF/128.h	/^CBinaryTree<T>::CBinaryTree(CNode<T>* node)$/;"	f	line:64	class:CBinaryTree	signature:(CNode<T>* node)
+delete_subtree	/tmp/vIS0LqF/128.h	/^void CBinaryTree<T>::delete_subtree(CNode<T>* node)$/;"	f	line:74	class:CBinaryTree	signature:(CNode<T>* node)
+~CBinaryTree	/tmp/vIS0LqF/128.h	/^CBinaryTree<T>::~CBinaryTree()$/;"	f	line:95	class:CBinaryTree	signature:()
+InsertNodeBST	/tmp/vIS0LqF/128.h	/^CNode<T>* CBinaryTree<T>::InsertNodeBST(CNode<T>* cur_root, const CNode<T>& node)$/;"	f	line:108	class:CBinaryTree	signature:(CNode<T>* cur_root, const CNode<T>& node)
+InitBST	/tmp/vIS0LqF/128.h	/^void CBinaryTree<T>::InitBST(std::vector<T> vec)$/;"	f	line:142	class:CBinaryTree	signature:(std::vector<T> vec)
+InorderTraversal	/tmp/vIS0LqF/128.h	/^void CBinaryTree<T>::InorderTraversal(CNode<T>* node)$/;"	f	line:154	class:CBinaryTree	signature:(CNode<T>* node)
+InorderTraversalStack	/tmp/vIS0LqF/128.h	/^void CBinaryTree<T>::InorderTraversalStack(CNode<T>* node)$/;"	f	line:170	class:CBinaryTree	signature:(CNode<T>* node)
+PreorderTraversal	/tmp/vIS0LqF/128.h	/^void CBinaryTree<T>::PreorderTraversal(CNode<T>* node)$/;"	f	line:197	class:CBinaryTree	signature:(CNode<T>* node)
+PostorderTraversal	/tmp/vIS0LqF/128.h	/^void CBinaryTree<T>::PostorderTraversal(CNode<T>* node)$/;"	f	line:213	class:CBinaryTree	signature:(CNode<T>* node)
+ReverseInorderTraversal	/tmp/vIS0LqF/128.h	/^void CBinaryTree<T>::ReverseInorderTraversal(CNode<T>* node)$/;"	f	line:229	class:CBinaryTree	signature:(CNode<T>* node)
