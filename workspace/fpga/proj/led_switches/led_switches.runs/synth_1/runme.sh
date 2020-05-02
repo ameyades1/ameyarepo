@@ -7,9 +7,9 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/home/adeswand/fpga_fs/fpga/vivado/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/adeswand/fpga_fs/fpga/vivado/Vivado/2019.2/bin
+  PATH=/home/adeswand/xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/adeswand/xilinx/Vivado/2019.2/bin
 else
-  PATH=/home/adeswand/fpga_fs/fpga/vivado/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/adeswand/fpga_fs/fpga/vivado/Vivado/2019.2/bin:$PATH
+  PATH=/home/adeswand/xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/adeswand/xilinx/Vivado/2019.2/bin:$PATH
 fi
 export PATH
 
@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/adeswand/ameyarepo/workspace/fpga/proj/led_switches/led_switches.runs/synth_1'
+HD_PWD='/home/adeswand/Gitrepo/ameyarepo/workspace/fpga/proj/led_switches/led_switches.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

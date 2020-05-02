@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="44" Path="/home/adeswand/ameyarepo/workspace/fpga/proj/led_switches/led_switches.xpr">
+<Project Version="7" Minor="44" Path="/home/adeswand/Gitrepo/ameyarepo/workspace/fpga/proj/led_switches/led_switches.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="7b8528d491074533b2ff96eeed94c7b8"/>

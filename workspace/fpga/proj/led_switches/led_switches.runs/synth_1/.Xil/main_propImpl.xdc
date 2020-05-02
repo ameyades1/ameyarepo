@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/adeswand/ameyarepo/workspace/fpga/proj/led_switches/Arty-Z7-20-Master.xdc rfile:../../../Arty-Z7-20-Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/adeswand/Gitrepo/ameyarepo/workspace/fpga/proj/led_switches/Arty-Z7-20-Master.xdc rfile:../../../Arty-Z7-20-Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN L15    IOSTANDARD LVCMOS33 } [get_ports { led4_b }]; #IO_L22N_T3_AD7P_35 Sch=LED4_B
 set_property src_info {type:XDC file:1 line:16 export:INPUT save:INPUT read:READ} [current_design]
