@@ -1,9 +1,10 @@
 CC=clang++
+DEFAULT_OPTIONS= -std=c++17 -g
 
 all: clean build
 
 build:
-	$(CC) -g main.cpp
+	$(CC) $(DEFAULT_OPTIONS) main.cpp
 
 clean:
 	rm -rf *.out
